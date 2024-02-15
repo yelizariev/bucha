@@ -56,3 +56,4 @@ plugins:
 
 # Custom
 color_comment: "#2989AB"
+lowercase: false

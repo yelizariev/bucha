@@ -28,6 +28,7 @@ body {
 main {
     margin-top:0.3em;
     margin-left:0.3em;
+    overflow-x:hidden;
 }
 
 @media (min-width: 576px) {
@@ -44,8 +45,7 @@ main {
   }
 }
 
-h1,
-p {
+h1{
   margin: 0;
 }
 
@@ -59,9 +59,6 @@ a:active {
   color: {{ site.color_hover }};
 }
 
-#json {
-  white-space: nowrap;
-}
 
 #json:before {
   content: "{";
@@ -72,8 +69,7 @@ a:active {
 }
 
 .my {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
 }
 
 .mt {
@@ -100,6 +96,7 @@ a:active {
 
 a.nomagic {
     font-style: normal;
+    text-decoration:none;
 }
 
 img {
