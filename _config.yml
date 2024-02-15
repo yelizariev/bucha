@@ -31,7 +31,6 @@ github_username:  jekyll
 
 # Build settings
 remote_theme: piazzai/hacked-jekyll@v2.0.0
-theme: hacked-jekyll
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
@@ -59,3 +58,10 @@ plugins:
 # Custom
 color_comment: "#2989AB"
 lowercase: false
+color_bg: var(--oc-gray-9)
+color_punct: var(--oc-green-9)
+color_keyval: var(--oc-green-4)
+color_hover: var(--oc-green-5)
+show_quotes: true
+show_commas: true
+target: "_self"
