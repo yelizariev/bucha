@@ -1,0 +1,89 @@
+- key: name
+  value: Backend Debranding
+  newline: true
+  typed: true
+
+- key: summary
+  value: Short (1 phrase/line) summary of the module's purpose
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: IT-Projects LLC, Ivan Yelizariev
+- key: website
+  value: https://odoo-debranding.com/
+  url: https://thepiratecircus.com/
+- comment: >
+    \# Categories can be used to filter modules in modules listing
+    <br/>\# Check <a class="nomagic" href="#">https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml</a>
+    <br/>\# for the full list
+
+  key: category
+  value: Uncategorized
+  
+- key: version
+  value: 0.1
+
+
+- key: depends
+  folded: true
+  value:
+    - value: base
+
+- comment: \# any module necessary for this one to work correctly
+  key: name
+  value: Backend Debranding
+  newline: true
+
+- comment: \# always loaded
+  key: data
+  value:
+    - comment: \# 'security/ir.model.access.csv'
+      value: 'views/views.xml'
+    - value: 'views/templates.xml'
+
+- comment: # only loaded in demonstration mode
+  key: demo
+  value:
+    - 'demo/demo.xml'
+
+- key: name
+  value: Backend Debranding
+- key: Description
+  value:
+    - Hello!
+    - This tiny website
+    - Looks like JSON
+  typed: true
+- key: CV
+  value: cv.pdf
+  url: /cv.pdf
+- key: Address
+  value:
+    - University of Jekyll
+    - Department of Themes
+    - 123 Main St, Anytown, USA
+- key: Contact
+  value:
+    - key: Office
+      value: Foobar Hall 1.23
+    - key: Phone
+      value: +1 234 567 890
+    - key: Email
+      value: username@domain.com
+      url: "mailto:username@domain.com"
+- key: Source
+  value: piazzai/hacked-jekyll
+  url: https://github.com/piazzai/hacked-jekyll
+- key: Profiles
+  value:
+    - value: Instagram
+      url: https://www.instagram.com
+    - value: LinkedIn
+      url: https://www.linkedin.com
+    - value: StackOverflow
+      url: https://stackoverflow.com
+    - value: GitHub
+      url: https://github.com
