@@ -23,6 +23,11 @@ layout: default
 <div id="json">
   {% for pair in $data %}
   <div class="my ms">
+    {% if pair.comment %}
+        <div class="comment">
+            {{ pair.comment }}
+        </div>
+    {% endif %}
     {% if pair.typed -%}
         <div id="strings">
           {% for value in pair.value -%}
@@ -37,7 +42,7 @@ layout: default
             {% if value.url -%}
                 <p class="ms">
                   {{ quote }}<span class="key">{{ value.key }}</span>{{ quote }}:
-                  {{ quote }}<a class="value {{ pair.class}}" href="{{ value.url }}" {{ target }}>{{ value.value }}</a>{{ quote }}
+                  {{ quote }}<a class="value {{ value.className}}" href="{{ value.url }}" {{ target }}>{{ value.value }}</a>{{ quote }}
                   {%- unless forloop.last -%}
                   {{ comma }}
                   {%- endunless %}
@@ -57,30 +62,30 @@ layout: default
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}: [
         {% for value in pair.value -%}
             {% if value.url -%}
-                <p class="ms">
-                  {{ quote }}<a class="value {{ pair.class}}" href="{{ value.url }}" {{ target }}>{{ value.value }}</a>{{ quote }}
+                <div class="ms">
+                  {{ quote }}<a class="value {{ value.className}}" href="{{ value.url }}" {{ target }}>{{ value.value }}</a>{{ quote }}
                   {%- unless forloop.last -%}
                   {{ comma }}
                   {%- endunless %}
-                </p>
+                </div>
             {% else -%}
-                <p class="ms">
+                <div class="ms">
                     {{ quote }}<span class="value">{{ value }}</span>{{ quote }}
                     {%- unless forloop.last -%}
                     {{ comma }}
                     {%- endunless %}
-                </p>
+                </div>
             {% endif -%}
         {%- endfor -%}
     ]
     {%- elsif pair.url -%}
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
-        {{ quote }}<a class="value" href="{{ pair.url }}" {{ target }}>{{ pair.value }}</a>{{ quote }}
+        {{ quote }}<a class="value {{ pair.className}}" href="{{ pair.url }}" {{ target }}>{{ pair.value }}</a>{{ quote }}
     {%- elsif pair.content -%}
                 {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
-                {{ quote }}{{ quote }}{{ quote }}
+                """
                 <div class="content">{{ content }}</div>
-                {{ quote }}{{ quote }}{{ quote }}
+                """
     {%- elsif pair.summary -%}
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
         {{ quote }}<span class="value">{{ page.title }}</span>{{ quote }}
@@ -91,7 +96,13 @@ layout: default
     {%- unless forloop.last -%}
     {{ comma }}
     {%- endunless %}
+
+
   </div>
+    {% if pair.newline %}
+    <div class="my ms">&nbsp;</div>
+    {% endif %}
+
   {% endfor %}
 </div>
 
