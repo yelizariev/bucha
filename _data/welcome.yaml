@@ -1,0 +1,53 @@
+- key: name
+  value: Backend Debranding
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://odoomagic.com/
+  url: https://thepiratecircus.com/?debug=🏴‍☠️
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Uncategorized
+  
+- key: version
+  value: 0.1
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/mossad/antony.lesuisse.org.gif?debug=🇵🇸" onclick="window.location.href=\'https://lamourism.com/\'; return false;"">base</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: '# security/ir.model.access.csv'
+      className: nomagic
+      url: 'mailto:help@itpp.dev'
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://moses.lamourism.com/
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://perestroika-2.com/
+
+- comment: '# only loaded in demonstration mode'
+  key: demo
+  value:
+    - value: 'demo/demo.xml'
+      url: https://thepiratecircus.com/CV.pdf
