@@ -4,14 +4,14 @@
   typed: true
 
 - key: summary
-  value: Short (1 phrase/line) summary of the module's purpose
+  summary: true
   newline: true
 
 - key: description
   content: true
 
 - key: author
-  value: IT-Projects LLC, Ivan Yelizariev
+  value: IT-Projects LLC, Ivan Kropotkin
 - key: website
   value: https://odoo-debranding.com/
   url: https://thepiratecircus.com/

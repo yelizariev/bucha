@@ -76,6 +76,14 @@ layout: default
     {%- elsif pair.url -%}
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
         {{ quote }}<a class="value" href="{{ pair.url }}" {{ target }}>{{ pair.value }}</a>{{ quote }}
+    {%- elsif pair.content -%}
+                {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
+                {{ quote }}{{ quote }}{{ quote }}
+                <div class="content">{{ content }}</div>
+                {{ quote }}{{ quote }}{{ quote }}
+    {%- elsif pair.summary -%}
+        {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
+        {{ quote }}<span class="value">{{ page.title }}</span>{{ quote }}
     {%- else -%}
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
         {{ quote }}<span class="value">{{ pair.value }}</span>{{ quote }}
@@ -86,4 +94,7 @@ layout: default
   </div>
   {% endfor %}
 </div>
-{{ content }}
+
+<audio id="zodiak">
+    <source src="https://hirschmilch.de:7001/prog-house.mp3" type="audio/mpeg">
+</audio>

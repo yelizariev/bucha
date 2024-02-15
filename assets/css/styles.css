@@ -101,3 +101,7 @@ a:active {
 a.nomagic {
     font-style: normal;
 }
+
+img {
+    width: 100%;
+}
