@@ -1,0 +1,54 @@
+- key: name
+  value: У нас было 2 пакетика травы, 75 таблеток мескалина, 5 листов марок мощнейшей кислоты, полсолонки кокаина и гора возбудителей, успокоительных и всего такого, всех цветов, а ещё литр текилы, литр рома, ящик пива, пол-литра эфира и две дюжины амила. Не то чтобы это всё было нужно в поездке, но раз начал коллекционировать наркоту, то иди в своём увлечении до конца. Единственное, что меня беспокоило — это эфир. В мире нет никого более беспомощного, безответственного и безнравственного, чем человек в эфирном запое. И я знал, что довольно скоро мы в это окунёмся.
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://jesus.lamourism.com/
+  url: https://thepiratecircus.com/?debug=🏴‍☠️
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://moses.lamourism.com/mossad/love-station.jpg?debug=🇮🇱">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/exodus/%D0%9C%D0%9E%D0%9B%D0%9E%D0%94%D0%A6%D0%AB.mp4" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: '# security/ir.model.access.csv'
+      className: nomagic
+      url: 'mailto:help@itpp.dev'
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://moses.lamourism.com/
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://perestroika-2.com/
+
+- comment: '# only loaded in demonstration mode'
+  key: demo
+  value:
+    - value: 'demo/demo.xml'
+      url: https://thepiratecircus.com/CV.pdf
