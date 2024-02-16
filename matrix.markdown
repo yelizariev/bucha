@@ -11,4 +11,4 @@ He hears one of the Russian soldiers <a href="https://moses.lamourism.com/porn/%
 "Он умрёт сам!"
 
 
-[![](https://thepiratecircus.com/Inquisition/indulgentia/oobo23.jpg)](https://moses.lamourism.com/shabbat/bucha.png?debug=🇺🇦)
+[![](https://thepiratecircus.com/Inquisition/indulgentia/oobo23.jpg)](https://moses.lamourism.com/shabbat/bucha.jpg?debug=🇺🇦)
