@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Салават🇰🇿Юлаев
+title: <a href="FreePALESTINE.html" class="nomagic">Салават🇰🇿Юлаев</a>
 next: FreeBASHKORTOSTAN.html
 ---
 
