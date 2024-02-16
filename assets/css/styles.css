@@ -102,3 +102,10 @@ a.nomagic {
 img {
     width: 100%;
 }
+
+.vor {
+    text-decoration-style:double;
+}
+.musor {
+    text-decoration-style:wavy;
+}
