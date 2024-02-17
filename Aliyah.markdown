@@ -1,6 +1,6 @@
 ---
 layout: home
-title: BLOM😍Laura, inspecteur de la police de ZP Namur Capitale
+title: <b>BLOM😍Laura</b>, Inspecteur de la police de <b>NAMUR💋CAPITALE</b>
 next: Aliyah.html
 ---
 
