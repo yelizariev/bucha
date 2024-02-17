@@ -4,4 +4,4 @@ title: После смерти Сталина Лаврентий Берия ст
 next: FreePALESTINE.html
 ---
 
-[![](https://perestroika-2.com/images/orgies.jpg)](https://perestroika-2.com/images/dictator.jpg)
+[![](https://perestroika-2.com/images/orgies.jpg)](Brodsky.html)
