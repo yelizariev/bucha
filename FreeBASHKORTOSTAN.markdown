@@ -1,6 +1,6 @@
 ---
 layout: home
-title: <u class="vor">Мы</u> <u class="vor">Масса</u> <u class="vor">Воров</u>
+title: <b><u class="vor">Масса</u>🏴‍☠️<u class="vor">Воров</u></b>
 next: ЖизньВорам.html
 ---
 
