@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Александр СОЛЖЕНИЦЫН
-next: Pushkin.html
+next: Novodvorskaya.html
 copyright: https://fzachoval.com/rrss/chapter21.htm
 ---
 
