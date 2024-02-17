@@ -4,4 +4,4 @@ title: ВЫ ВСЕ ДУРАКИ И НЕ ЛЕЧИТЕСЬ! ОДНА Я УМНАЯ
 next: Novodvorskaya.html
 ---
 
-[![](https://perestroika-2.com/images/us-president.jpg)](https://perestroika-2.com/images/prison.jpg)
+[![](https://perestroika-2.com/images/us-president.jpg)](https://www.youtube.com/watch?v=VwWhRN_QzZc&t=222s)
