@@ -2,6 +2,82 @@
 layout: default
 ---
 
+{% assign max_number = 68 %}
+{% assign random_number = site.time | date: '%s' | modulo: max_number %}
+{% case random_number %}
+{% when 0 %} {% assign delo = "нулевое" %}
+{% when 1 %} {% assign delo = "первое" %}
+{% when 2 %} {% assign delo = "второе" %}
+{% when 3 %} {% assign delo = "третье" %}
+{% when 4 %} {% assign delo = "четвертое" %}
+{% when 5 %} {% assign delo = "пятое" %}
+{% when 6 %} {% assign delo = "шестое" %}
+{% when 7 %} {% assign delo = "седьмое" %}
+{% when 8 %} {% assign delo = "восьмое" %}
+{% when 9 %} {% assign delo = "девятое" %}
+{% when 10 %} {% assign delo = "десятое" %}
+{% when 11 %} {% assign delo = "одиннадцатое" %}
+{% when 12 %} {% assign delo = "двенадцатое" %}
+{% when 13 %} {% assign delo = "тринадцатое" %}
+{% when 14 %} {% assign delo = "четырнадцатое" %}
+{% when 15 %} {% assign delo = "пятнадцатое" %}
+{% when 16 %} {% assign delo = "шестнадцатое" %}
+{% when 17 %} {% assign delo = "семнадцатое" %}
+{% when 18 %} {% assign delo = "восемнадцатое" %}
+{% when 19 %} {% assign delo = "девятнадцатое" %}
+{% when 20 %} {% assign delo = "двадцатое" %}
+{% when 21 %} {% assign delo = "двадцать первое" %}
+{% when 22 %} {% assign delo = "двадцать второе" %}
+{% when 23 %} {% assign delo = "двадцать третье" %}
+{% when 24 %} {% assign delo = "двадцать четвертое" %}
+{% when 25 %} {% assign delo = "двадцать пятое" %}
+{% when 26 %} {% assign delo = "двадцать шестое" %}
+{% when 27 %} {% assign delo = "двадцать седьмое" %}
+{% when 28 %} {% assign delo = "двадцать восьмое" %}
+{% when 29 %} {% assign delo = "двадцать девятое" %}
+{% when 30 %} {% assign delo = "тридцатое" %}
+{% when 31 %} {% assign delo = "тридцать первое" %}
+{% when 32 %} {% assign delo = "тридцать второе" %}
+{% when 33 %} {% assign delo = "тридцать третье" %}
+{% when 34 %} {% assign delo = "тридцать четвертое" %}
+{% when 35 %} {% assign delo = "тридцать пятое" %}
+{% when 36 %} {% assign delo = "тридцать шестое" %}
+{% when 37 %} {% assign delo = "тридцать седьмое" %}
+{% when 38 %} {% assign delo = "тридцать восьмое" %}
+{% when 39 %} {% assign delo = "тридцать девятое" %}
+{% when 40 %} {% assign delo = "сороковое" %}
+{% when 41 %} {% assign delo = "сорок первое" %}
+{% when 42 %} {% assign delo = "сорок второе" %}
+{% when 43 %} {% assign delo = "сорок третье" %}
+{% when 44 %} {% assign delo = "сорок четвертое" %}
+{% when 45 %} {% assign delo = "сорок пятое" %}
+{% when 46 %} {% assign delo = "сорок шестое" %}
+{% when 47 %} {% assign delo = "сорок седьмое" %}
+{% when 48 %} {% assign delo = "сорок восьмое" %}
+{% when 49 %} {% assign delo = "сорок девятое" %}
+{% when 50 %} {% assign delo = "пятидесятое" %}
+{% when 51 %} {% assign delo = "пятьдесят первое" %}
+{% when 52 %} {% assign delo = "пятьдесят второе" %}
+{% when 53 %} {% assign delo = "пятьдесят третье" %}
+{% when 54 %} {% assign delo = "пятьдесят четвертое" %}
+{% when 55 %} {% assign delo = "пятьдесят пятое" %}
+{% when 56 %} {% assign delo = "пятьдесят шестое" %}
+{% when 57 %} {% assign delo = "пятьдесят седьмое" %}
+{% when 58 %} {% assign delo = "пятьдесят восьмое" %}
+{% when 59 %} {% assign delo = "пятьдесят девятое" %}
+{% when 60 %} {% assign delo = "шестидесятое" %}
+{% when 61 %} {% assign delo = "шестьдесят первое" %}
+{% when 62 %} {% assign delo = "шестьдесят второе" %}
+{% when 63 %} {% assign delo = "шестьдесят третье" %}
+{% when 64 %} {% assign delo = "шестьдесят четвертое" %}
+{% when 65 %} {% assign delo = "шестьдесят пятое" %}
+{% when 66 %} {% assign delo = "шестьдесят шестое" %}
+{% when 67 %} {% assign delo = "шестьдесят седьмое" %}
+{% when 68 %} {% assign delo = "шестьдесят восьмое" %}
+{% endcase %}
+
+
+
 
 {% assign file_name_parts = page.name | split: '.' %}
 {% assign base_file_name = file_name_parts[0] %}
@@ -31,7 +107,7 @@ layout: default
     {% if pair.typed -%}
         <div id="strings">
           {% for value in pair.value -%}
-          <span>{{ value }}</span>
+            <span>{{ value | replace: "XXX", delo }}</span>
           {%- endfor %}
         </div>
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
