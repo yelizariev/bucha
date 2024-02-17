@@ -2839,7 +2839,7 @@
   value: Ivan Kropotkin
 - key: website
   value: https://navalny-film.io/
-  url: https://navalny-film.io/
+  url: https://youtu.be/dTNg5Tt09TE?t=623
 - comment: >
     # Categories can be used to filter modules in modules listing
     <br/># Check <a class="nomagic" href="https://thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
@@ -2855,7 +2855,7 @@
 - comment: '# any module necessary for this one to work correctly'
   key: depends
   value: |
-    ['<a class="nomagic" title="Are you paying attention?" href="https://kerrangjke.livejournal.com/112370.html?debug=FreeBASHKORTOSTAN.mkv" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
   newline: true
 
 - comment: '# always loaded'
