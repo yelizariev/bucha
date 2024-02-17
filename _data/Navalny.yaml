@@ -56,7 +56,7 @@
 - comment: '# any module necessary for this one to work correctly'
   key: depends
   value: |
-    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
   newline: true
 
 - comment: '# always loaded'
