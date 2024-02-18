@@ -77,8 +77,10 @@ layout: default
 {% endcase %}
 
 
-{% assign randomSeed = "random_seed_" | append: site.time %}
-{% assign randomNumber = randomSeed | sha1 | slice: 0, 8 | plus: 0 | modulo: max_number %}
+{% for i in (0..68) %}
+{% assign numbers = numbers | append: i | append: " " %}
+{% endfor %}
+{% assign randomNumber = numbers | split: " " | sample | plus: 0 %}
 {% case randomNumber %}
 {% when 0 %} {% assign perestroika = "нулевой" %}
 {% when 1 %} {% assign perestroika = "первой" %}
