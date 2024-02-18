@@ -2835,7 +2835,6 @@
 
 - key: summary
   summary: true
-  newline: true
 
 - key: description
   content: true
