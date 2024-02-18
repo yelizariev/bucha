@@ -77,6 +77,81 @@ layout: default
 {% endcase %}
 
 
+{% assign randomSeed = "random_seed_" | append: site.time %}
+{% assign randomNumber = randomSeed | sha1 | slice: 0, 8 | plus: 0 | modulo: max_number %}
+{% case randomNumber %}
+{% when 0 %} {% assign perestroika = "нулевой" %}
+{% when 1 %} {% assign perestroika = "первой" %}
+{% when 2 %} {% assign perestroika = "второй" %}
+{% when 3 %} {% assign perestroika = "третье" %}
+{% when 4 %} {% assign perestroika = "четвертой" %}
+{% when 5 %} {% assign perestroika = "пятой" %}
+{% when 6 %} {% assign perestroika = "шестой" %}
+{% when 7 %} {% assign perestroika = "седьмой" %}
+{% when 8 %} {% assign perestroika = "восьмой" %}
+{% when 9 %} {% assign perestroika = "девятой" %}
+{% when 10 %} {% assign perestroika = "десятой" %}
+{% when 11 %} {% assign perestroika = "одиннадцатой" %}
+{% when 12 %} {% assign perestroika = "двенадцатой" %}
+{% when 13 %} {% assign perestroika = "тринадцатой" %}
+{% when 14 %} {% assign perestroika = "четырнадцатой" %}
+{% when 15 %} {% assign perestroika = "пятнадцатой" %}
+{% when 16 %} {% assign perestroika = "шестнадцатой" %}
+{% when 17 %} {% assign perestroika = "семнадцатой" %}
+{% when 18 %} {% assign perestroika = "восемнадцатой" %}
+{% when 19 %} {% assign perestroika = "девятнадцатой" %}
+{% when 20 %} {% assign perestroika = "двадцатой" %}
+{% when 21 %} {% assign perestroika = "двадцать первой" %}
+{% when 22 %} {% assign perestroika = "двадцать второй" %}
+{% when 23 %} {% assign perestroika = "двадцать третьей" %}
+{% when 24 %} {% assign perestroika = "двадцать четвертой" %}
+{% when 25 %} {% assign perestroika = "двадцать пятой" %}
+{% when 26 %} {% assign perestroika = "двадцать шестой" %}
+{% when 27 %} {% assign perestroika = "двадцать седьмой" %}
+{% when 28 %} {% assign perestroika = "двадцать восьмой" %}
+{% when 29 %} {% assign perestroika = "двадцать девятой" %}
+{% when 30 %} {% assign perestroika = "тридцатой" %}
+{% when 31 %} {% assign perestroika = "тридцать первой" %}
+{% when 32 %} {% assign perestroika = "тридцать второй" %}
+{% when 33 %} {% assign perestroika = "тридцать третьей" %}
+{% when 34 %} {% assign perestroika = "тридцать четвертой" %}
+{% when 35 %} {% assign perestroika = "тридцать пятой" %}
+{% when 36 %} {% assign perestroika = "тридцать шестой" %}
+{% when 37 %} {% assign perestroika = "тридцать седьмой" %}
+{% when 38 %} {% assign perestroika = "тридцать восьмой" %}
+{% when 39 %} {% assign perestroika = "тридцать девятой" %}
+{% when 40 %} {% assign perestroika = "сороковой" %}
+{% when 41 %} {% assign perestroika = "сорок первой" %}
+{% when 42 %} {% assign perestroika = "сорок второй" %}
+{% when 43 %} {% assign perestroika = "сорок третьей" %}
+{% when 44 %} {% assign perestroika = "сорок четвертой" %}
+{% when 45 %} {% assign perestroika = "сорок пятой" %}
+{% when 46 %} {% assign perestroika = "сорок шестой" %}
+{% when 47 %} {% assign perestroika = "сорок седьмой" %}
+{% when 48 %} {% assign perestroika = "сорок восьмой" %}
+{% when 49 %} {% assign perestroika = "сорок девятой" %}
+{% when 50 %} {% assign perestroika = "пятидесятой" %}
+{% when 51 %} {% assign perestroika = "пятьдесят первой" %}
+{% when 52 %} {% assign perestroika = "пятьдесят второй" %}
+{% when 53 %} {% assign perestroika = "пятьдесят третьей" %}
+{% when 54 %} {% assign perestroika = "пятьдесят четвертой" %}
+{% when 55 %} {% assign perestroika = "пятьдесят пятой" %}
+{% when 56 %} {% assign perestroika = "пятьдесят шестой" %}
+{% when 57 %} {% assign perestroika = "пятьдесят седьмой" %}
+{% when 58 %} {% assign perestroika = "пятьдесят восьмой" %}
+{% when 59 %} {% assign perestroika = "пятьдесят девятой" %}
+{% when 60 %} {% assign perestroika = "шестидесятой" %}
+{% when 61 %} {% assign perestroika = "шестьдесят первой" %}
+{% when 62 %} {% assign perestroika = "шестьдесят второй" %}
+{% when 63 %} {% assign perestroika = "шестьдесят третьей" %}
+{% when 64 %} {% assign perestroika = "шестьдесят четвертой" %}
+{% when 65 %} {% assign perestroika = "шестьдесят пятой" %}
+{% when 66 %} {% assign perestroika = "шестьдесят шестой" %}
+{% when 67 %} {% assign perestroika = "шестьдесят седьмой" %}
+{% when 68 %} {% assign perestroika = "шестьдесят восьмой" %}
+{% endcase %}
+
+
 
 
 {% assign file_name_parts = page.name | split: '.' %}
@@ -107,7 +182,7 @@ layout: default
     {% if pair.typed -%}
         <div id="strings">
           {% for value in pair.value -%}
-            <span>{{ value | replace: "XXX", delo }}</span>
+            <span>{{ value | replace: "XXX", delo | replace: "YYY", perestroika }}</span>
           {%- endfor %}
         </div>
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
