@@ -330,7 +330,7 @@
 
 
   newline: true
-  #typed: true
+  typed: true
 
 - key: summary
   summary: true
