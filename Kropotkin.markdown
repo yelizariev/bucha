@@ -14,7 +14,7 @@ title: |
     <br/>От тебя, новое уголовное дело, и подавно уйду.
 
 next: Kolobok.html
-copyright: http://individual.utoronto.ca/psyling/russian/fun/sk_kolobok.htm
+copyright: https://www.chukfamily.ru/kornei/tales/tarakanishhe-2
 ---
 
 [![](https://perestroika-2.com/images/lenin-mushroom.jpg)](https://shabbat.lamourism.com/kolobok/%D0%9C%D0%BE%D1%8F%20%D0%91%D0%BE%D1%80%D1%8C%D0%B1%D0%B0.avif)
