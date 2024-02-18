@@ -17,4 +17,4 @@ next: Hitler.html
 copyright: http://individual.utoronto.ca/psyling/russian/fun/sk_kolobok.htm
 ---
 
-[![](https://perestroika-2.com/images/lenin-mushroom.jpg)](https://shabbat.lamourism.com/Mein%20Kampf.jpg)
+[![](https://perestroika-2.com/images/lenin-mushroom.jpg)](https://shabbat.lamourism.com/kolobok/%D0%9C%D0%BE%D1%8F%20%D0%91%D0%BE%D1%80%D1%8C%D0%B1%D0%B0.avif)
