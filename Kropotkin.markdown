@@ -13,7 +13,7 @@ title: |
     <br/>От медведя ушел,
     <br/>От тебя, новое уголовное дело, и подавно уйду.
 
-next: Hitler.html
+next: Kolobok.html
 copyright: http://individual.utoronto.ca/psyling/russian/fun/sk_kolobok.htm
 ---
 
