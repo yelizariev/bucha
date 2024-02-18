@@ -316,7 +316,7 @@
 
 
   newline: true
-  typed: false
+  typed: true
 
 - key: summary
   summary: true
