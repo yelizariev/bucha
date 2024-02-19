@@ -1,7 +1,7 @@
 ---
 layout: home
 title: FreePALESTINE
-next: Aliyah.html
+next: Leningrad.html
 copyright: https://arz.wikipedia.org/wiki/%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84
 ---
 
