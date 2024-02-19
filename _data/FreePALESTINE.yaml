@@ -21,7 +21,7 @@
 
 - key: summary
   newline: true
-  typed: true
+  summary: true
 
 - key: description
   content: true
