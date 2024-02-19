@@ -162,6 +162,8 @@ layout: default
 {% assign $data = site.data[base_file_name] %}
 
 
+{% assign typing = 1 %}
+
 
 {% if site.show_quotes -%}
 {% assign quote = "'" -%}
@@ -182,13 +184,14 @@ layout: default
         </div>
     {% endif %}
     {% if pair.typed -%}
-        <div id="strings">
-          {% for value in pair.value -%}
-            <span>{{ value | replace: "XXX", delo | replace: "YYY", perestroika }}</span>
-          {%- endfor %}
-        </div>
+        {% for value in pair.value -%}
+            <div id="strings{{ typing }}">
+                <span>{{ value | replace: "XXX", delo | replace: "YYY", perestroika }}</span>
+            </div>
+        {%- endfor %}
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}:
-        {{ quote }}<span class="value"><span id="typed"></span></span>{{ quote }}
+        {{ quote }}<span class="value"><span id="typed{{ typing }}"></span></span>{{ quote }}
+            {% assign typing = typing | plus: 1 %}
     {%- elsif pair.value.first.key -%}
         {{ quote }}<span class="key">{{ pair.key }}</span>{{ quote }}: [
         {% for value in pair.value -%}

@@ -29,14 +29,21 @@
   </main>
   <script>
    freePalestine = true;
-   var typed = new Typed("#typed", {
-       stringsElement: "#strings",
-       backSpeed: 10,
-       typeSpeed: 30,
-       backDelay: 1000,
-       loop: true,
-       smartBackspace: true,
-   });
+   for (var x = 0; x < 12; x++) {
+
+       if (!document.querySelector("#typed" + x))
+           continue
+
+       console.log("xxx", x);
+       new Typed("#typed" + x, {
+           stringsElement: "#strings" + x,
+           backSpeed: 10,
+           typeSpeed: 30,
+           backDelay: 1000,
+           loop: true,
+           smartBackspace: true
+       });
+   }
   </script>
 </body>
 
