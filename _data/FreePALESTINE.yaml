@@ -20,8 +20,8 @@
   typed: true
 
 - key: summary
-  summary: true
   newline: true
+  typed: true
 
 - key: description
   content: true
