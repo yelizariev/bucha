@@ -36,7 +36,6 @@
   content: true
 
 - key: author
-  typed: true
   value: Иван Кропоткин
 
 - key: website
