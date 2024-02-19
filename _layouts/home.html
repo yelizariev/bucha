@@ -177,7 +177,7 @@ layout: default
 <div class="comment"># <a class="nomagic" href="{{ page.copyright }}">License</a> MIT (<a class="nomagic" href="{{ page.next }}">https://opensource.org/licenses/MIT</a>)</div>
 <div id="json">
   {% for pair in $data %}
-  <div class="my ms">
+  <div class="my ms {% if pair.rtl -%}rtl{% endif %}">
     {% if pair.comment %}
         <div class="comment">
             {{ pair.comment }}

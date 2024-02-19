@@ -109,3 +109,6 @@ img {
 .musor {
     text-decoration-style:wavy;
 }
+.rtl {
+    text-align: right;
+}
