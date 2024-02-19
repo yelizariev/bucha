@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Сауну🏴‍☠️продлевать🏴‍☠️будете?
+title: <u style="text-decoration-style:double">Саун</u>y продлевать будете?
 next: 1939.html
 copyright: https://www.currenttime.tv/a/biografia-putina-levin-utkin/31909962.html
 ---
