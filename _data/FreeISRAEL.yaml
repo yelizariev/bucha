@@ -39,7 +39,7 @@
   url: https://moses.lamourism.com/book/Jerusalem.mp4
 - comment: >
     # Categories can be used to filter modules in modules listing
-    <br/># Check <a class="nomagic" href="https://shabbat.lamourism.com/?debug=🇮🇱">aliyah.odooism.com</a> for the full list
+    <br/># Check <a class="nomagic" href="https://shabbat.lamourism.com/?debug=🇵🇸">aliyah.odooism.com</a> for the full list
 
   key: category
   value: Ragnarøkkr
@@ -52,7 +52,7 @@
 - comment: '# any module necessary for this one to work correctly'
   key: depends
   value: |
-    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/porn/FreePALESTINE.mp4?debug=🇮🇱" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/exodus/FreePALESTINE.mp4?debug=🇮🇱" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
   newline: true
 
 - comment: '# always loaded'
@@ -60,16 +60,16 @@
   value:
     - value: '# security/ir.model.access.csv'
       className: nomagic
-      url: 'https://www.youtube.com/watch?v=XNf40sBcvKk&t=15s'
+      url: https://moses.lamourism.com/book/Jerusalem.mp4
     - value: 'views/views.xml'
       className: nomagic
-      url: https://moses.lamourism.com/
+      url: https://moses.lamourism.com/book/Jerusalem.mp4
     - value: 'views/templates.xml'
       className: nomagic
-      url: https://perestroika-2.com/
+      url: https://moses.lamourism.com/book/Jerusalem.mp4
 
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
     - value: 'demo/demo.xml'
-      url: https://moses.lamourism.com/exodus/1Corinthians13:4-7.mp4
+      url: https://moses.lamourism.com/book/Jerusalem.mp4
