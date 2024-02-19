@@ -1,0 +1,78 @@
+- key: name
+  value: |
+    Lieber Ivann,
+    <br/>
+    <br/>Thank you so much for your greetings and thoughts and the presents for Christmas!
+    <br/>The parcel made it here exactly in time, I stuck it under the tree and we opened it along with all the other presents =))
+    <br/>
+    <br/>Thank you so much for it. I just love the little Matreshkas. There is an evolution of the flower painted on the belly of each doll from the smallest to the largest and I find it very beautiful. Maybe it is meaningful as well. I believe it is! And the Zefir are very tasty, much better than marshmallows. They are great with coffee or black tea and they fit the winter — which is not here yet, only a bit of frost on the grass once in a while in the morning.
+    <br/>
+    <br/>Hope everything will go well for you in the next year. If ever you get close enough to Düsseldorf make sure to visit! And bring your friends!
+    <br/>
+    <br/>For me last year was very hard. I told [CENSORED] to move out and finally he did. Three years agoI had found out that he had other women. Not once, not twice but all along our relationship, all through our married life, and he always kept it secret. I was so hurt, so wounded. We went to partner therapy and tried many things to heal. I thought he had got lost in life and needed to readjust but he decided to stay on his path. When he secretly started a new affair with a young woman the age of Annika, our daughter, and I found out about it last January I send him away. 
+    <br/>
+    <br/>It can be a source of happiness to trust — and it can be devastating. I tasted it both and now I will go my way on my own. I'm very lonely. But at the same time there is family, friends, new friendships, the sun rising every day no matter what is going on, Christmas presents from someone far away in the east in Russia =))
+    <br/>All that helps a lot and I'm grateful for it.
+    <br/>
+    <br/>Hope you will have a great party for New Years evening. An I hope you can enjoy at least bits of your presidents speech. I would like to hear the promise to stop all military action no matter where. Well, one can always hope….
+    <br/>
+    <br/>All the best to you, Ivann,
+    <br/>
+    <br/>love from Irma
+    <br/>
+    <br/>Annika and Jonas say hi and the Colombian friends and French friends who celebrated with us as well. Everybody likes the Zefir =))
+    <br/>
+    <br/>
+    <br/>29 Dec 2016
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://lamourism.com/
+  url: https://thepiratecircus.com/?debug=🏴‍☠️
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://moses.lamourism.com/mossad/habib69.jpg?debug=🇵🇸">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/porn/FreePALESTINE.mp4" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: '# security/ir.model.access.csv'
+      className: nomagic
+      url: 'mailto:help@itpp.dev'
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://moses.lamourism.com/
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://perestroika-2.com/
+
+- comment: '# only loaded in demonstration mode'
+  key: demo
+  value:
+    - value: 'demo/demo.xml'
+      url: Tishka17.html
