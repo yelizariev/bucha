@@ -10,7 +10,7 @@ copyright: https://moses.lamourism.com/exodus/Matthew7:13-14.mp4
 <br/><span class="hljs-keyword">from</span> odoo.exceptions <span class="hljs-keyword">import</span> UserError, ValidationError, AccessError, RedirectWarning
 <br/><span class="hljs-keyword">from</span> odoo.zodiak.tools <span class="hljs-keyword">import</span> weed, cocaine (
 <br/><span class="hljs-string">"""</span>
-<div style="margin-left:2em; max-width:777px;" class="hljs-string">
+<div style="padding-left:2em; max-width:777px;" class="hljs-string">
 
 What if I had not taken LSD ever; would I have still invented PCR? I don’t
 know. I doubt it. I seriously doubt it.
