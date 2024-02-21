@@ -1,7 +1,7 @@
 ---
 layout: python
 title: 'В таком виде Я не могу ехать к шефу. Я должен принять ванну, выпить чашечку кофе...'
-next: Revolution.html
+next: Aliyah.html
 copyright: https://moses.lamourism.com/exodus/Matthew7:13-14.mp4
 ---
 
