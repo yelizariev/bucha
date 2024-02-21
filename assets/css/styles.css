@@ -104,11 +104,23 @@ img {
 }
 
 .vor {
-    text-decoration-style:double;
+    text-decoration-style: double;
 }
 .musor {
-    text-decoration-style:wavy;
+    text-decoration-style: wavy;
 }
 .rtl {
     text-align: right;
+}
+.revolution {
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, #9e26dd, #fe6c03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.MagicREVOLUTION {
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, #fe6c03, #9e26dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
