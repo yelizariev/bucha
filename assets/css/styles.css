@@ -124,3 +124,10 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.white {
+    color: white;
+}
+.red {
+    color: red;
+}
