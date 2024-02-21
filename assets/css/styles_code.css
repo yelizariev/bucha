@@ -1,0 +1,140 @@
+---
+---
+
+@font-face {
+  font-family: "hack";
+  src: url("../webfonts/hack-regular-subset.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "hack";
+  src: url("../webfonts/hack-italic-subset.woff2") format("woff2");
+  font-style: italic;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: "hack", monospace;
+  font-size: 16px;
+  font-weight: 400;
+  background-color: {{ site.color_bg }};
+  color: {{ site.color_punct }};
+}
+
+main {
+    margin-top:0.3em;
+    margin-left:0.3em;
+    overflow-x: scroll; /* Horizontal scrollbar */
+}
+
+/* Hide the horizontal scrollbar track */
+main::-webkit-scrollbar-track:horizontal {
+    display: none; /* Hide horizontal scrollbar track for WebKit browsers */
+}
+
+@media (min-width: 576px) {
+  main {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    font-size: 20px;
+  }
+}
+
+h1{
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  font-style: italic;
+}
+
+a:hover,
+a:active {
+  color: {{ site.color_hover }};
+}
+
+
+#json:before {
+  content: "{";
+}
+
+#json:after {
+  content: "}";
+}
+
+.my {
+  margin-bottom: 0.3rem;
+}
+
+.mt {
+  margin-top: 1.5rem;
+}
+
+.ms {
+  margin-left: 1.5rem;
+}
+
+.error,
+.key,
+.value {
+  {% if site.lowercase -%}
+  text-transform: lowercase;
+  {% endif -%}
+  color: {{ site.color_keyval }};
+}
+
+
+.comment {
+    color: {{ site.color_comment }};
+}
+
+a.nomagic {
+    font-style: normal;
+    text-decoration:none;
+}
+
+img {
+    width: 555px;
+}
+
+.vor {
+    text-decoration-style: double;
+}
+.musor {
+    text-decoration-style: wavy;
+}
+.rtl {
+    text-align: right;
+}
+.revolution {
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, #9e26dd, #fe6c03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.MagicREVOLUTION {
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, #fe6c03, #9e26dd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.white {
+    color: white;
+}
+.red {
+    color: red;
+}
+
+pre {
+    margin: 0;
+}
