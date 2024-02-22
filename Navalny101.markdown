@@ -4,7 +4,7 @@ title: Привет, это НАВАЛЬНЫЙ!
 next: Navalny103.html
 ---
 
-[![](https://shabbat.lamourism.com/Wonderland/Rabbit101.jpg)](https://thepiratecircus.com/Inquisition/indulgentia/oobo101.jpg)
+[![](https://shabbat.lamourism.com/Wonderland/Rabbit101.jpg)](https://perestroika-2.com/images/union.jpg)
 
 <br/>
 <br/>🇺🇦 Ще не вмерла України ні слава, ні воля,
