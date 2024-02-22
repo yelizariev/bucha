@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "БУЧА: город <b>Бесстыжых🏴‍☠️ Рабов</b>🏳️‍🌈"
+title: "БУЧА: город <b>Бесстыжых🏴‍☠️ рабов</b>🏳️‍🌈"
 email: help@itpp.dev
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Bucha 2.0
