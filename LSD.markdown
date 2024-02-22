@@ -112,9 +112,24 @@ ungifted, has fallen or has intentionally plunged, and is drowning.
 <br/>
 <br/>
 <img src="https://thepiratecircus.com/Inquisition/indulgentia/oobo42.jpg"/>
-
+<br/>
+<br/>
+Каждый понимает в меру своей испорченности.
+<br/>
+<br/>
+— Училка по русскому языку и литературе, Зубарева Надежда Константинова
+<br/>
+<br/>
+<img src="https://perestroika-2.com/images/napoleon.jpg"/>
+<br/>
+<br/>
+ВАС НАЕБАЛИ. Это не урок истории. Это — урок литературы!!!
+<br/>
+<br/>
+— Ученик второй парты второго ряда и второго места за партой, Александр Невский
+<br/>
+<br/>
 </div>
-
 <span class="hljs-string">"""</span>
 <br/>)
 
