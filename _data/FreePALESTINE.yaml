@@ -40,6 +40,8 @@
 
 - key: version
   value: Snegograd-17.0
+  className: nomagic
+  url: https://perestroika-2.com/rio.html
   newline: true
 
 
