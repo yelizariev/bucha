@@ -113,7 +113,7 @@ copyright: https://moses.lamourism.com/exodus/Genesis2:15-17.mp4
 <br/>&nbsp;&nbsp;&mdash;&nbsp;А&nbsp;чей тогда? Яна Хуберта и&nbsp;аргонавтов?
 <br/>&nbsp;&nbsp;&mdash;&nbsp;Нет. Аргонавты не&nbsp;намерены исправлять эту цивилизацию, они создают свою. 
 <br/>&nbsp;&nbsp;&mdash;&nbsp;Как свою? &mdash;&nbsp;удивился полковник, но&nbsp;не&nbsp;успел получить ответ, поскольку...
-     &nbsp;&nbsp;
+<br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;<span style="color:red">x x x x x x x x x x x x x x x x x x</span>
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;These behaviors have created a feeling of fear and insecurity, and have an impact on the well-being at work of these colleagues. As a reminder, we already gave you a serious warning one year ago when you launched a public website about Odoo and sex.
@@ -122,7 +122,7 @@ copyright: https://moses.lamourism.com/exodus/Genesis2:15-17.mp4
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;<span style="color:red">x</span> no more communication with <u class="revolution">Odoo</u>😍<u class="MagicREVOLUTION">Princesses</u>, except strictly about work;
 <br/>&nbsp;&nbsp;
-<br/>&nbsp;&nbsp;<span style="color:red">x</span> no communication with other Odoo employees that could induce a feeling of fear or threat, and more specifically about your <u class="revolution">Sexual</u>😍<u class="MagicREVOLUTION">Beliefs</u> ;
+<br/>&nbsp;&nbsp;<span style="color:red">x</span> no communication with other Odoo employees that could induce a feeling of fear or threat, and more specifically about your <u class="revolution">Sexual</u>🏳️‍🌈<u class="MagicREVOLUTION">Beliefs</u> ;
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;<span style="color:red">x</span> no mention of your religious, sexual, or political opinions on websites or other media, related to Odoo (only on the software).
 <br/>&nbsp;&nbsp;
@@ -132,7 +132,7 @@ copyright: https://moses.lamourism.com/exodus/Genesis2:15-17.mp4
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;Sincerely,
 <br/>&nbsp;&nbsp;
-<br/>&nbsp;&nbsp;Odoo HR💩Department
+<br/>&nbsp;&nbsp;Odoo HR Department
 
 """
 
