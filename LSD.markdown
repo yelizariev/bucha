@@ -5,10 +5,10 @@ next: Aliyah.html
 copyright: https://moses.lamourism.com/exodus/Matthew7:13-14.mp4
 ---
 
-<br/><span class="hljs-keyword">from</span> odoo <span class="hljs-keyword">import</span> api, fields, models, _, Command
-<br/><span class="hljs-keyword">from</span> odoo.addons.account.tools <span class="hljs-keyword">import</span> format_structured_reference_iso
-<br/><span class="hljs-keyword">from</span> odoo.exceptions <span class="hljs-keyword">import</span> UserError, ValidationError, AccessError, RedirectWarning
-<br/><span class="hljs-keyword">from</span> odoo.zodiak.tools <span class="hljs-keyword">import</span> weed, cocaine (
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a> <span class="hljs-keyword">import</span> api, fields, models, _, Command
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a>.addons.account.tools <span class="hljs-keyword">import</span> format_structured_reference_iso
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a>.exceptions <span class="hljs-keyword">import</span> UserError, ValidationError, AccessError, RedirectWarning
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a>.zodiak.tools <span class="hljs-keyword">import</span> weed, cocaine (
 <br/><span class="hljs-string">"""</span>
 <div style="padding-left:2em; max-width:777px;" class="hljs-string">
 
@@ -113,87 +113,6 @@ ungifted, has fallen or has intentionally plunged, and is drowning.
 <br/>
 <img src="https://thepiratecircus.com/Inquisition/indulgentia/oobo42.jpg"/>
 <br/>
-<br/>
-<br/>function gogogo() {
-<br/>
-<br/>⠀⠀⠀⠀// Antony is one of the lucky people in life who can say he loves what he does.
-<br/>⠀⠀⠀⠀const antony = document.getElementById("cocaine");
-<br/>⠀⠀⠀⠀/*⠀⠀⠀⠀⠀⣀⣤⢤⣤⣄⣀⣀⣀⣀⣠⣤⡀⠀⠀⠤⠤⠄⠀⠀⠀⠀⠀⠀⠤⠤⠤⠤⢤⡄⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⡴⣪⠃⠀⠀⣠⣶⣶⣦⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⣀⣾⡽⠁⠀⠀⣰⣿⠃⠀⠀⠈⠉⠙⠛⠛⠛⠶⠤⢤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⢠⡾⣟⣿⠇⡀⢀⣾⢫⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠙⠓⠶⣦⣤⣄⣀⡀⠀⠀⠀⡇⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠰⣿⣞⡽⣿⣾⢷⡿⣱⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠙⠻⠦⣄⣀⠀⠱⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠐⣿⣡⣾⡋⠹⡆⠿⣧⡄⣀⣀⣀⡀⠘⢶⣤⣤⣤⣤⣤⣄⣀⣀⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠙⢿⠢⠤⣀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠈⠻⡿⠛⢷⣄⠀⠀⠈⠉⠓⠒⠛⠹⠭⠭⠯⠭⢽⣟⡛⠛⠛⠛⠛⠛⠻⠿⢷⣶⣤⣤⡀⠀⠀⠘⠀⠀⠈⢣⡀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢱⡀⠀⠉⢳⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠲⠀⠀⠀⠀⠙⠒⠦⢄⣉⣓⠿⢕⣦⣀⠀⠀⠰⣾⣿⡦
-<br/>⠀⠀⠀⠀⠀⠀⠘⣇⠀⠀⠈⠳⣝⣂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠳⣌⠻⢦⠀⠀⣹⡙⡟
-<br/>⠀⠀⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⠈⠉⠉⠒⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠓⢬⣟⣖⣿⡘⠂
-<br/>⠀⠀⠀⠀⠀⠀⠀⢸⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⠤⢀⣀⣀⣤⣴⣶⡾⠿⠥⠤⠤⢄⣀⣀⣀⡀⠀⠀⠀⠈⠉⠷⢿⣿⠗⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠑⠀⠀⠀⢀⣀⡼⠏⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢸⡟⣿⠀⠀⠀⢀⡤⠴⠒⠒⠲⠦⠤⣤⣤⣄⣀⡀⠀⠀⠀⠀⡀⣀⡤⠴⠂⠀⠀⠀⠖⠒⢻⡟⠉⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⣿⡇⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉⠙⠛⠛⠿⠷⠖⠒⠀⠉⠁⠀⠀⠀⠀⣸⠁⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠄⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢸⡿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠑⠒⠒⠀⠒⠒⠊⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⠁⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢸⡇⠀⢀⣀⡠⠆⠀⠉⡉⠉⠉⠙⠒⠶⠶⠤⠤⠤⠤⠄⠀⠀⠀⠀⢀⡀⠀⠀⢀⣤⣾⠃⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⢳⣾⣫⡥⠴⠚⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣶⣄⠀⠘⣿⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢀⣾⠟⠉⠀⠀⠀⠀⠀⣤⠤⠴⠶⠶⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠪⡷⡀⢹⡇⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠉⠙⠛⠯⠉⠀⠀⠀⠀⠈⢻⡾⠁⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⢸⣷⣶⣤⣤⣀⠀⠀⠀⠤⠤⠤⠿⠷⠶⠒⢛⣋⣉⣉⠓⠀⠀⠀⠀⠀⠀⠀⠀⢀⡐⡄⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠘⣿⡟⢿⣿⣿⣶⣤⣤⣤⣤⣴⡶⠖⡿⠛⠛⠛⠿⣿⣿⣶⣶⣄⠀⠀⠀⠀⠈⡧⠃⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⢿⣷⡄⠀⠉⠉⠛⠋⠉⠉⠀⢀⠞⠁⠀⠀⠸⡀⠀⠀⠉⠉⠛⠿⠿⠶⠶⢚⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠸⣿⣿⣦⣄⣀⣀⣀⣀⡤⠞⠋⠀⢀⠀⠀⢀⢻⣦⡀⠀⠀⠀⠀⠀⠀⣠⠞⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⡿⠟⠛⠛⠉⠉⠀⠀⠀⠀⡜⠀⠀⠘⣆⠙⢿⣶⣤⣄⣀⣤⠖⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠋⠀⠀⠀⢀⡾⠀⠀⠀⠀⢸⡇⠀⠀⠀⠈⢆⠀⠈⠹⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⣼⠁⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠘⣧⠀⠀⠘⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⡀⠀⠀⢀⠏⠀⠀⠀⠀⠀⠘⡇⠀⠀⠀⠀⠀⠈⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣇⠀⠀⠈⠀⠀⠀⠀⠀⠀⠀⠷⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⡆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡀⠀⠀⠀⠀⠙⢦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⡇⠀⠀⠀⠀⠀⠀⠀⢀⣤⡄⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠈⢦⡀⠀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠀⠀⠀⠀⠀⠀⠸⡄⠀⠀⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⡀⠀⠀⠀⠀⠀⠀⠀⢿⡄⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡏⠀⠀⠀⣤⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⢈⣿⡀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠇⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⢀⣴⠟⢹⣧⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⡸⠀⠀⠀⠀⠈⢿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⠁⠀⠀⠀⣠⡶⠟⠁⠀⠘⣿⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⡀⠀⠀⠀⠀⠘⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡶⠟⠋⠀⠀⠀⠀⢰⣿⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠉⠛⠷⠶⣶⣦⣽⣿⣷⣄⣀⣀⣀⣀⣀⣀⣀⣤⣶⣶⣿⠟⠉⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠈⠉⠉⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⠟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣿⣿⣿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡏⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢿⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⠀⠀⠀⠀⠀
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣻⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣛⠋        */
-<br/>⠀⠀⠀⠀antony.src⠀=⠀"Inquisition/token.png";
-<br/>
-<br/>⠀⠀⠀⠀//⠀Antony⠀looks⠀after⠀the⠀community⠀of⠀17389⠀prime⠀developers.
-<br/>⠀⠀⠀⠀function⠀isPrime(num)⠀{
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀if⠀(num⠀<=⠀1)⠀return⠀false;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀if⠀(num⠀<=⠀3)⠀return⠀true;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀if⠀(num⠀%⠀2⠀===⠀0⠀||⠀num⠀%⠀3⠀===⠀0)⠀return⠀false;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀let⠀i⠀=⠀5;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀while⠀(i⠀*⠀i⠀<=⠀num)⠀{
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀if⠀(num⠀%⠀i⠀===⠀0⠀||⠀num⠀%⠀(i⠀+⠀2)⠀===⠀0)⠀return⠀false;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀i⠀+=⠀6;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀}
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀return⠀true;
-<br/>⠀⠀⠀⠀}
-<br/>
-<br/>⠀⠀⠀⠀function⠀getRandomPrime(n)⠀{
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀const⠀primes⠀=⠀[];
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀let⠀num⠀=⠀7;⠀//⠀Start⠀from⠀7
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀while⠀(primes.length⠀<⠀n)⠀{
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀if⠀(isPrime(num))⠀{
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀primes.push(num);
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀}
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀num++;
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀}
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀const⠀randomIndex⠀=⠀Math.floor(Math.random()⠀*⠀primes.length);
-<br/>⠀⠀⠀⠀⠀⠀⠀⠀return⠀primes[randomIndex];
-<br/>⠀⠀⠀⠀}
-<br/>
-<br/>⠀⠀⠀⠀//⠀Antony⠀oversees⠀12⠀in-house⠀developers.
-<br/>⠀⠀⠀⠀antony.src⠀=⠀"Inquisition/indulgentia/oobo"⠀+⠀getRandomPrime(11)⠀+⠀".jpg";
-<br/>}
 <br/>
 <br/>// Каждый понимает в меру своей испорченности.
 <br/>
