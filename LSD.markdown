@@ -5,10 +5,10 @@ next: Aliyah.html
 copyright: https://moses.lamourism.com/exodus/Matthew7:13-14.mp4
 ---
 
-<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a> <span class="hljs-keyword">import</span> api, fields, models, _, Command
-<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a>.addons.account.tools <span class="hljs-keyword">import</span> format_structured_reference_iso
-<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a>.exceptions <span class="hljs-keyword">import</span> UserError, ValidationError, AccessError, RedirectWarning
-<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="odoo.html">odoo</a>.zodiak.tools <span class="hljs-keyword">import</span> weed, cocaine (
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="cocaine.html">odoo</a> <span class="hljs-keyword">import</span> api, fields, models, _, Command
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="cocaine.html">odoo</a>.addons.account.tools <span class="hljs-keyword">import</span> format_structured_reference_iso
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="cocaine.html">odoo</a>.exceptions <span class="hljs-keyword">import</span> UserError, ValidationError, AccessError, RedirectWarning
+<br/><span class="hljs-keyword">from</span> <a class="nomagic" href="cocaine.html">odoo</a>.zodiak.tools <span class="hljs-keyword">import</span> weed, cocaine (
 <br/><span class="hljs-string">"""</span>
 <div style="padding-left:2em; max-width:777px;" class="hljs-string">
 
