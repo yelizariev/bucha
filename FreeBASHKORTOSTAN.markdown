@@ -1,6 +1,6 @@
 ---
 layout: home
-title: <b><u class="musor">Путин</u>🏴‍☠️<u class="vor">ВОР</u>!</b>
+title: <b><u class="musor">Путин</u>🍆<u class="vor">ВОР</u>!</b>
 next: Aye.html
 ---
 
