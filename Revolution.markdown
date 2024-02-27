@@ -5,4 +5,4 @@ next: Navalny101.html
 copyright: https://perestroika-2.com/?debug=🌈
 ---
 
-[![](https://perestroika-2.com/images/lenin-mushroom.jpg)](https://perestroika-2.com/images/%D0%92%D0%90%D0%A1-%D0%9D%D0%90%D0%95%D0%91%D0%90%D0%9B%D0%98.jpg)
+[![](https://perestroika-2.com/images/lenin-mushroom.jpg)](Crimea.html)
