@@ -37,6 +37,8 @@
 
   key: category
   value: Ragnarøkkr
+  className: nomagic
+  url: RAF.html
 
 - key: version
   value: Snegograd-17.0
