@@ -13,7 +13,8 @@ Despite its aggressive name, AK-47 is a well-balanced hybrid strain known for it
 <br/>SURVIVAL GUIDE
 <br/>for OdOOers
 <br/>
-<br/><em>You’ll have the freedom to be awesome. But this comes with a huge responsibility:<br/><br/>WE EXPECT YOU TO TRANSFORM THE COMPANY</em>
+<br/><em>You’ll have the freedom to be awesome. But this comes with a huge responsibility:</em>
+<br/><br/>We expect YOU to transform the F*CKING COMPANY!
 <br/>
 <br/><img src="https://muhammad.lamourism.com/FreePALESTINE/sorry.jpg"/>
 <br/>
