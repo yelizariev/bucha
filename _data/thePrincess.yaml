@@ -80,7 +80,7 @@
         <span class="hljs-keyword">return</span> primes[randomIndex];
     }
     <br/>
-    <span class="hljs-comment">// Antony oversees 12 in-house developers.</span>
+    <span style="color:red">// Antony oversees 12 in-house developers.</span>
     antony.<span class="hljs-property">src</span> = <span class="hljs-string">"Inquisition/indulgentia/oobo"</span> + <span class="hljs-title function_">getRandomPrime</span>(<span class="hljs-number">11</span>) + <span class="hljs-string">".jpg"</span>;
     }
     <br/>
