@@ -5,7 +5,7 @@
     <pre><code><span class="hljs-keyword">function</span> <span class="hljs-title function_">gogogo</span>(<span class="hljs-params"></span>) {
     <br/><span style="color:red">// x&nbsp;x&nbsp;x&nbsp;&nbsp;x&nbsp;x&nbsp;x&nbsp;&nbsp;X&nbsp;&nbsp;x&nbsp;x&nbsp;x&nbsp;&nbsp;x&nbsp;x&nbsp;x</span>
     <span style="color:red">// Antony is one of the lucky people in life who can say he loves what he does.</span>
-    <span class="hljs-keyword">const</span> antony = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">"cocaine"</span>);
+    <span class="hljs-keyword">const</span> antony = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">"<a class="nomagic" href="cocaine.html?debug=🇵🇸">cocaine</a>"</span>);
     <span style="color:red">/*⠀⠀⠀⠀⠀⣀⣤⢤⣤⣄⣀⣀⣀⣀⣠⣤⡀⠀⠀⠤⠤⠄⠀⠀⠀⠀⠀⠀⠤⠤⠤⠤⢤⡄⠀⠀⠀⠀⠀⠀
     ⠀⠀⠀⠀⠀⡴⣪⠃⠀⠀⣠⣶⣶⣦⣤⣀⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀
     ⠀⠀⠀⣀⣾⡽⠁⠀⠀⣰⣿⠃⠀⠀⠈⠉⠙⠛⠛⠛⠶⠤⢤⣄⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠀⠀⠀
