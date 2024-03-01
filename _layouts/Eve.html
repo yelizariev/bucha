@@ -37,7 +37,6 @@
 <body>
     <script type="module">
      import * as THREE from 'three';
-     import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
      import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
      const loader = new GLTFLoader();
@@ -45,9 +44,15 @@
      // Create a scene
      const scene = new THREE.Scene();
 
+     /* And God said, “Let there be light,” and there was light. God saw that
+        the light was good, and he separated the light from the darkness. God
+        called the light “day,” and the darkness he called “night.” And there was
+        evening, and there was morning—the first day. */
+     const light = new THREE.AmbientLight( 0xffffff );
+     scene.add( light );
+
      // Create a camera
      const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-     camera.position.z = 5;
 
      // Create a renderer
      const renderer = new THREE.WebGLRenderer();
@@ -55,7 +60,12 @@
      document.body.appendChild(renderer.domElement);
 
      // Create controls (?)
+     import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
      const controls = new OrbitControls( camera, renderer.domElement );
+
+     // initial position
+     camera.position.set( 0, -100, 100 );
+     controls.update();
 
      // Load the GLTF model
      loader.load(
@@ -72,6 +82,7 @@
      // Render loop
      function animate() {
          requestAnimationFrame(animate);
+	       controls.update();
          renderer.render(scene, camera);
      }
      animate();
