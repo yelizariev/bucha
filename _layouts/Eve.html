@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ site.title }}</title>
+
+  {% seo title=false %}
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+  <meta property="og:title" content="Welcome to Bucha 2.0" />
+  <meta property="og:image" content="https://odooism.com/matrix.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <link rel="manifest" href="assets/site.webmanifest">
+
+  <script type="importmap">
+   {
+       "imports": {
+           "three": "https://unpkg.com/three@0.162.0/build/three.module.js",
+           "three/addons/": "https://unpkg.com/three@0.162.0/examples/jsm/"
+       }
+   }
+  </script>
+
+  <style>
+   body {
+       margin: 0;
+   }
+  </style>
+
+</head>
+
+<body>
+    <script type="module">
+     import * as THREE from 'three';
+     import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+     import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+
+     const loader = new GLTFLoader();
+
+     // Create a scene
+     const scene = new THREE.Scene();
+
+     // Create a camera
+     const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+     camera.position.z = 5;
+
+     // Create a renderer
+     const renderer = new THREE.WebGLRenderer();
+     renderer.setSize(window.innerWidth, window.innerHeight);
+     document.body.appendChild(renderer.domElement);
+
+     // Create controls (?)
+     const controls = new OrbitControls( camera, renderer.domElement );
+
+     // Load the GLTF model
+     loader.load(
+         '{{ page.portal }}',
+         function (gltf) {
+             scene.add(gltf.scene);
+         },
+         undefined,
+         function (error) {
+             console.error(error);
+         }
+     );
+
+     // Render loop
+     function animate() {
+         requestAnimationFrame(animate);
+         renderer.render(scene, camera);
+     }
+     animate();
+
+     /* TODO
+        {{ content }}
+      */
+
+    </script>
+
+</body>
+
+</html>
