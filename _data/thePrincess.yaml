@@ -1,0 +1,65 @@
+- key: name
+  value: |
+    Jean-Jacques Rousseau a parié un jour qu'il écrirait la nouvelle la plus courte qui toucherait n'importe qui.
+    <br/>
+    <br/><span style="color:red">x x x x x x x x x x x x x x x x x x</span>
+    <br/>
+    <br/> <em>Je suis terroriste</em> 🧕😍🔥🔥🔥💋
+
+  newline: true
+  typed: true
+
+- key: summary
+  newline: true
+  summary: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://lamourism.com/
+  url: Карты-деньги-два--ствола.mp4
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://telegra.ph/Mushroom-boy-10-21?debug=🍄">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+  className: nomagic
+  url: RAF.html
+
+- key: version
+  value: Snegograd-17.0
+  className: nomagic
+  url: https://perestroika-2.com/rio.html
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/exodus/FreePALESTINE.mp4?debug=🇵🇸" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: '# security/ir.model.access.csv'
+      className: nomagic
+      url: 'https://moses.lamourism.com/porn/masada.mp4?debug=🪬'
+
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://moses.lamourism.com/
+
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://perestroika-2.com/
+
+- comment: '# only loaded in demonstration mode'
+  key: demo
+  value:
+    - value: 'demo/demo.xml'
+      url: https://moses.lamourism.com/porn/shabbat.mp4

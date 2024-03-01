@@ -4,4 +4,4 @@ title: Моисей повзрослел по-взрослому и женилс
 next: Aliyah.html
 ---
 
-[![](https://thepiratecircus.com/Inquisition/indulgentia/oobo42.jpg)](https://moses.lamourism.com/mossad/princess.jpg)
+[![](https://thepiratecircus.com/Inquisition/indulgentia/oobo42.jpg)](thePrincess.html)
