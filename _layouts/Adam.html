@@ -7,8 +7,63 @@ layout: Eve
 {% assign yaml_file_name = base_file_name | append: ".yaml" %}
 {% assign $data = site.data[base_file_name] %}
 
+
+<audio id="zodiak">
+    <source id="cocaine" type="audio/mpeg">
+</audio>
+
+<video id="exodus" loop crossOrigin="anonymous" playsinline style="display:none">
+    <source id="bible" src="{{ page.ShabbatMP4 }}" type="video/mp4">
+</video>
+
+<script type="module">
+ import * as THREE from 'three';
+ import {scene, camera, controls, ShabbatTV, renderer} from "./assets/js/Adam.js";
+ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+ const loader = new GLTFLoader();
+
+ function gogogo() {
+     // initial position
+     camera.position.set( {{ page.takeoff }} );
+     controls.target = new THREE.Vector3( {{ page.landing }} );
+     controls.update();
+
+
+     // Load the GLTF model
+     loader.load(
+         '{{ page.portal }}',
+         function (gltf) {
+             scene.add(gltf.scene);
+         },
+         undefined,
+         function (error) {
+             console.error(error);
+         }
+     );
+
+     function animate() {
+         requestAnimationFrame(animate);
+	       //controls.update();
+         //console.log("pos", camera.position);
+         renderer.render(scene, camera);
+     }
+     animate();
+ }
+
+ document.addEventListener("DOMContentLoaded", gogogo);
+ document.addEventListener("click", function(){
+     const screen = ShabbatTV();
+     screen.position.set({{ page.ShabbatTV }});
+ });
+
+
+</script>
+
+
+
 {{ content }}
 
+<script>/*
 ###################
 #  &copy; 2024 Professeur Salim
 ########################
@@ -76,3 +131,4 @@ layout: Eve
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣷⣶⣦⣤⣤⣀⠤⠔⠒⠒⠒⠒⠒⠠⠤⠄⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀
 #⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠹⡄
 #####################################################
+         */</script>
