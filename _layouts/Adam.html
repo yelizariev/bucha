@@ -16,9 +16,12 @@ layout: Eve
     <source id="bible" src="{{ page.ShabbatMP4 }}" type="video/mp4">
 </video>
 
+<img id="stalin" style="display:none" crossorigin="anonymous" src="{{ page.PravdaJPG }}"/>
+
+
 <script type="module">
  import * as THREE from 'three';
- import {scene, camera, controls, ShabbatTV, renderer} from "./assets/js/Adam.js";
+ import {scene, camera, controls, ShabbatTV, PravdaTV, renderer} from "./assets/js/Adam.js";
  import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
  const loader = new GLTFLoader();
 
@@ -52,6 +55,9 @@ layout: Eve
 
  document.addEventListener("DOMContentLoaded", gogogo);
  document.addEventListener("click", function(){
+     const backscreen = PravdaTV();
+     backscreen.position.set({{ page.PravdaTV }});
+
      const screen = ShabbatTV();
      screen.position.set({{ page.ShabbatTV }});
  });

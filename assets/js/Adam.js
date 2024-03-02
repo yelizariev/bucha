@@ -39,10 +39,24 @@ function ShabbatTV() {
     //texture.format = THREE.RGBAFormat;
 
     const geometry = new THREE.PlaneGeometry(5, 2.8);
-    const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide });
+    const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.BackSide });
     screen = new THREE.Mesh(geometry, material);
     scene.add(screen);
     return screen;
 }
 
-export {scene, camera, controls, ShabbatTV, renderer}
+function PravdaTV() {
+    const stalin = document.getElementById( 'stalin' );
+
+    const texture = new THREE.Texture(stalin);
+    texture.needsUpdate = true; // Important to update the texture after loading
+
+    const geometry = new THREE.PlaneGeometry(5, 2.8);
+    const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.FrontSide });
+    const screen = new THREE.Mesh(geometry, material);
+    scene.add(screen);
+
+    return screen;
+}
+
+export {scene, camera, controls, ShabbatTV, PravdaTV, renderer}
