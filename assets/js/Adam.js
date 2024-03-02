@@ -39,7 +39,7 @@ function ShabbatTV() {
     //texture.format = THREE.RGBAFormat;
 
     const geometry = new THREE.PlaneGeometry(5, 2.8);
-    const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.BackSide });
+    const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide });
     screen = new THREE.Mesh(geometry, material);
     scene.add(screen);
     return screen;
