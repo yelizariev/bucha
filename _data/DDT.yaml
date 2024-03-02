@@ -255,6 +255,10 @@
       className: nomagic
       url: Beirut.html
 
+    - value: 'security/Moskva.csv'
+      className: nomagic
+      url: Moskva.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
