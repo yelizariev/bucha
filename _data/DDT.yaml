@@ -259,6 +259,10 @@
       className: nomagic
       url: Moskva.html
 
+    - value: 'security/London.csv'
+      className: nomagic
+      url: London.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
