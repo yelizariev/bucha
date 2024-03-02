@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Привет, это НАВАЛЬНЫЙ!
+title: СталинскийБОРЩ
 next: Navalny43.html
 copyright: https://theins.ru/politika/244403
 ---
