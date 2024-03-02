@@ -62,10 +62,10 @@
      // Create controls (?)
      import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
      const controls = new OrbitControls( camera, renderer.domElement );
-     controls.target = new THREE.Vector3( -163, 160, -3 );
+     controls.target = new THREE.Vector3( {{ page.landing }} );
 
      // initial position
-     camera.position.set( -160, 5, 135 );
+     camera.position.set( {{ page.takeoff }} );
      controls.update();
 
      // Load the GLTF model
@@ -84,12 +84,12 @@
      function animate() {
          requestAnimationFrame(animate);
 	       controls.update();
-         // console.log("pos", camera.position);
+         console.log("pos", camera.position);
          renderer.render(scene, camera);
      }
      animate();
 
-     /* TODO
+     /* Слово предоставляется Адаму:
         {{ content }}
       */
 
