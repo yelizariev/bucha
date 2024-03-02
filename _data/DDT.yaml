@@ -240,6 +240,10 @@
       className: nomagic
       url: Odessa.html
 
+    - value: 'security/Amsterdam.csv'
+      className: nomagic
+      url: Amsterdam.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
