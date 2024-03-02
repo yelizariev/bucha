@@ -267,9 +267,13 @@
       className: nomagic
       url: Ufa.html
 
-    - value: 'security/Washington.csv'
+    - value: 'security/NY.csv'
       className: nomagic
       url: Washington.html
+
+    - value: 'security/Washington.csv'
+      className: nomagic
+      url: NY.html
 
     - value: 'security/Шакша.csv'
       className: nomagic
