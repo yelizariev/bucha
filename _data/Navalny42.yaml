@@ -268,3 +268,7 @@
       url: 'https://www.youtube.com/watch?v=aDaaCGZz-Ok&t=3408s'
     - value: 'demo/Khangoshvili.xml'
       url: 'https://youtu.be/aDaaCGZz-Ok?t=3485'
+    - value: 'demo/КиШ.xml'
+      url: 'https://www.youtube.com/watch?v=U1URs4yG-YY'
+    - value: 'demo/Горшок.xml'
+      url: 'https://www.youtube.com/watch?v=apjT-pgU0Wg'
