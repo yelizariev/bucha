@@ -267,6 +267,10 @@
       className: nomagic
       url: Ufa.html
 
+    - value: 'security/Washington.csv'
+      className: nomagic
+      url: Washington.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
