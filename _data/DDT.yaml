@@ -420,3 +420,9 @@
 
     - value: Статский-Советник/Упячка.xml
       url: html.html
+
+    - value: Доктор/Жываго.xml
+      url: Pasternak.html
+
+    - value: Доктор/Навальный.xml
+      url: Навальный.html
