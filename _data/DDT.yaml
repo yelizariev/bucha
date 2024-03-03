@@ -283,6 +283,10 @@
       className: nomagic
       url: Berlin.html
 
+    - value: 'security/Petrograd.csv'
+      className: nomagic
+      url: Petrograd.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
