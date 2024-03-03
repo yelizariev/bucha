@@ -287,6 +287,10 @@
       className: nomagic
       url: Petrograd.html
 
+    - value: 'security/Namur.csv'
+      className: nomagic
+      url: Namur.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:

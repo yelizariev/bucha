@@ -8,11 +8,11 @@ const scene = new THREE.Scene();
    the light was good, and he separated the light from the darkness. God
    called the light “day,” and the darkness he called “night.” And there was
    evening, and there was morning—the first day. */
-const light = new THREE.AmbientLight( 0xffffff );
+const light = new THREE.AmbientLight( 0xff0000 );
 scene.add( light );
 
 // Create a camera
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
 
 // Create a renderer
 const renderer = new THREE.WebGLRenderer();
@@ -25,7 +25,7 @@ const controls = new OrbitControls( camera, renderer.domElement );
 
 
 
-function ShabbatTV() {
+function ShabbatTV(geometry, rotation) {
     // Play Video
     const exodus = document.getElementById( 'exodus' );
     exodus.play();
@@ -38,22 +38,22 @@ function ShabbatTV() {
     texture.magFilter = THREE.LinearFilter;
     //texture.format = THREE.RGBAFormat;
 
-    const geometry = new THREE.PlaneGeometry(5, 2.8);
     const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide });
     screen = new THREE.Mesh(geometry, material);
+    screen.rotation.y = rotation;
     scene.add(screen);
     return screen;
 }
 
-function PravdaTV() {
+function PravdaTV(geometry, rotation) {
     const stalin = document.getElementById( 'stalin' );
 
     const texture = new THREE.Texture(stalin);
     texture.needsUpdate = true; // Important to update the texture after loading
 
-    const geometry = new THREE.PlaneGeometry(5, 2.8);
     const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.FrontSide });
     const screen = new THREE.Mesh(geometry, material);
+    screen.rotation.y = rotation;
     scene.add(screen);
 
     return screen;
