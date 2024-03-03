@@ -1,0 +1,12 @@
+---
+layout: Adam
+portal: https://thepiratecircus.com/Namur/scene.gltf
+takeoff: "-563, 385, 312"
+landing: "433, 500, -180"
+ShabbatTV: "433, 360, -50"
+ShabbatMP4: "https://shabbat.lamourism.com/kolobok/%D0%9A%D1%80%D1%8B%D0%BC.mp4?debug=%F0%9F%87%BA%F0%9F%87%A6"
+PravdaJPG: "https://moses.lamourism.com/mossad/gay42.jpg?jpg.debug=42"
+PravdaTV: "466, 360, -50"
+TVSize: 280, 450
+TVRotation: Math.PI / 2
+---

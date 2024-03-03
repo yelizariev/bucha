@@ -381,3 +381,6 @@
 
     - value: demo/English.xml
       url: Jerusalem.html
+
+    - value: Майдан/УкраїнськаМова.xml
+      url: Крым.html
