@@ -307,6 +307,10 @@
       className: nomagic
       url: XXX.html
 
+    - value: 'magic/Минск.csv'
+      className: nomagic
+      url: Минск.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
