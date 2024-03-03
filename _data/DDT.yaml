@@ -339,6 +339,14 @@
       className: nomagic
       url: Усович.html
 
+    - value: 'ГУЛАГ/Мемориал.csv'
+      className: nomagic
+      url: Мемориал.html
+
+    - value: 'ГУЛАГ/Навальный.csv'
+      className: nomagic
+      url: Кац.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
