@@ -279,6 +279,10 @@
       className: nomagic
       url: Шакша.html
 
+    - value: 'security/Berlin.csv'
+      className: nomagic
+      url: Berlin.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
