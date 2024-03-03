@@ -331,6 +331,10 @@
       className: nomagic
       url: Балабанов.html
 
+    - value: 'ГУЛАГ/ЭхоМосквы.csv'
+      className: nomagic
+      url: ЭхоМосквы.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
