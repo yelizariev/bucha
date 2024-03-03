@@ -402,3 +402,9 @@
 
     - value: Жизнь/Любовь.xml
       url: Любовь.html
+
+    - value: Жизнь/Равенство.xml
+      url: Хуй.html
+
+    - value: Упячка/Равенство.xml
+      url: Упячка.html
