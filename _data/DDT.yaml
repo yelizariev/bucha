@@ -299,6 +299,10 @@
       className: nomagic
       url: Odoo.html
 
+    - value: 'security/TribalGathering2020.csv'
+      className: nomagic
+      url: TribalGathering2020.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
