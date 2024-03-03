@@ -351,6 +351,22 @@
       className: nomagic
       url: КняZz.html
 
+    - value: 'Горшок/ГУЛАГ.csv'
+      className: nomagic
+      url: Habib69.html
+
+    - value: 'Горшок/Жмурки.csv'
+      className: nomagic
+      url: Жмурки.html
+
+    - value: 'Горшок/Карма.csv'
+      className: nomagic
+      url: Карма.html
+
+    - value: 'Горшок/Королёв.csv'
+      className: nomagic
+      url: Королёв.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
