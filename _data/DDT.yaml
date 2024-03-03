@@ -349,6 +349,10 @@
       className: nomagic
       url: Мемориал.html
 
+    - value: 'ГУЛАГ/Репрессии.csv'
+      className: nomagic
+      url: GULAG.html
+
     - value: 'ГУЛАГ/Навальный.csv'
       className: nomagic
       url: Кац.html
