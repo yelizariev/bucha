@@ -303,6 +303,10 @@
       className: nomagic
       url: TribalGathering2020.html
 
+    - value: 'security/XXX.csv'
+      className: nomagic
+      url: XXX.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
