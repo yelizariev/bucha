@@ -373,6 +373,10 @@
       className: nomagic
       url: Королёв.html
 
+    - value: 'Королёв/Горшок.csv'
+      className: nomagic
+      url: Альфа.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
