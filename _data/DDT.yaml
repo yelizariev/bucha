@@ -323,6 +323,10 @@
       className: nomagic
       url: Сталинград.html
 
+    - value: 'ГУЛАГ/Шарашка.csv'
+      className: nomagic
+      url: Шарашка.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
