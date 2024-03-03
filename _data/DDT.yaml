@@ -401,6 +401,9 @@
     - value: Навальный/ЯРусский.xml
       url: Бог.html
 
+    - value: Навальный/Babushka.xml
+      url: Babushka2.html
+
     - value: ЖизньВОРам/Вечно.xml
       url: Вечно.html
 
