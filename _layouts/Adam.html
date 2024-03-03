@@ -58,7 +58,7 @@ layout: Eve
      const backscreen = PravdaTV(new THREE.PlaneGeometry({{ page.PravdaSize | default: page.TVSize | default: "5, 2.8" }}), {{ page.TVRotation | default: "0"}});
      backscreen.position.set({{ page.PravdaTV }});
 
-     const screen = ShabbatTV(new THREE.PlaneGeometry({{ default: page.TVSize | default: "5, 2.8" }}), {{ page.TVRotation | default: "0"}});
+     const screen = ShabbatTV(new THREE.PlaneGeometry({{ page.TVSize | default: "5, 2.8" }}), {{ page.TVRotation | default: "0"}});
      screen.position.set({{ page.ShabbatTV }});
  });
 
