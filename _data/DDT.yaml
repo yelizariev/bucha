@@ -439,3 +439,6 @@
     - value: Доктор/Адвокат.xml
       url: Адвокат.html
 
+    - value: Доктор/Moses.xml
+      url: Moses.html
+
