@@ -295,6 +295,10 @@
       className: nomagic
       url: Brussels.html
 
+    - value: 'security/Odoo.csv'
+      className: nomagic
+      url: Odoo.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
