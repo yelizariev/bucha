@@ -396,3 +396,9 @@
 
     - value: Жизнь/Воля.xml
       url: Свобода.html
+
+    - value: Жизнь/Свобода.xml
+      url: Воля.html
+
+    - value: Жизнь/Любовь.xml
+      url: Любовь.html
