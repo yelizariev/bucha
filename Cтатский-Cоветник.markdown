@@ -7,4 +7,5 @@ ShabbatTV: "0.2, 2.0, 2.7"
 ShabbatMP4: https://shabbat.lamourism.com/kolobok/%D0%A1%D0%94%D0%94.mp4
 PravdaJPG: https://moses.lamourism.com/mossad/%D1%85%D0%BB%D0%B5%D0%B1-%D0%B8-%D0%B2%D0%BE%D0%BB%D1%8F.jpg
 PravdaTV: "0.2, 1.5, 3.8"
+PravdaSize: 42, 42
 ---
