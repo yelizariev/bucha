@@ -395,6 +395,9 @@
     - value: Майдан/УкраїнськаМова.xml
       url: Крым.html
 
+    - value: Майдан/Babushka.xml
+      url: Babushka.html
+
     - value: Навальный/ЯРусский.xml
       url: Бог.html
 
