@@ -347,6 +347,10 @@
       className: nomagic
       url: Кац.html
 
+    - value: 'ГУЛАГ/Горшок.csv'
+      className: nomagic
+      url: КняZz.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
