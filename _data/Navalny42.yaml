@@ -268,6 +268,8 @@
       url: 'https://youtu.be/aDaaCGZz-Ok?t=3191'
     - value: 'demo/ФСО.xml'
       url: 'https://www.youtube.com/watch?v=aDaaCGZz-Ok&t=3408s'
+    - value: 'demo/СлужбаБезпекиУкраїни.xml'
+      url: 'СБУ.html'
     - value: 'demo/BND.xml'
       url: 'BND.html'
     - value: 'demo/Stasi.xml'
