@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Who is Mr. Putin?
-next: Navalny43.html
+next: AlexanderII.html
 copyright: https://www.youtube.com/watch?v=sQYUzPM135Q&t=131s
 ---
 
