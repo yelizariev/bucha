@@ -5,5 +5,5 @@ next: welcome.html
 copyright: https://meduza.io/feature/2024/02/24/75-tysyach-pogibshih-rossiyskih-soldat
 ---
 
-[![](bucha.jpg)](bucha.mp4)
+[![](bucha.jpg)](Bucha.html)
 

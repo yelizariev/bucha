@@ -261,6 +261,10 @@
       className: nomagic
       url: Beirut.html
 
+    - value: 'security/Bucha.csv'
+      className: nomagic
+      url: Bucha.html
+
     - value: 'security/Moskva.csv'
       className: nomagic
       url: Moskva.html
