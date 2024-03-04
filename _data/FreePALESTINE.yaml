@@ -50,7 +50,7 @@
 - comment: '# any module necessary for this one to work correctly'
   key: depends
   value: |
-    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/porn/FreePALESTINE.mp4?debug=🇮🇱" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+    ['<a class="nomagic" title="Are you paying attention?" href="Hezbollah?debug=🇱🇧" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
   newline: true
 
 - comment: '# always loaded'
@@ -58,10 +58,10 @@
   value:
     - value: '# security/ir.model.access.csv'
       className: nomagic
-      url: 'https://moses.lamourism.com/porn/masada.mp4?debug=🪬'
+      url: html.html
     - value: 'views/views.xml'
       className: nomagic
-      url: https://moses.lamourism.com/
+      url: IDF.html
     - value: 'views/templates.xml'
       className: nomagic
       url: https://perestroika-2.com/
