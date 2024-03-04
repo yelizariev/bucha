@@ -212,10 +212,10 @@
   content: true
 
 - key: author
-  value: FreeNAVALNY
+  value: "Юра музыкант"
 - key: website
   value: stalin.memo.ru
-  url: Кац.html
+  url: KGB.html
 - comment: >
     # Categories can be used to filter modules in modules listing
     <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=🐇">aliyah.odooism.com</a> for the full list

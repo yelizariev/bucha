@@ -1,8 +1,8 @@
 ---
 layout: home
-title: СталинскийБОРЩ
+title: Who is Mr. Putin?
 next: Navalny43.html
-copyright: https://theins.ru/politika/244403
+copyright: https://www.youtube.com/watch?v=sQYUzPM135Q&t=131s
 ---
 
-[![](https://perestroika-2.com/images/prison.jpg)](KGB.html)
+[![](https://perestroika-2.com/images/prison.jpg)](Кац.html)
