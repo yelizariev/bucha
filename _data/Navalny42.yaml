@@ -258,6 +258,8 @@
       url: 'https://www.youtube.com/watch?v=CugLkIyn_vc&t=17s'
     - value: 'demo/MI6.xml'
       url: 'https://www.youtube.com/watch?v=aDaaCGZz-Ok&t=2425s'
+    - value: 'demo/CNI.xml'
+      url: 'CNI.html'
     - value: 'demo/VSSE.xml'
       url: 'https://youtu.be/aDaaCGZz-Ok?t=2483'
     - value: 'demo/KOLOBOK.xml'
