@@ -61,7 +61,7 @@
       url: html.html
     - value: 'views/views.xml'
       className: nomagic
-      url: IDF.html
+      url: IDF.html?debug=🇮🇱
     - value: 'views/templates.xml'
       className: nomagic
       url: https://perestroika-2.com/
