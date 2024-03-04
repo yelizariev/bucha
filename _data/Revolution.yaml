@@ -221,6 +221,8 @@
 
   key: category
   value: Ragnarøkkr
+  className: nomagic
+  url: Crazy.html
 
 - key: version
   value: 17.0
