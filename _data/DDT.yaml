@@ -102,13 +102,13 @@
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/>А смерть считает до семи,
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
+    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
+    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
+    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
+    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
+    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
+    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/>И утирает сопли нам.
-    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-    <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
@@ -142,7 +142,6 @@
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
@@ -156,7 +155,6 @@
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
-    <br/>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
     <br/><span class="white">❤❤❤ ❤</span><span class="red">❤❤ 💋 ❤❤</span><span class="white">❤ ❤❤❤</span>
@@ -288,6 +286,10 @@
     - value: 'security/Шакша.csv'
       className: nomagic
       url: Шакша.html
+
+    - value: 'security/Казантип.csv'
+      className: nomagic
+      url: KaZantip.html
 
     - value: 'security/Berlin.csv'
       className: nomagic
