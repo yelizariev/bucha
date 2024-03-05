@@ -291,6 +291,10 @@
       className: nomagic
       url: KaZantip.html
 
+    - value: 'security/Казантип2.csv'
+      className: nomagic
+      url: KaZantip2.html
+
     - value: 'security/Berlin.csv'
       className: nomagic
       url: Berlin.html
