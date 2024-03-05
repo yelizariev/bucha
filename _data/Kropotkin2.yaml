@@ -1,0 +1,75 @@
+- key: name
+  value: |
+    Дурной сон. Я кричу на свет фонарика в темноте: увольняйте Хабиба, а не меня. Просыпаюсь. 
+    <br/>
+    <br/>Я сижу в ресторане. Столик номер 101. Передо мной Аннушка. Как на женщину лёгкого поведения на неё смотрит официант. Взгляд у него такой, словно он хочет сказать "нашла себе дурачка?". 
+    <br/>
+    <br/>Я встаю на стол, чтобы убежать от них. Но стол становится все длиннее и длиннее. 
+    <br/>
+    <br/>В конце стола сидит Путин и объявляет войну украинским геям.
+    <br/>
+    <br/>Я разбегаюсь и пинаю мяч. Он перелетает через забор в Секторе Газа. Начинается война.
+    <br/>
+    <br/>Кто выключил свет? Открываю глаза. Я на ночном пляже. Передо мной всё тот же официант. Смотрю на себя со стороны.
+    <br/>
+    <br/>Какой-то контуженный чувак пытается снять девочку на фестивале: "знаешь, вообще-то Я уже не дурачок".
+    <br/>
+    <br/>Пощёчина. Пляжный песок. За мной постоянно ходят ортодоксальные евреи и что-то объясняют про шаббат. 
+    <br/>
+    <br/>Где-то играет психоделическая электронная музыка. Кажется меня уже отпускает. Иду на звук музыки.
+    <br/>
+    <br/>На сцене за диджейским пультом стоит голый Антони. Он крутит какой-то трек про Палестину. Его вертушки также раскрашены в цвета оду.
+    <br/>
+    <br/>Прямо во время презентации врываются боевики израильского государства "Джихад" и начинают  раздавать всем анальные игрушки на кончике которых нарисована фирменная буква "о".
+    <br/>
+    <br/>Антони не выдерживает и подбегает к девушке в красном хиджабе. Она открывает рот и зрители видят как изначальная буква "о" превращается в фирменную букву "d". Слева и справа к ним подбегают еще одна и две буквы "о" соответственно.
+    <br/>
+    <br/>На финальном торте зажигают свечи в форме букв odoo.
+    <br/>Фабьян произносит тост, который заканчивается на фразу "деньги не пахнут".
+    <br/>Я просыпаюсь.
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://thepiratecircus.com/
+  url: Petrograd.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: 'security/security.csv'
+      className: nomagic
+      url: Kropotkin3.html
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=www.youtube.com/watch?v=dTNg5Tt09TE&t=36s&feature=aliyah.odooism.cmo
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=perestroika-2.com/

@@ -1,0 +1,83 @@
+- key: name
+  value: |
+    РАДИОАКТИВНЫЙ ПЕПЕЛ
+    <br/>
+    <br/>— Господин Друзь, вы знаете что такое Хунсуй?
+    <br/>
+    <br/>Друзь поднимает голову наверх к источнику света.
+    <br/>
+    <br/>— Да, господин Ведущий. Хунсуй это элемент японской чайной церемония. В переводе означает "преподнесение воды"...
+    <br/>
+    <br/>Голос ведущего продолжает из темноты:
+    <br/>
+    <br/>— У вас отличные познания в японском языке, господин Друзь.
+    <br/>
+    <br/>— Стараюсь, господин Ведущий.
+    <br/>
+    <br/>— А знаете ли вы, господин Друзь, что широкую известность Хунсуй приобрела после ядерного удара по самой Херосиме? Согласно википедии, город был полностью стерт с лица Земли. Выжившие очевидцы вспоминали, что они сначала увидели вспышку яркого света, за которой последовала волна, выжигающая все вокруг. В районе эпицентра взрыва все моментально превратилось в пепел, а человеческие силуэты оставались на стенах уцелевших домов. Сразу, по разным оценкам, погибли от 70 до 100 тыс. человек. А общее общее число жертв на сегодняшний день составляет 292 325 человек.
+    <br/>
+    <br/>Друзь быстро записывает число в свой блокнотик.
+    <br/>
+    <br/>— Господин Друзь, вы успели записать? Я могу повторить: двести девяносто две ТЫСЯЧИ тристо двадцать пять ЧЕЛОВЕК. Можно продолжать?
+    <br/>
+    <br/>Друзь кивает и поднимает ручку вверх, изображая студента-первокурсника.
+    <br/>
+    <br/>— Господин Друзь, скажите честно, Я похож на Якубовича?
+    <br/>
+    <br/>— Господин Ведущий, Я не...
+    <br/>
+    <br/>Тюремный громкоговоритель прерывает их диалог: "Отряд номер 7 — на построение". Включается общий свет. Друзь, сидевший на кортах, встаёт и идет к открывшейся двери. Ведущий молча идет рядом с ним, на ходу ныкая фонарик на случай шмона.
+    <br/>
+    <br/>Они встают рядышком в строй и ждут когда дежурный начнет перекличку. Ведущий слегка наклоняется к Друзю и говорит полушепотом:
+    <br/>
+    <br/>— Сразу после бомбардировки, господин Друзь, в городе не хватало воды не только для тушения пожаров, но и людям, которые умирали от жажды. Поэтому, даже сейчас жители Херосимы очень бережно относятся к воде. Это и называется Хунсуй...
+    <br/>
+    <br/>Зеки вернулись в хату. Удача! Сегодня шмона не было. Ведущий блокирует робота и достает из тайника смартфон.
+    <br/>
+    <br/>— Уважаемые знатоки, против вас играет Иван Кропоткин из города Магадан. Вопрос записан телезрителем. Внимание на экран.
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://thepiratecircus.com/
+  url: Petrograd.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: 'security/security.csv'
+      className: nomagic
+      url: Kropotkin17.html
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=www.youtube.com/watch?v=dTNg5Tt09TE&t=36s&feature=aliyah.odooism.cmo
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=perestroika-2.com/

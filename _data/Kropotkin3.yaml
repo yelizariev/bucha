@@ -1,0 +1,72 @@
+- key: name
+  value: |
+    Дурной сон.
+    <br/>
+    <br/>Полицейский участок города Намюр. Комната для допросов. За компьютером сидит Байден и записывает мои слова. Рядом сидит прокурорский стажёр Биби. В темной комнате за односторонним зеркалом стоят питон-программисты Odoo. Биби спрашивает меня на иврите:
+    <br/>
+    <br/>— Так вы, говорите, царь, великий государь всея Руси?
+    <br/>
+    <br/>Байден печатает вопрос, не глядя на радужную клавиатуру. Биби продолжает:
+    <br/>
+    <br/>— Ваше превосходительство, кого прикажите отправить в места не столь отдаленные на этот раз?
+    <br/>
+    <br/>Включается воздушная тревога. Я ложусь на пол рядом с великими вождями. Взрыв. Блекаут. Из-за зеркала зажигается фонарик, который светит прямо на меня. Затем ещё один. И ещё, ещё, ещё. Тысячи фонариков, направлены на меня. Я пытаюсь убежать и закрыться в своей детской комнате. Рука Байдена просачивается через дверь и затягивает меня обратно в темноту кабинета №101. Я слышу смех Биби. Кричу им сквозь свет фонариков:
+    <br/>
+    <br/>— Господин Ведущий, мы так не договаривались.
+    <br/>
+    <br/>Фонарики собираются в огромное лицо моего криминального брата. Летающая маска орёт на меня:
+    <br/>— Зачем ты разрезал ножницами свои шортики! Ты ненормальный что ли???
+    <br/>
+    <br/>В ужасе поднимаю руки к небу и прошу у Бога спасения:
+    <br/>— Господин физрук, разрешите выйти в туалет!!!
+    <br/>
+    <br/>Я захожу в туалет и начинаю писать, но оказывается, что это не туалет, а закулисье Поля Чудес. Я надеваю женские трусики и выношу в студию две шкатулки. Возле барабана сидит медсестра из районной поликлиники, которая принимает анализы мочи. Грудастая женщина читает моё направление от психотерапевта:
+    <br/>— Ваша фамилия... Что она означает?
+    <br/>
+    <br/>Я открываю Библию, чтобы найти ответ, но там всё на арабском. Не в силах более понимать происходящее, Я поднимаю глаза и умоляюще прошу мать русской демократии приготовить мне котлеты по-киевски. Валерия Новодворская отвечает:
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://thepiratecircus.com/
+  url: Petrograd.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: 'security/security.csv'
+      className: nomagic
+      url: Kropotkin5.html
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=www.youtube.com/watch?v=dTNg5Tt09TE&t=36s&feature=aliyah.odooism.cmo
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=perestroika-2.com/

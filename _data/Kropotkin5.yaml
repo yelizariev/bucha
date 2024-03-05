@@ -1,0 +1,71 @@
+- key: name
+  value: |
+    Хабиб? Очень странно. Он мне снился несколько дней назад.
+    <br/>
+    <br/>Я заселяюсь в хостел Stay Okay. На ресепшене стоит моя соседка из Магадаскара. Она даёт ключ от первого номера на первом этаже. Из душа выходит голый Байден, но Биби успевает его предупредить, что в номере появился новый сосед. Президент США надевает пиджак и мои ортопедические чулки. Мы играем в дурака. Агент Моссада раздаёт всем по шесть карт. Я объясняю правила: самая слабая карта это шестерка, но у неё есть супер-сила — шестерка бьёт туза. Финал. У Байдена на руках самый слабый козырь. Биби ходит с туза, но Байдену нечем крыть. Незаметно от Биби Я передаю президенту США карту Джокера и в считанные секунды принимаю ислам. Шоколадные питон-программисты заносят вращающийся шаббат-стол. Байден хочет запрыгнуть на сектор приз, но Биби кричит, что такой буквы нет в арабском алфавите. Махмуд Абас объявляет рекламную паузу. Уважаемые знатоки Поля Чудес начинают исполнять танец Шахерезады. За диджейским пультом стоит Хабиб и вертит священную книгу. Стоп-игра! На Поле Чудес врываются боевики израильского государства "Джихад". Арт-шахиды  объявляют новые правила игры:
+    <br/>
+    <br/>Ваш король во гробу будет тих и черен.
+    <br/>Голова его превратится в череп.
+    <br/>В нём не будет глаз и отвиснет челюсть.
+    <br/>Отовсюду сразу полезут черви.
+    <br/>Отовсюду сразу полезут черти.
+    <br/>Всё, пора уводить детей.
+    <br/>Если финиш датирован днём вчерашним.
+    <br/>Если замок пуст и погибла башня.
+    <br/>Если жизни нет – умирать не страшно.
+    <br/>Много будет ещё смертей…
+    <br/>
+    <br/>И король в феврале не дождался марта.
+    <br/>Ему не хотелось ни шаха, ни мата.
+    <br/>Он посмотрел на них и сказал.
+    <br/>«Ребята, пока вы дохнете от тоски.
+    <br/>Ваши портреты давно превратились в шаржи.
+    <br/>Это как с чужой королевой затеять шашни.
+    <br/>Это не шахматы – Это шашки»
+    <br/>Он перепрыгнул их и ушёл с доски…
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://thepiratecircus.com/
+  url: Petrograd.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: 'security/security.csv'
+      className: nomagic
+      url: Kropotkin7.html
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=www.youtube.com/watch?v=dTNg5Tt09TE&t=36s&feature=aliyah.odooism.cmo
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=perestroika-2.com/
