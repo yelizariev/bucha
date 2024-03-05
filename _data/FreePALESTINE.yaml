@@ -64,10 +64,10 @@
       url: IDF.html?debug=🇮🇱
     - value: 'views/templates.xml'
       className: nomagic
-      url: feminism0.html
+      url: feminism.html
     - value: 'views/love.xml'
       className: nomagic
-      url: freedom.html
+      url: freedom0.html
     - value: 'hijab/love.xml'
       className: nomagic
       url: hijab.html
