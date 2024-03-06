@@ -395,6 +395,10 @@
       className: nomagic
       url: Лукашенко.html
 
+    - value: 'Берия/Горшок.csv'
+      className: nomagic
+      url: Берия.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
