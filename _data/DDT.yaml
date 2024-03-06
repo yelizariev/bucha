@@ -443,6 +443,9 @@
     - value: Жизнь/Любовь.xml
       url: Любовь.html
 
+    - value: Жизнь/Война.xml
+      url: Война.html
+
     - value: Жизнь/Равенство.xml
       url: Хуй.html
 
