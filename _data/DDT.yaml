@@ -446,6 +446,9 @@
     - value: Жизнь/Война.xml
       url: Война.html
 
+    - value: Жизнь/Пенсионеров.xml
+      url: Пенсионеры.html
+
     - value: Жизнь/Равенство.xml
       url: Хуй.html
 
