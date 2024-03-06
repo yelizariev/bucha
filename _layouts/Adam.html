@@ -16,7 +16,7 @@ layout: Eve
     <source id="bible" src="{{ page.ShabbatMP4 }}" type="video/mp4">
 </video>
 
-<img id="stalin" style="display:none" crossorigin="anonymous" src="{{ page.PravdaJPG }}"/>
+<img id="stalin" style="display:none" crossorigin="anonymous" src="{{ page.PravdaJPG | split: ',' | first }}"/>
 
 
 <script type="module">
@@ -51,6 +51,23 @@ layout: Eve
          renderer.render(scene, camera);
      }
      animate();
+
+     const pravda = "{{ page.PravdaJPG }}".split(",");
+
+     // Get a reference to the image element
+     const img = document.getElementById("stalin");
+
+     // Function to update the src attribute of the image every minute
+     function updateImageSrc() {
+         // Select a random URL from the pravda array
+         const randomIndex = Math.floor(Math.random() * pravda.length);
+
+         // Set the src attribute of the image to the randomly selected URL
+         img.src = pravda[randomIndex];
+     }
+
+     // Call the updateImageSrc function every minute
+     setInterval(updateImageSrc, 60000); // 60000 milliseconds = 1 minute
  }
 
  document.addEventListener("DOMContentLoaded", gogogo);
