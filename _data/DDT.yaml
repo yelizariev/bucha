@@ -413,6 +413,9 @@
     - value: Майдан/УкраїнськаМова.xml
       url: Крым.html
 
+    - value: Майдан/Кавказ.xml
+      url: Кавказ.html
+
     - value: Майдан/Sinai.xml
       url: Sinai.html
 
