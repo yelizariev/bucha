@@ -5,7 +5,7 @@ takeoff: "-563, 385, 312"
 landing: "433, 500, -180"
 ShabbatTV: "433, 360, -50"
 ShabbatMP4: https://moses.lamourism.com/porn/%D0%BF%D1%83%D1%82%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B5%D0%BD%D1%81%D0%B8%D0%BE%D0%BD%D0%B5%D1%80%D1%8B.mp4
-PravdaJPG: https://shabbat.lamourism.com/kolobok/AlexanderII.jpg
+PravdaJPG: https://shabbat.lamourism.com/kolobok/%D0%9F%D1%8C%D1%8E%D1%82-%D0%B8-%D0%92%D0%BE%D1%80%D1%83%D1%8E%D1%82.jpg
 PravdaTV: "466, 360, -50"
 TVSize: 280, 450
 TVRotation: Math.PI / 2

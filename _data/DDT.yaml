@@ -485,3 +485,6 @@
     - value: Доктор/TV.xml
       url: TV.html
 
+    - value: Доктор/Starlink.xml
+      url: Starlink.html
+
