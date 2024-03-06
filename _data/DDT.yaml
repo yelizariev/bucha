@@ -488,3 +488,6 @@
     - value: Доктор/Starlink.xml
       url: Starlink.html
 
+    - value: Доктор/Experience.xml
+      url: OdooExperience.html
+
