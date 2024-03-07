@@ -279,6 +279,10 @@
       className: nomagic
       url: Washington.html
 
+    - value: 'security/Tehran.csv'
+      className: nomagic
+      url: Tehran.html
+
     - value: 'security/Washington.csv'
       className: nomagic
       url: NY.html
@@ -290,6 +294,10 @@
     - value: 'security/Казантип.csv'
       className: nomagic
       url: KaZantip.html
+
+    - value: 'security/Авдеевка.csv'
+      className: nomagic
+      url: Авдеевка.html
 
     - value: 'security/Казантип2.csv'
       className: nomagic
