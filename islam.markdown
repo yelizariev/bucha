@@ -5,6 +5,6 @@ takeoff: "-0.14, 1.65, -3.76"
 landing: "0, 1.32, -2.58"
 ShabbatTV: "0.2, 1.5, 3.7"
 ShabbatMP4: https://shabbat.lamourism.com/kolobok/IRGC.mp4?debug=🇱🇧
-PravdaJPG: https://shabbat.lamourism.com/kolobok/Hezbollah.png?debug=%F0%9F%87%AE%F0%9F%87%B7
+PravdaJPG: https://shabbat.lamourism.com/kolobok/1936.jpg?debug=%F0%9F%87%B1%F0%9F%87%A7
 PravdaTV: "0.2, 1.5, 3.8"
 ---
