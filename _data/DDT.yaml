@@ -283,6 +283,10 @@
       className: nomagic
       url: Tehran.html
 
+    - value: 'security/Jaffa.csv'
+      className: nomagic
+      url: Jaffa.html
+
     - value: 'security/Washington.csv'
       className: nomagic
       url: NY.html
