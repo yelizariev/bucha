@@ -315,6 +315,10 @@
       className: nomagic
       url: Petrograd.html
 
+    - value: 'security/НижнийНовгород.csv'
+      className: nomagic
+      url: НижнийНовгород.html
+
     - value: 'security/Namur.csv'
       className: nomagic
       url: Namur.html

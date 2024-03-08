@@ -2,7 +2,7 @@
 layout: python
 title: xxx
 next: https://www.odoo.com/r/HRGuidebook
-copyright: https://moses.lamourism.com/exodus/Genesis2:15-17.mp4
+copyright: Paris.html
 ---
 
 """
