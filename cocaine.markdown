@@ -30,7 +30,7 @@ copyright: Paris.html
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;Dear Ivan,
 <br/>&nbsp;&nbsp;
-<br/>&nbsp;&nbsp;Following our conversation on Tuesday, February 24, 2022 with Fabien (CEO) and Antony (CTO) we confirm our warning in written warning.
+<br/>&nbsp;&nbsp;Following our conversation on Tuesday, February 24, 2022 with Benafi (CEO) and Taynon (CTO) we confirm our warning in written warning.
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;We have received complaints from <s>multiple female employees</s> Habib69 who feels insecure, and harassed because of inappropriate behaviors. That includes:
      &nbsp;&nbsp;
