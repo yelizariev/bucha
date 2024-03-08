@@ -22,17 +22,17 @@ copyright: Paris.html
 <br/>      - relational (one2many, many2one, many2many)
 <br/>      - functional
 
-<br/>&nbsp;&nbsp;Odoo SA
-<br/>&nbsp;&nbsp;Chaussée de Namur 40
-<br/>&nbsp;&nbsp;1367 Grand-Rosière
+<br/>&nbsp;&nbsp;ООО "Овуляция Колобка"
+<br/>&nbsp;&nbsp;Мелеузовская 29-29
+<br/>&nbsp;&nbsp;450069 Шакша
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;Subject: Warning
 <br/>&nbsp;&nbsp;
 <br/>&nbsp;&nbsp;Dear Ivan,
 <br/>&nbsp;&nbsp;
-<br/>&nbsp;&nbsp;Following our conversation on Tuesday, February 24, 2022 with Fabien Pinckaers (CEO) and Antony Lessuise (CTO) we confirm our warning in written warning.
+<br/>&nbsp;&nbsp;Following our conversation on Tuesday, February 24, 2022 with Fabien (CEO) and Antony (CTO) we confirm our warning in written warning.
 <br/>&nbsp;&nbsp;
-<br/>&nbsp;&nbsp;We have received complaints from <s>multiple female employees</s> Habib who feels insecure, and harassed because of inappropriate behaviors. That includes:
+<br/>&nbsp;&nbsp;We have received complaints from <s>multiple female employees</s> Habib69 who feels insecure, and harassed because of inappropriate behaviors. That includes:
      &nbsp;&nbsp;
 <br/>
 <br/>&nbsp;&nbsp;<span style="color:red">x x x x x x x x x x x x x x x x x x</span>
