@@ -415,6 +415,10 @@
       className: nomagic
       url: Берия.html
 
+    - value: 'Лобко/Горшок.csv'
+      className: nomagic
+      url: Лобко.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
@@ -480,6 +484,9 @@
 
     - value: Упячка/Поле-Чудес.xml
       url: Поле-Чудес.html
+
+    - value: Упячка/Листьев.xml
+      url: Листьев.html
 
     - value: Упячка/Статский-Советник.xml
       url: Cтатский-Cоветник.html
