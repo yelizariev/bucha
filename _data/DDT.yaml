@@ -419,6 +419,10 @@
       className: nomagic
       url: Лобко.html
 
+    - value: 'Лобко/Лобко.csv'
+      className: nomagic
+      url: Лобко2.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
