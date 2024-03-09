@@ -443,6 +443,10 @@
       className: nomagic
       url: Лобко2.html
 
+    - value: 'ДДТ.csv'
+      className: nomagic
+      url: ДДТ.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
