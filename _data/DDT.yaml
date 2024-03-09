@@ -427,6 +427,14 @@
       className: nomagic
       url: Hebrew.html
 
+    - value: 'Лобко/Donatello/Лобко.csv'
+      className: nomagic
+      url: Hebrew2.html
+
+    - value: 'Лобко/Leonardo/Лобко.csv'
+      className: nomagic
+      url: Hebrew3.html
+
     - value: 'Лобко/Лобко.csv'
       className: nomagic
       url: Лобко2.html
