@@ -423,6 +423,14 @@
       className: nomagic
       url: Лобко2.html
 
+    - value: 'Лобко/Michelangelo/Лобко.csv'
+      className: nomagic
+      url: Hebrew.html
+
+    - value: 'Лобко/Лобко.csv'
+      className: nomagic
+      url: Лобко2.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
