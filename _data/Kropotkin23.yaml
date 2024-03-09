@@ -1,0 +1,62 @@
+- key: name
+  value: |
+    СВОБОДУ АНДЖЕЛЕ ДЭВИС!
+    <br/>События, происходящие сейчас в Палестине можно очень просто объяснить в терминах русской философской доктрины, зашифрованной в карточной игре "Дурак".
+    <br/>
+    <br/>Вообще, русский культ дурака это и есть та дубина, которая испокон веков защищает Россию в самые трудные периоды нашей истории. Никакое НАТО никогда не одолеет русских мужиков, которые с детства изучали и доводили до автоматизма различные тактики этой тюремной игры.
+    <br/>
+    <br/>"Дурак" это двойственная русская суперсила. С одной стороны, в этой игре можно слить всю злость и обиду на человека, а можно наоборот — помочь другу не остаться в дураках; можно поддаваться соседке по парте, а можно наоборот — собрать все козыри и красиво пиздить соперника.
+    <br/>
+    <br/>Постепенная передача дураку всех козырей это классический русский этюд. Русские пацаны впитывают эти знания вместе с молоком русскоговорящей матери, вместе со стаканом водки русскопьющего отца, вместе с дешёвым пивом из КБ. Для наших западных партнёров, однако, стоит сделать небольшой экскурс в правила останкинского капитал шоу Поле Чудес.
+    <br/>
+    <br/>Вся фишка Поля Чудес заключается в том, что финалист карточной игры "Дурак" получает от Якубовича все желанные козыри, но они тут же превращаются в дырку от бублика. Самый изящный супер финал, однако, получается в тех случаях, когда, отдав врагу все свои козыри, победитель остаётся с одной лишь шестёркой.
+    <br/>
+    <br/>Как Я недавно объяснял Байдену, шестёрка это самая слабая карта. Но даже шестёрка может оставить оппонента в дураках, если воспользоваться инициативой и в качестве финального хода повесить дураку красивые погоны на плечи.
+    <br/>
+    <br/>Если же дурак всё ещё продолжает играть, то можно даже повысить его в звании, но для этого нужна семерка.
+
+  newline: true
+  typed: true
+
+- key: summary
+  summary: true
+  newline: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://thepiratecircus.com/
+  url: Petrograd.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://lamourism.com/?debug=thepiratecircus.com/?debug=assets">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+
+- key: version
+  value: 17.0
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html" onclick="window.location.href='https://lamourism.com/?debug=https://yelizariev.github.io/odoo/development/2015/04/17/source-diving.html'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: 'security/security.csv'
+      className: nomagic
+      url: https://sorokin.lenta.ru/
+    - value: 'views/views.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=www.youtube.com/watch?v=dTNg5Tt09TE&t=36s&feature=aliyah.odooism.com
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: https://lamourism.com/?debug=perestroika-2.com/
