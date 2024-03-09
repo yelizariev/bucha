@@ -447,6 +447,10 @@
       className: nomagic
       url: ДДТ.html
 
+    - value: 'ДДТ2.csv'
+      className: nomagic
+      url: ДДТ2.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
