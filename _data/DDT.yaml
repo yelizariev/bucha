@@ -451,6 +451,10 @@
       className: nomagic
       url: ДДТ2.html
 
+    - value: 'ДДТ3.csv'
+      className: nomagic
+      url: ДДТ3.html
+
 - comment: '# only loaded in demonstration mode'
   key: demo
   value:
