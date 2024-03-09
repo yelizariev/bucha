@@ -435,6 +435,10 @@
       className: nomagic
       url: Hebrew3.html
 
+    - value: 'Лобко/XXX/Лобко.csv'
+      className: nomagic
+      url: Hebrew_.html
+
     - value: 'Лобко/Лобко.csv'
       className: nomagic
       url: Лобко2.html
