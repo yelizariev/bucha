@@ -5,4 +5,4 @@ next: Aliyah.html
 copyright: Michelangelo.html
 ---
 
-[![](https://moses.lamourism.com/mossad/princess.jpg)](https://perestroika-2.com/images/%F0%9F%98%8D.jpg)
+[![](https://moses.lamourism.com/mossad/princess.jpg)](Matthew7_7.html)
