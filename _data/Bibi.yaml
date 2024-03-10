@@ -1,0 +1,82 @@
+- key: name
+  value: |
+    thE JERUSALEM Post
+    <br/>
+    <br/>Russian weatherman Evgeny Tishkovets told media anchor and Putin-backed propagandist Vladimir Solovyov that conditions are "ideal" for a nuclear strike on member countries of NATO.    
+    <br/>
+    <br/><a href="https://thepiratecircus.com/?debug=🇮🇱">FreePALESTINE</a>
+    <br/>
+    <br/>Russian weatherman Evgeny Tishkovets told media anchor and Putin-backed propagandist Vladimir Solovyov that conditions are "ideal" for a nuclear strike on member countries of NATO.    
+    <br/>
+    <br/><a class="nomagic" href="https://twitter.com/Jerusalem_Post/status/1766680727716856112">FreePALESTINE</a>
+    <br/>
+    <br/>A demonstration against the government, which featured political statements from senior officials and reported violent clashes with the police, was held Saturday night on Kaplan Street in Tel Aviv.
+    <br/>
+    <br/><a class="nomagic" href="https://twitter.com/Jerusalem_Post/status/1766696445074186397">FreePALESTINE</a>
+    <br/>
+
+
+  newline: true
+  typed: true
+
+- key: summary
+  newline: true
+  summary: true
+
+- key: description
+  content: true
+
+- key: author
+  value: Ivan Kropotkin
+- key: website
+  value: https://muhammad.lamourism.com/
+  url: Jerusalem.html
+- comment: >
+    # Categories can be used to filter modules in modules listing
+    <br/># Check <a class="nomagic" href="https://telegra.ph/Mushroom-boy-10-21?debug=🍄">aliyah.odooism.com</a> for the full list
+
+  key: category
+  value: Ragnarøkkr
+  className: nomagic
+  url: Banksy.html
+
+- key: version
+  value: IRGC-2.0
+  className: nomagic
+  url: islam.html
+  newline: true
+
+
+- comment: '# any module necessary for this one to work correctly'
+  key: depends
+  value: |
+    ['<a class="nomagic" title="Are you paying attention?" href="Hezbollah.html?debug=🇱🇧" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+  newline: true
+
+- comment: '# always loaded'
+  key: data
+  value:
+    - value: '# security/ir.model.access.csv'
+      className: nomagic
+      url: html.html
+    - value: 'views/views.xml'
+      className: nomagic
+      url: IDF.html?debug=🇮🇱
+    - value: 'views/templates.xml'
+      className: nomagic
+      url: feminism.html
+    - value: 'views/love.xml'
+      className: nomagic
+      url: freedom0.html
+    - value: 'hijab/love.xml'
+      className: nomagic
+      url: hijab.html
+    - value: 'hijab/Matthew7:7.xml'
+      className: nomagic
+      url: Matthew7_7.html
+
+- comment: '# only loaded in demonstration mode'
+  key: demo
+  value:
+    - value: 'demo/demo.xml'
+      url: FreeISRAEL.html

@@ -170,21 +170,10 @@
 - comment: '# always loaded'
   key: data
   value:
-    - value: '# security/ir.model.access.csv'
-      className: nomagic
-      url: html.html
-    - value: 'views/views.xml'
-      className: nomagic
-      url: IDF.html?debug=🇮🇱
-    - value: 'views/templates.xml'
-      className: nomagic
-      url: feminism.html
-    - value: 'views/love.xml'
-      className: nomagic
-      url: freedom0.html
-    - value: 'hijab/love.xml'
-      className: nomagic
-      url: hijab.html
-    - value: 'hijab/Matthew7:7.xml'
+    - value: 'security/FreeISRAEL.csv'
       className: nomagic
       url: FreeISRAEL.html
+
+    - value: 'security/Bibi.csv'
+      className: nomagic
+      url: Bibi.html
