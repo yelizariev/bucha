@@ -6,3 +6,5 @@ copyright: https://arz.wikipedia.org/wiki/%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D
 ---
 
 [![](https://moses.lamourism.com/exodus/Golda.jpg)](https://twitter.com/Jerusalem_Post/status/1766680727716856112)
+
+[![](https://shabbat.lamourism.com/kolobok/TellementAviv.jpeg)](https://twitter.com/TheMossadIL/status/1766420439964721600)
