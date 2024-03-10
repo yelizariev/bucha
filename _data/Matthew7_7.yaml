@@ -181,3 +181,7 @@
     - value: 'security/FreeHEZBOLLAH.csv'
       className: nomagic
       url: https://www.jpost.com/breaking-news/article-739447
+
+    - value: 'security/FreeDUBAI.csv'
+      className: nomagic
+      url: Dubai.html
