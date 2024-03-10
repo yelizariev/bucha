@@ -177,3 +177,7 @@
     - value: 'security/Bibi.csv'
       className: nomagic
       url: Bibi.html
+
+    - value: 'security/FreeHEZBOLLAH.csv'
+      className: nomagic
+      url: https://www.jpost.com/breaking-news/article-739447
