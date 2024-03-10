@@ -185,3 +185,7 @@
     - value: 'security/FreeDUBAI.csv'
       className: nomagic
       url: Dubai.html
+
+    - value: 'security/FreeDUBAI🇦🇪.csv'
+      className: nomagic
+      url: Dubai2.html
