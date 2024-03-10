@@ -186,10 +186,14 @@
       className: nomagic
       url: Dubai.html
 
-    - value: 'security/FreeDUBAI🇦🇪.csv'
+    - value: 'security/FreeDUBAI.csv?debug=🧕😍🧕🧕'
+      className: nomagic
+      url: Odoo.html?debug=😍😍🧕😍
+
+    - value: 'security/FreeDUBAI.csv?debug=🇦🇪'
       className: nomagic
       url: Dubai2.html
 
-    - value: 'security/FreeDUBAI🧕😍🧕🧕.csv'
+    - value: 'security/SorrySAP.csv?debug=😍😍🧕😍'
       className: nomagic
-      url: Odoo.html?debug=😍😍🧕😍
+      url: oobO.html?debug=😍😍🧕😍
