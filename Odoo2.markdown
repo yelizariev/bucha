@@ -18,5 +18,5 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/baby.jpg)](https://youtu.be/8mjE2SnIPH8?t=5)
 
-[![](https://moses.lamourism.com/mossad/scheherazade.jpg)](Moses.html)
+[![](https://moses.lamourism.com/mossad/scheherazade.jpg)](https://bucha.lamourism.com/Dubai.html)
 
