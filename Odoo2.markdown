@@ -38,3 +38,7 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/Muhammad.The.Messenger.of.God.jpg)](https://www.youtube.com/watch?v=6zUxsrJqg14)
 
+[![](https://moses.lamourism.com/mossad/crossing-the-red-sea.jpg)](https://www.youtube.com/watch?v=I0cZukTFXNw)
+
+[![](https://perestroika-2.com/images/odoo.jpg)](https://www.youtube.com/watch?v=XFkzRNyygfk)
+
