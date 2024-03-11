@@ -335,6 +335,10 @@
       className: nomagic
       url: Odoo.html
 
+    - value: 'security/Odoo2.csv'
+      className: nomagic
+      url: Odoo2.html
+
     - value: 'security/TribalGathering2020.csv'
       className: nomagic
       url: TribalGathering2020.html
