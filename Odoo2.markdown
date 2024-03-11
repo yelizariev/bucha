@@ -14,4 +14,4 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/masada/mossad.jpg)](https://www.youtube.com/watch?v=0Ed1tweaOJA)
 
-[![](https://moses.lamourism.com/masada/synagogue.jpg)](https://www.youtube.com/watch?v=0Ed1tweaOJA&t=4s)
+[![](https://moses.lamourism.com/masada/synagogue.jpg)](https://www.youtube.com/watch?v=MN1M8LUQF_c)
