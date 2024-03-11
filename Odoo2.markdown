@@ -51,3 +51,7 @@ copyright: Odoo3.html
 [![](https://moses.lamourism.com/mossad/%D0%BB%D1%8F%D0%BF%D0%BE%D1%82%D0%B0.jpg)](https://vimeo.com/858908216)
 
 [![](https://shabbat.lamourism.com/kolobok/Red.jpg)](https://www.youtube.com/watch?v=uJWoy58wsmM&t=5s)
+
+[![](https://shabbat.lamourism.com/kolobok/Namur.jpg)](https://www.youtube.com/watch?v=CCD0KNtFrq0)
+
+[![](https://shabbat.lamourism.com/kolobok/Aubain.jpg)](https://youtu.be/yWr8HQayBUQ?t=7)
