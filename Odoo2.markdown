@@ -1,8 +1,17 @@
 ---
 layout: home
-title: في عصر قديم، عاشَتْ أسطورة موسى وشهيرة الشهيرة، الجميلة والأنيقة. لم تكن حياته مجرد قصة عادية، بل كانت كالحكايات الساحرة التي تجذب القلوب والعقول. ولد لهما ابن، سماه موسى، كما ورد في السجلات القديمة. ولكن هل كانت نهاية القصة؟ لا، بالطبع لا. لأن في عالم الخيال والحكايات، كل شيء ممكن، حتى السحر والمفاجآت الغير متوقعة. فلنتابع القصة ونرى ما الذي يخبئه المستقبل لموسى ولسعيه إلى السعادة في عالم سحري وخيالي
 next: Aliyah.html
 copyright: Odoo3.html
 ---
 
 [![](https://moses.lamourism.com/mossad/math-pyramids.png)](https://www.youtube.com/watch?v=bEJBoyXcj9U&t=6s)
+
+[![](https://moses.lamourism.com/mossad/pyramids.jpg)](https://youtu.be/H0lbHMlM0CU?t=18)
+
+[![](https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg)](https://youtu.be/9enP5t05wFU?t=12)
+
+[![](https://moses.lamourism.com/mossad/masada.jpg)](https://www.youtube.com/watch?v=aqHdJd39zpQ&t=15s)
+
+[![](https://moses.lamourism.com/masada/mossad.jpg)](https://www.youtube.com/watch?v=0Ed1tweaOJA)
+
+[![](https://moses.lamourism.com/masada/synagogue.jpg)](https://www.youtube.com/watch?v=0Ed1tweaOJA&t=4s)
