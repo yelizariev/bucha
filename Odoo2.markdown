@@ -32,3 +32,5 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/tzahal.jpg)](https://www.youtube.com/watch?v=ghb6eDopW8I)
 
+[![](https://moses.lamourism.com/mossad/pope.jpg)](https://www.youtube.com/watch?v=pBuptOEL_Rc)
+

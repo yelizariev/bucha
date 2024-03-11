@@ -28,11 +28,10 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-#remote_theme: piazzai/hacked-jekyll@v2.0.0
-theme: hacked-jekyll
+remote_theme: piazzai/hacked-jekyll@v2.0.0
 plugins:
   - jekyll-feed
-#  - jekyll-remote-theme
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
