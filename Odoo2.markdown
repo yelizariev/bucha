@@ -45,3 +45,8 @@ copyright: Odoo3.html
 [![](https://shabbat.lamourism.com/kolobok/%D0%94%D0%B6%D0%B8%D0%BD%D0%B8.jpg)](https://www.youtube.com/watch?v=fHiGbolFFGw)
 
 [![](https://moses.lamourism.com/mossad/discord.jpg)](https://youtu.be/YV78vobCyIo?t=14)
+
+[![](https://moses.lamourism.com/mossad/the-war-is-over-if-you-want-to.jpg)](https://www.youtube.com/watch?v=1RBDIrDWg3A)
+
+
+
