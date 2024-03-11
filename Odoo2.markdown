@@ -28,3 +28,7 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/shabbat-cafe.jpg)](https://www.youtube.com/watch?v=4z_Q-X5xmUc&t=15s)
 
+[![](https://moses.lamourism.com/mossad/we-are-not-dead.jpg)](https://www.youtube.com/watch?v=GH4ETdUeg9k)
+
+[![](https://moses.lamourism.com/mossad/tzahal.jpg)](https://www.youtube.com/watch?v=ghb6eDopW8I)
+
