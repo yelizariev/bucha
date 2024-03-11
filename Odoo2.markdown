@@ -26,3 +26,5 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/dreidel.jpg)](https://youtu.be/_7LPgWp-zkk?t=17)
 
+[![](https://moses.lamourism.com/mossad/shabbat-cafe.jpg)](https://www.youtube.com/watch?v=4z_Q-X5xmUc&t=15s)
+
