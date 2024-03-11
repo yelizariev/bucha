@@ -20,3 +20,9 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/scheherazade.jpg)](https://bucha.lamourism.com/Dubai.html)
 
+[![](https://moses.lamourism.com/mossad/triomphe.jpg)](https://bucha.lamourism.com/Dubai2.html)
+
+[![](https://moses.lamourism.com/mossad/liberty.jpg)](https://bucha.lamourism.com/Dubai.html)
+
+[![](https://moses.lamourism.com/mossad/dreidel.jpg)](https://youtu.be/_7LPgWp-zkk?t=17)
+
