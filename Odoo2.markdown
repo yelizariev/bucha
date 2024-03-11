@@ -55,3 +55,5 @@ copyright: Odoo3.html
 [![](https://shabbat.lamourism.com/kolobok/Namur.jpg)](https://www.youtube.com/watch?v=CCD0KNtFrq0)
 
 [![](https://shabbat.lamourism.com/kolobok/Aubain.jpg)](https://youtu.be/yWr8HQayBUQ?t=7)
+
+[![](https://perestroika-2.com/images/witches.jpg)](https://www.youtube.com/watch?v=e6Po2lDHD1I)
