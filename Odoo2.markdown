@@ -34,3 +34,7 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/pope.jpg)](https://www.youtube.com/watch?v=pBuptOEL_Rc)
 
+[![](https://moses.lamourism.com/mossad/gaza-tv.jpg)](https://www.youtube.com/watch?v=UVz3xR1X9RU)
+
+[![](https://moses.lamourism.com/mossad/Muhammad.The.Messenger.of.God.jpg)](https://www.youtube.com/watch?v=6zUxsrJqg14)
+
