@@ -15,3 +15,6 @@ copyright: Odoo3.html
 [![](https://moses.lamourism.com/masada/mossad.jpg)](https://www.youtube.com/watch?v=0Ed1tweaOJA)
 
 [![](https://moses.lamourism.com/masada/synagogue.jpg)](https://youtu.be/MN1M8LUQF_c?t=24)
+
+[![](https://moses.lamourism.com/mossad/baby.jpg)](https://youtu.be/8mjE2SnIPH8?t=5)
+
