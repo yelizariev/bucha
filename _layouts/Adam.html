@@ -5,7 +5,7 @@ layout: Eve
 {% assign file_name_parts = page.name | split: '.' %}
 {% assign base_file_name = file_name_parts[0] %}
 {% assign yaml_file_name = base_file_name | append: ".yaml" %}
-{% assign $data = site.data[base_file_name] %}
+{% assign data = site.data[base_file_name] %}
 
 
 <audio id="zodiak">
