@@ -1,0 +1,210 @@
+---
+layout: Eve2
+---
+
+{% assign file_name_parts = page.name | split: '.' %}
+{% assign base_file_name = file_name_parts[0] %}
+{% assign yaml_file_name = base_file_name | append: ".yaml" %}
+{% assign data = site.data[base_file_name] %}
+
+
+    <img id="image0" style="display:none" crossorigin="anonymous"/>
+    <img id="image1" style="display:none" crossorigin="anonymous"/>
+    <img id="image2" style="display:none" crossorigin="anonymous"/>
+    <img id="image3" style="display:none" crossorigin="anonymous"/>
+    <img id="image4" style="display:none" crossorigin="anonymous"/>
+    <img id="image5" style="display:none" crossorigin="anonymous"/>
+    <img id="image6" style="display:none" crossorigin="anonymous"/>
+    <img id="image7" style="display:none" crossorigin="anonymous"/>
+    <img id="image8" style="display:none" crossorigin="anonymous"/>
+    <img id="image9" style="display:none" crossorigin="anonymous"/>
+    <img id="image10" style="display:none" crossorigin="anonymous"/>
+    <img id="image11" style="display:none" crossorigin="anonymous"/>
+    <img id="image12" style="display:none" crossorigin="anonymous"/>
+
+  <audio id="zodiak">
+      <source id="cocaine" type="audio/mpeg">
+  </audio>
+
+
+  <video id="exodus1" loop crossOrigin="anonymous" playsinline style="display:none">
+      <source id="bible1" src="{{ page.Shabbat }}" type="video/mp4">
+  </video>
+
+  <video id="exodus2" loop muted crossOrigin="anonymous" playsinline style="display:none">
+      <source id="bible2" src="{{ page.Shabbat }}" type="video/mp4">
+  </video>
+
+
+
+  <script type="module">
+   import * as THREE from 'three';
+   import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+   import {ShabbatTV, PravdaTV} from "./assets/js/Adam2.js";
+   import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+   // init
+   FreePALESTINE = true;
+   const loader = new GLTFLoader();
+   const GLTF = "{{ page.portal }}";
+
+
+   const MEDIA = [
+   "{{ page.Secret | default: 'https://shabbat.lamourism.com/kolobok/PickleRick.png' }}",
+   {% for url in page.Pravda limit:12 %}
+   "{{ url }}",
+   {% endfor %}
+   {% assign remaining_urls = 12 | minus: page.Pravda.size %}
+   {% if remaining_urls > 0 %}
+   {% for i in (1..remaining_urls) %}
+   "{{ "https://perestroika-2.com/images/witches.jpg" }}",
+   {% endfor %}
+   {% endif %}
+   ];
+   const VIDEO = "{{ page.Shabbat }}";
+
+   // Create a scene
+   const scene = new THREE.Scene();
+
+   // Create a camera
+   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
+
+   // Create a blue skybox
+   const skyGeometry = new THREE.BoxGeometry(100, 100, 100);
+   const skyMaterial = new THREE.MeshBasicMaterial({ color: 0x87ceeb, side: THREE.BackSide });
+   const sky = new THREE.Mesh(skyGeometry, skyMaterial);
+   scene.add(sky);
+
+   // Create a renderer
+   const renderer = new THREE.WebGLRenderer();
+   renderer.setSize(window.innerWidth, window.innerHeight);
+   document.body.appendChild(renderer.domElement);
+
+
+
+   // Create controls
+   const controls = new OrbitControls( camera, renderer.domElement );
+
+      function gogogo() {
+          // initial position
+          camera.position.set({{ page.takeoff }});
+          controls.target = new THREE.Vector3({{ page.landing }});
+          controls.update();
+
+          // Load the GLTF model
+          loader.load(
+              GLTF,
+              function (gltf) {
+                  // finish initialization
+                  scene.add(gltf.scene);
+              },
+              undefined,
+              function (error) {
+                  console.error(error);
+              }
+          );
+
+          // Display images
+          for (let i = 0; i < MEDIA.length; i++) {
+              PravdaTV(scene, i, MEDIA[i]);
+          }
+
+          // Start animation
+          function animate() {
+              requestAnimationFrame(animate);
+              //controls.update();
+              //console.log("XYZ", camera.position, camera.rotation);
+              renderer.render(scene, camera);
+          }
+          animate();
+      }
+
+      document.addEventListener("DOMContentLoaded", gogogo);
+      let happy = false;
+      document.addEventListener("click", function(){
+          if (happy)
+              return;
+
+          // Play video
+          ShabbatTV(0, VIDEO);
+          ShabbatTV(1, VIDEO);
+
+          happy = true;
+      });
+
+</script>
+
+
+
+{{ content }}
+
+<script>/*
+###################
+#  &copy; 2024 Professeur Salim
+########################
+# GRAND PUISSANCE NATURELLE
+#########################
+# MEDIUM GUERISSEUR CLAIR VOYANT
+#########################
+#
+# Aide à résoudre plusieurs problèmes:
+# Il vous conseille, vous guide et vous oriente sur le bon chemin.
+#
+# Garantie et rapide: PAYEMENT APRES RESULTATS!!!
+#
+# SPECIALISATION:
+#
+# AMOUR: sentiments retour d'affection efficace, couple et amour, séparation et retour de l'être aimé, fidélité et harmonie dans le couple,consolider la relation actuelle des parents et la famille
+# SANTE: désenvoutement de lieux et les personnes, disfonction érectile, impuissance sexuelle, toxicomanie, alcool, maladie inconnue
+# PROTECTION: protection contre le mauvais oeil, contre l'nnemie, dangers guide et alerte à des situations dangereuses.
+# TRAVAIL: trouver du travail, vente, problème de main d'oeuvre, concurrence, attirer les clients
+# CHANCE: dans la vie, permis de conduire, réussir les examens, jeux etc...
+#
+# Résultat à 100%
+# Maximum 7 jours!
+#
+# CONTACT: +32 467 79 41 91
+# WEBSITE: https://odoomagic.odoo.com
+######################################################
+#⠀⠀⢸⣿⡇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⠉⠉⠀⠣⠈⠍⠉⢁⢃⣤⠃⠉⢀⠹⣆⠀⠀⠀⠀⠀⠀
+#⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⠀⢤⠰⢿⡄⠀⢸⡇⢻⡆⠂⠛⠁⣘⣆⠀⠀⠀⠀⠀
+#⠀⠀⢸⣿⡟⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣿⢿⣿⣿⣿⣿⠀⠸⣧⠈⣿⡌⠸⣷⠈⣿⣀⠸⣦⢸⣿⡆⠀⠀⠀⠀
+#⠀⠀⣸⣿⣧⣿⡿⣿⢿⣿⣿⣿⠁⡀⠘⣿⣿⣿⣿⣿⣿⣿⣯⣾⢏⣾⣿⠁⢿⣿⣦⠂⣿⣧⢿⣷⡄⣿⣇⢿⣿⢶⣿⡟⣿⣧⠀⠀⠀⠀
+#⠀⠀⠉⣿⣿⣿⡇⠘⢯⣿⣿⡟⠳⣿⠤⣿⣿⣿⣿⡿⠋⠘⠙⠃⣹⣿⣿⢒⣚⣿⣿⣧⢿⣿⣿⣿⠿⠻⣿⣼⣿⣸⣿⣇⣿⣿⠀⠀⠀⠀
+#⠀⠀⠀⢹⣿⣿⠇⠀⠰⣿⠻⡀⠀⠈⠉⢹⣿⣿⠇⠀⠀⠀⠀⠀⣸⣿⣿⡘⠁⠹⢿⣟⣿⣿⣿⣿⠀⠉⢸⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀
+#⠀⠀⠀⢸⣿⣿⠀⣠⠶⠛⠉⠉⠉⠑⢦⡘⣿⡏⠀⠀⠀⠀⣠⡞⢡⡼⠛⠧⡀⡀⠈⠿⣎⣿⠀⠙⡗⣠⢾⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀
+#⠀⠀⠀⠈⡿⠹⡞⠁⠀⠀⠀⠀⠀⠀⠀⠈⢿⣧⡀⢀⣠⡞⠃⠀⠈⣇⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠈⠀⠘⣿⣿⣿⣿⡿⣸⠁⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢯⠚⠋⠳⣄⠀⠀⠸⣄⣀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⠃⠃⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⣸⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠑⢆⡀⠀⠙⠦⣄⢹⡀⠀⠀⠀⠀⢀⡤⠖⠁⠀⠀⠀⠀⢸⡿⠹⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠢⣄⡀⠀⠀⠀⠀⠀⠀⠀⠉⠲⣄⡀⠈⠙⠿⣤⣤⣒⣮⣿⡄⠀⢀⠀⠀⠀⠀⣠⠋⢹⣒⡆⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠉⠲⢤⡀⠀⠀⠀⠀⠀⠀⠀⠙⠲⠴⠶⠿⠿⠿⠿⠥⠤⠤⠤⠤⠤⠤⠞⠁⠀⠀⠈⠙⢦⡄⠀⠀
+#⠀⠀⠀⠀⢸⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣾⣧⣀⠀⠀
+#⣸⠀⠀⠀⢸⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀
+#⣿⠀⠀⠀⠘⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠲⣄⣀⣤⣤⣴⠒⠒⠉⣩⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧
+#⢹⡄⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⢈⣼⣿⣿⣿⣿⣇⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⠠⠷⠒⠂⢰⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣄⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⠀⠀⠀⠀⢈⡋⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⢦⣀⣀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⠀⠀⠀⣏⡎⣧⣽⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻
+#⣿⣿⣷⣿⣼⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠰⠃⠀⢸⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡆⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿
+#⡿⣵⣾⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⣿⣿⠟⠁⠀
+#⣿⣹⡿⣻⢉⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣷⠀⠀
+#⣧⢿⠠⡷⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀
+#⣿⢠⡞⠂⠀⠀⠀⠀⠁⠀⠀⠀⠠⠀⠀⠀⠀⠀⢀⣼⠿⢟⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀
+#⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣐⣄⠈⠉⠉⣽⣻⣯⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀
+#⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⠾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢷⢿⡿⠿⠿⠿⠿⠿⠿⠿⠿⢿⡇
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣆⣈⠳⢄⣀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⢿⣾⡿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢷⣝⢯⣻⣿⣿⣿⣿⣿⣿⡏⠓⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀
+#⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣷⣿⣿⣿⣿⣿⡇⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀
+#⠐⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⡷⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀
+#⠒⠛⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣷⠃⠀⠀⠀⣠⣷⠇⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠐⠒⠢⢤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢇⠀⠀⢀⡴⢋⣠⠤⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠑⠒⠦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣶⡮⠚⠉⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣷⣶⣦⣤⣤⣀⠤⠔⠒⠒⠒⠒⠒⠠⠤⠄⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠹⡄
+#####################################################
+         */</script>
+
