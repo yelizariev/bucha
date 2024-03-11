@@ -48,5 +48,7 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/the-war-is-over-if-you-want-to.jpg)](https://www.youtube.com/watch?v=1RBDIrDWg3A)
 
+[![](https://moses.lamourism.com/mossad/%D0%BB%D1%8F%D0%BF%D0%BE%D1%82%D0%B0.jpg)](https://vimeo.com/858908216)
+
 
 
