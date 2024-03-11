@@ -10,7 +10,7 @@ copyright: Odoo3.html
 
 [![](https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg)](https://youtu.be/9enP5t05wFU?t=12)
 
-[![](https://moses.lamourism.com/mossad/masada.jpg)](https://www.youtube.com/watch?v=aqHdJd39zpQ&t=15s)
+[![](https://moses.lamourism.com/mossad/masada.jpg?debug=synagogue)](https://www.youtube.com/watch?v=aqHdJd39zpQ&t=15s)
 
 [![](https://moses.lamourism.com/masada/mossad.jpg)](https://www.youtube.com/watch?v=0Ed1tweaOJA)
 
