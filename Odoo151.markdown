@@ -17,7 +17,7 @@ Pravda:
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/1.jpg
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/67.jpeg
 
- - https://moses.lamourism.com/mossad/gay42.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/23.jpg
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/23.jpg
 
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/67.jpeg
