@@ -13,8 +13,8 @@ Pravda:
  - https://thepiratecircus.com/Inquisition/indulgentia/oobo17.jpg
  - https://thepiratecircus.com/Inquisition/indulgentia/oobo23.jpg
  - https://thepiratecircus.com/Inquisition/indulgentia/oobo7.jpg
- - https://thepiratecircus.com/Inquisition/indulgentia/oobo42.jpg
+ - https://moses.lamourism.com/mossad/baby.jpg
  - https://moses.lamourism.com/mossad/gay42.jpg
  - https://moses.lamourism.com/mossad/gay42.jpg
- - https://thepiratecircus.com/Inquisition/indulgentia/oobo42.jpg
+ - https://moses.lamourism.com/mossad/baby.jpg
 ---
