@@ -10,10 +10,10 @@ Pravda:
  - https://shabbat.lamourism.com/kolobok/Pasternak/3.jpg
  - https://perestroika-2.com/images/witches.jpg
  - https://perestroika-2.com/images/witches.jpg
- - https://shabbat.lamourism.com/kolobok/Pasternak/5.jpg
- - https://shabbat.lamourism.com/kolobok/Pasternak/7.jpg
- - https://shabbat.lamourism.com/kolobok/Pasternak/11.jpg
- - https://shabbat.lamourism.com/kolobok/Pasternak/13.jpg
+ - https://shabbat.lamourism.com/kolobok/Pasternak/3.jpg
+ - https://shabbat.lamourism.com/kolobok/Pasternak/1.jpg
+ - https://shabbat.lamourism.com/kolobok/Pasternak/1.png
+ - https://shabbat.lamourism.com/kolobok/Pasternak/17.jpg
  - https://perestroika-2.com/images/witches.jpg
  - https://perestroika-2.com/images/witches.jpg
  - https://shabbat.lamourism.com/kolobok/Pasternak/17.jpg
