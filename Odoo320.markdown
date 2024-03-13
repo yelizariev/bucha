@@ -8,15 +8,17 @@ Pravda:
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%94%D0%B6%D0%B8%D0%B3%D0%B8%D1%82.jpg
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
 
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%94%D0%B6%D0%B8%D0%B3%D0%B8%D1%82.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%94%D0%B6%D0%B8%D0%B3%D0%B8%D1%82.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%94%D0%B6%D0%B8%D0%B3%D0%B8%D1%82.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%94%D0%B6%D0%B8%D0%B3%D0%B8%D1%82.jpg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%94%D0%B6%D0%B8%D0%B3%D0%B8%D1%82.jpg
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
 
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/23.webp
 ---
