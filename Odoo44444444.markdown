@@ -6,16 +6,20 @@ landing: "2, -1.59, 1.21"
 Shabbat: https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%BE%D1%81%D0%BF%D0%B5%D1%85%D0%B8%D0%91%D0%BE%D0%B3%D0%B08.mp4?debug=🇫🇷
 Secret: https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Nestor%20Ivanovych%20Makhno.jpg
 Pravda:
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/kiev3.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/kiev2.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/kiev1.jpg
+
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/kiev7.jpg
+
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/1kiev.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/2kiev.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/3kiev.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/5kiev.jpg
+
  - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/%D0%94%D0%A3%D0%A8.jpg
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/7kiev.jpg
+
+ - https://shabbat.lamourism.com/kolobok/%F0%9F%87%BA%F0%9F%87%A6/kiev5.jpg
 ---
