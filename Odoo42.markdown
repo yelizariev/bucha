@@ -6,18 +6,20 @@ landing: "2, -1.59, 1.21"
 Shabbat: https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Tarkovsky.mp4
 Secret: https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
 Pravda:
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/1.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/2.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/31.jpg
 
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/13.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/3.jpg
 
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kremlin/Andre%C3%AF_Tarkovski.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/31.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/1.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/2.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/11.jpg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/13.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/3.jpg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/11.jpg
 ---
