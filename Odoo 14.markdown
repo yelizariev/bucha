@@ -1,0 +1,23 @@
+---
+layout: Adam2
+portal: https://shabbat.lamourism.com/kolobok/odoomagic/scene.gltf
+takeoff: "2.25, -1.69, -0.49"
+landing: "2, -1.59, 1.21"
+Shabbat: https://odooism.com/Inquisition/%D0%A7%D0%B0%D1%83%D1%88%D0%B5%D1%81%D0%BA%D1%83.mp4
+Secret: https://moses.lamourism.com/mossad/Eve.jpg
+Pravda:
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+    - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
+
+---
+
