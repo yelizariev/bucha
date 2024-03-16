@@ -1,0 +1,56 @@
+---
+layout: code2
+---
+
+{% assign file_name_parts = page.name | split: '.' %}
+{% assign base_file_name = file_name_parts[0] %}
+{% assign yaml_file_name = base_file_name | append: ".yaml" %}
+{% assign data = site.data[base_file_name] %}
+<script>
+FreePALESTINE = true;
+</script>
+
+
+<div class="comment"># -*- coding: <a class="nomagic" href="https://upyachka.io/?debug=🪬">utf-8</a> -*-</div>
+<div class="comment"># <a class="nomagic" href="{{ page.copyright | default: "https://lamourism.com/?debug=odoomagic.com" }}">License</a> MIT (<a class="nomagic" href="{{ page.next }}">https://opensource.org/licenses/MIT</a>)</div>
+<br/>
+
+{% for tv in data %}
+
+{% assign name = tv[0] | split: '.' | first %}
+
+<span class="comment"># {{ tv[1].Shabbat | split: "/" | last | url_decode }}</span>
+<br/><span class="hljs-keyword">from</span> . <span class="hljs-keyword">import</span> <a class="nomagic" href="./{{ name }}.html">{{ name }}</a>
+<div class="container m-0">
+  <!-- First row with larger "A" image and smaller "B" images -->
+    <div class="row">
+        <img src="{{ tv[1].Secret | default: 'https://shabbat.lamourism.com/kolobok/PickleRick.png' }}" class="img-fluid col-sm-2 p-0">
+        <div class="col-sm-1 p-0 d-none d-sm-block">
+            <img src="{{ tv[1].Pravda[0] }}">
+            <img src="{{ tv[1].Pravda[1] }}">
+            <img src="{{ tv[1].Pravda[2] }}">
+            <img src="{{ tv[1].Pravda[11] }}">
+        </div>
+        <div class="col-sm-1 p-0 d-none d-sm-block">
+            <img src="{{ tv[1].Pravda[5] }}">
+            <img src="{{ tv[1].Pravda[6] }}">
+            <img src="{{ tv[1].Pravda[7] }}">
+            <img src="{{ tv[1].Pravda[8] }}">
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<br/>
+<br/>
+{% endfor %}
+
+
+{{ content }}
+
+{% include python_footer.html %}
+
+<audio id="zodiak">
+    <source src="https://hirschmilch.de:7001/prog-house.mp3" type="audio/mpeg">
+</audio>
