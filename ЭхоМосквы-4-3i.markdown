@@ -5,16 +5,4 @@ takeoff: "2.25, -1.69, -0.49"
 landing: "2, -1.59, 1.21"
 Shabbat: https://mao.lamourism.com/%E5%A4%A9%E5%AE%89%E9%96%80/PussyRiot.mp4
 Secret: https://moses.lamourism.com/mossad/CCCP.jpg?debug=%E2%98%AD
-Pravda:
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
-    - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/MADE%20%F0%9F%87%A8%F0%9F%87%B3%20CHINA/Mao.jpg?debug=🪆
 ---
