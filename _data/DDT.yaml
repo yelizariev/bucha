@@ -375,6 +375,10 @@
       className: nomagic
       url: ЭхоМосквы.html
 
+    - value: 'ГУЛАГ/ЭхоМосквы2.csv'
+      className: nomagic
+      url: ЭхоМосквы2.html
+
     - value: 'ГУЛАГ/Усович.csv'
       className: nomagic
       url: Усович.html
