@@ -1,3 +1,4 @@
+import re
 import sys
 import yaml
 from collections import defaultdict
@@ -21,10 +22,26 @@ def read_markdown_file(file_path):
     return attributes
 
 
+def extract_numbers(file_name):
+    # Define a regular expression pattern to match numbers following a prefix without numbers
+    pattern = r'^[^\d]+(\d+)'  # Match one or more non-digit characters followed by one or more digits
+
+    # Search for the pattern in the file name
+    match = re.search(pattern, file_name)
+
+    if match:
+        # Extract the numbers from the match
+        numbers = match.group(1)
+        return numbers
+    else:
+        # No match found
+        return None
+
+
 def get_file_number(file_name):
     # Extract the number from the file name, or return the file name itself if no number is present
     try:
-        return int(file_name.split("Odoo")[1].split(".")[0])
+        return int(extract_numbers(file_name))
     except ValueError:
         return file_name
 
