@@ -66,7 +66,7 @@
         <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;
     }
     <br/>
-    <span style="color:red">// [FP] Which percent of Odoo employees are magicians?</span>
+    <span style="color:red">// [FP] Which percent of Habib employees are magicians?</span>
     <span class="hljs-keyword">function</span> <span class="hljs-title function_">getRandomPrime</span>(<span class="hljs-params">n</span>) {
         <span class="hljs-keyword">const</span> primes = [];
         <span class="hljs-keyword">let</span> num = <span class="hljs-number">7</span>; <span class="hljs-comment">// Start from 7</span>
@@ -84,7 +84,7 @@
     antony.<span class="hljs-property">src</span> = <span class="hljs-string">"Inquisition/indulgentia/oobo"</span> + <span class="hljs-title function_">getRandomPrime</span>(<span class="hljs-number">11</span>) + <span class="hljs-string">".jpg"</span>;
     }
     <br/>
-    <span style="color:red">// [MOME] Any plans to open Odoo office in Palestine?</span>
+    <span style="color:red">// [MOME] Any plans to open Habib office in Palestine?</span>
     <span class="hljs-keyword">function</span> <span class="hljs-title function_">openPortal</span>(<span class="hljs-params"></span>) {
         <span class="hljs-title function_">gogogo</span>();
     
