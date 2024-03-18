@@ -6,8 +6,8 @@ landing: "2, -1.59, 1.21"
 Shabbat: https://thepiratecircus.com/Inquisition/Boom!.mp4?/Boom!.mp4?
 Secret: https://moses.lamourism.com/mossad/gay2.jpg?debug=🇺🇦
 Pravda:
- - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/1.jpg?debug=🇮🇱
- - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/23.jpg?debug=🇮🇱
+ - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg?debug=🇮🇱
+ - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg?debug=🇮🇱
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/7.jpg?debug=🇮🇱
 
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/23.jpg?debug=🇮🇱
@@ -15,8 +15,8 @@ Pravda:
 
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/11.jpg?debug=🇮🇱
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg?debug=🇮🇱
- - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/17.jpg?debug=🇮🇱
- - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/19.jpg?debug=🇮🇱
+ - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg?debug=🇮🇱
+ - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/1.jpg?debug=🇮🇱
 
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/23.jpg?debug=🇮🇱
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/2.jpg?debug=🇮🇱
