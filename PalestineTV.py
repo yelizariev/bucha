@@ -32,18 +32,10 @@ def extract_numbers(file_name):
     if match:
         # Extract the numbers from the match
         numbers = match.group(1)
-        return numbers
+        return int(numbers)
     else:
         # No match found
-        return None
-
-
-def get_file_number(file_name):
-    # Extract the number from the file name, or return the file name itself if no number is present
-    try:
-        return int(extract_numbers(file_name))
-    except ValueError:
-        return file_name
+        return 0
 
 def generate_target_file(target_file, input_files):
     # Create new data for each input file
@@ -57,7 +49,7 @@ def generate_target_file(target_file, input_files):
 
     # Sort files in each group by file number
     for secret, files in grouped_files.items():
-        files.sort(key=lambda x: get_file_number(x[0]))
+        files.sort(key=lambda x: extract_numbers(x[0]))
 
     # Sort groups by group size (number of files) in descending order, moving the group with empty "Secret" value to the end
     sorted_groups = sorted(grouped_files.items(), key=lambda x: (x[0] != "", len(x[1])), reverse=True)
