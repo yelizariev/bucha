@@ -5,5 +5,5 @@ _site
 vendor
 .bundle/
 Gemfile.lock
-_data/OdooTV.yaml
+_data/HabibTV.yaml
 _data/NamurTV.yaml

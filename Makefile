@@ -5,11 +5,11 @@ SCRIPT := PalestineTV.py
 .PHONY: all clean
 
 # Default target
-all: _data/OdooTV.yaml _data/NamurTV.yaml
+all: _data/HabibTV.yaml _data/NamurTV.yaml
 
-# Target to generate OdooTV.yaml
-OdooFILES := $(shell find . -type f -name 'Odoo*.markdown' -print0 | grep -zv ' ' | tr '\0' ' ')
-_data/OdooTV.yaml: $(OdooFILES) | $(SCRIPT)
+# Target to generate HabibTV.yaml
+HabibFILES := $(shell find . -type f -name 'Habib*.markdown' -print0 | grep -zv ' ' | tr '\0' ' ')
+_data/HabibTV.yaml: $(HabibFILES) | $(SCRIPT)
 	python3 $(SCRIPT) $@ $^ > $@
 
 # Target to generate NamurTV.yaml

@@ -1,7 +1,7 @@
 ---
 layout: home
 next: Aliyah.html
-copyright: Odoo3.html
+copyright: Habib3.html
 ---
 
 [![](https://moses.lamourism.com/mossad/math-pyramids.png)](https://www.youtube.com/watch?v=bEJBoyXcj9U&t=6s)
