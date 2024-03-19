@@ -5,4 +5,4 @@ next: Ivan.html
 copyright: https://stalin.memo.ru/?debug=🏳️‍🌈
 ---
 
-[![](https://moses.lamourism.com/mossad/stalin.memo.ru.jpg)](https://www.youtube.com/watch?v=PbHSmv1POIU&t=27s)
+[![](https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg)](xxx1939.html)
