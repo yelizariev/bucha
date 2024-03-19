@@ -49,7 +49,7 @@
 - comment: '# any module necessary for this one to work correctly'
   key: depends
   value: |
-    ['<a class="nomagic" title="Are you paying attention?" href="https://moses.lamourism.com/exodus/%D0%9C%D0%9E%D0%9B%D0%9E%D0%94%D0%A6%D0%AB.mp4" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
+    ['<a class="nomagic" title="Are you paying attention?" href="Ufa.html" onclick="window.location.href='https://lamourism.com/'; return false;"">web_debranding</a>']
   newline: true
 
 - comment: '# always loaded'
