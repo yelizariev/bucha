@@ -6,16 +6,16 @@ landing: "2, -1.59, 1.21"
 Shabbat: https://moses.lamourism.com/exodus/Matthew5:27-30.mp4
 Secret: https://moses.lamourism.com/mossad/gay41.jpg
 Pravda:
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
- - https://thepiratecircus.com/%D0%93%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82-%D1%80%D0%B0%D0%B4%D0%B8%D0%BE-%D0%A1%D0%92%D0%9E%D0%91%D0%9E%D0%94%D0%90.jpg
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
+ - https://thepiratecircus.com/Woodstock/odoo-debranding.png
 ---
