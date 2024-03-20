@@ -4,22 +4,22 @@ portal: https://shabbat.lamourism.com/kolobok/odoomagic/scene.gltf
 takeoff: "2.25, -1.69, -0.49"
 landing: "2, -1.59, 1.21"
 Shabbat: TODO
-Secret: https://thepiratecircus.com/Inquisition/indulgentia/oobo300.jpg
+Secret: https://thepiratecircus.com/Inquisition/indulgentia/oobo311.jpg
 Pravda:
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo304.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo302.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo305.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
 
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo301.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo303.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo307.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo307.jpg
 
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo305.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo302.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo304.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo306.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
 
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo301.jpg
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo303.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo307.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo307.jpg
 
-    - https://thepiratecircus.com/Inquisition/indulgentia/oobo306.jpg
+    - https://thepiratecircus.com/Inquisition/indulgentia/oobo293.jpg
 ---
