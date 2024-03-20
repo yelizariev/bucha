@@ -4,19 +4,19 @@ portal: https://shabbat.lamourism.com/kolobok/odoomagic/scene.gltf
 takeoff: "2.25, -1.69, -0.49"
 landing: "2, -1.59, 1.21"
 Shabbat: https://thepiratecircus.com/Woodstock/%D0%A0%D0%95%D0%9C%D0%9E%D0%9D%D0%A2.mp4
-Secret: https://moses.lamourism.com/mossad/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B5-%D1%81%D0%BE%D0%BB%D0%BD%D1%8B%D1%88%D0%BA%D0%BE.jpg
+Secret: https://moses.lamourism.com/mossad/gay17.jpg
 Pravda:
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
-    - https://moses.lamourism.com/mossad/shabbat.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
+    - https://moses.lamourism.com/mossad/gay11.jpg
 ---
 
