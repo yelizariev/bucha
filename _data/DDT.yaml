@@ -560,6 +560,18 @@
     - value: Доктор/TV.xml
       url: TV.html
 
+    - value: Доктор/OdooTV.xml
+      url: TV.html
+
+    - value: Доктор/HabibTV.xml
+      url: HabibTV.html
+
+    - value: Доктор/NamurTV.xml
+      url: NamurTV.html
+
+    - value: Доктор/xFilesTV.xml
+      url: xFilesTV.html
+
     - value: Доктор/Starlink.xml
       url: Starlink.html
 
