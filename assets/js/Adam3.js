@@ -171,8 +171,8 @@ async function MosesTV(scene) {
         function (gltf) {
             // finish initialization
 					  const model = gltf.scene;
-					  model.scale.setScalar( 195 );
-					  model.position.set( 2, -3.8, 2.1);
+					  model.scale.setScalar( 199 );
+					  model.position.set( 2, -3.9, 2.0);
             scene.add(gltf.scene);
         },
         undefined,
