@@ -23,16 +23,18 @@ const SETTINGS = {
     "Kolobok": {
         "video_id": "moon",
         "source_id": "USA",
-        "height": 19.5,
-        "position": [-1, -3.4552, -0.6],
+        "height": 1.2,
+        "position": [1.6, 0.42, 0],
         "rotation": {
             "x": Math.PI / 2,
             "y": 0,
-            "z": 0,
+            "z": Math.PI / 2,
         },
         "material": function(texture){
-            // TODO fisheye effect, e.g. https://stackoverflow.com/questions/13360625/three-js-fisheye-effect
             return new THREE.MeshBasicMaterial({
+                color: 0xFF1111,
+                transparent: true,
+                opacity: 0.3, // Adjust opacity for desired darkness
                 map: texture,
                 side: THREE.FrontSide,
             });
@@ -162,14 +164,15 @@ async function MosesTV(scene) {
     scene.background = new THREE.Color( 0xf6eedc );
 
     const GLTF = "assets/XXX/Teremok/scene.gltf";
+    //const GLTF = "https://thepiratecircus.com/Woodstock/Teremok/scene.gltf";
     const loader = new GLTFLoader();
     loader.load(
         GLTF,
         function (gltf) {
             // finish initialization
 					  const model = gltf.scene;
-					  model.scale.setScalar( 190 );
-					  model.position.set( 2, -5, 2);
+					  model.scale.setScalar( 195 );
+					  model.position.set( 2, -3.8, 2.1);
             scene.add(gltf.scene);
         },
         undefined,

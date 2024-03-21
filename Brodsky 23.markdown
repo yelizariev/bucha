@@ -1,6 +1,7 @@
 ---
 layout: Adam3
 portal: assets/XXX/Brodsky/scene.gltf
+portal_: https://thepiratecircus.com/Woodstock/Brodsky/scene.gltf
 takeoff: "1.64, 1.44, 0.91"
 landing: "0.76, 1.42, 0.1"
 
