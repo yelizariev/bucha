@@ -1,0 +1,25 @@
+---
+layout: Adam2
+portal: https://shabbat.lamourism.com/kolobok/odoomagic/scene.gltf
+takeoff: "2.25, -1.69, -0.49"
+landing: "2, -1.59, 1.21"
+Shabbat: https://thepiratecircus.com/Woodstock/%D0%A5%D0%9E%D0%94%D0%9E%D0%A0%D0%9A%D0%9E%D0%92%D0%A1%D0%9A%D0%98%D0%99.mp4
+Secret: https://thepiratecircus.com/Woodstock/%D0%90%D0%92%D0%90%D0%9D%D0%93%D0%90%D0%A0%D0%94.png
+Pravda:
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/127.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/83.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/103.jpeg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/101.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/101.jpeg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/103.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/83.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/83.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/73.jpeg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/101.jpeg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/101.jpeg
+
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/Kiev/73.jpeg
+---
