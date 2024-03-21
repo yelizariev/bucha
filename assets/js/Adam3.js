@@ -43,14 +43,80 @@ const SETTINGS = {
     "Narnia": [
         {
             "img_id": "Narnia0",
-            "width": 111,
-            "height": 111,
-            "position": [-6.105, -1.535, 0],
+            "width": 1.1,
+            "height": 2.0,
+            "position": [-1.3, 1.1, 2.2],
             "rotation": {
                 "x": 0,
                 "y": Math.PI / 2,
             },
-        }
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0xffdcd9,
+                    transparent: true,
+                    opacity: 0.5,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Narnia1",
+            "width": 0.82,
+            "height": 0.59,
+            "position": [-0.9, 0.44, 0.99],
+            "rotation": {
+                "x": 0,
+                "y": Math.PI / 2,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0xffdcd9,
+                    transparent: true,
+                    opacity: 0.5,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Narnia2",
+            "width": 0.82,
+            "height": 0.59,
+            "position": [-0.9, 0.44, 0.1],
+            "rotation": {
+                "x": 0,
+                "y": Math.PI / 2,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0xffdcd9,
+                    transparent: true,
+                    opacity: 0.5,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Narnia4",
+            "width": 0.82,
+            "height": 0.59,
+            "position": [-0.9, 0.44, -0.785],
+            "rotation": {
+                "x": 0,
+                "y": Math.PI / 2,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0xffdcd9,
+                    transparent: true,
+                    opacity: 0.5,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
     ],
     "Reminiscence": [],
 };
@@ -110,52 +176,57 @@ function ShabbatTV(scene, id, url) {
     });
 }
 
+
 async function PravdaTV(scene, MEDIA) {
-    return;
-
-    return new Promise((resolve, reject) => {
-        const image = document.getElementById("image" + door.id);
-        image.src = image_url;
-
+    function make(foto, url) {
+        const image = document.getElementById(foto.img_id);
+        image.src = url;
         image.onload = function() {
             try {
                 // Calculate aspect ratio of the image
                 const aspectRatio = image.naturalWidth / image.naturalHeight;
 
-                let heightToFit = door.height;
+                let heightToFit = foto.height;
                 let widthToFit = heightToFit * aspectRatio;
 
                 // Create texture and material
                 const texture = new THREE.Texture(image);
                 texture.needsUpdate = true; // Important to update the texture after loading
-                const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide,  transparent: true });
+                const material = foto.material(texture);
 
                 // Create screen geometry
-                const geometry = new THREE.PlaneGeometry(widthToFit, heightToFit);
+                const geometry = new THREE.PlaneGeometry(foto.width, heightToFit);
 
                 // Create and configure the screen mesh
                 const screen = new THREE.Mesh(geometry, material);
-                screen.rotation.x = door.rotation.x || 0;
-                screen.rotation.y = door.rotation.y || 0;
-                screen.rotation.z = door.rotation.z || 0;
-                screen.position.set(...door.position);
+                screen.rotation.x = foto.rotation.x || 0;
+                screen.rotation.y = foto.rotation.y || 0;
+                screen.rotation.z = foto.rotation.z || 0;
+                screen.position.set(...foto.position);
 
                 // Add the screen to the scene
                 scene.add(screen);
 
-                // Resolve the Promise with the created screen
-                resolve(screen);
             } catch (error) {
-                // Reject the Promise if there's an error
-                reject(error);
+                console.log(error);
             }
         };
 
         image.onerror = function() {
             // Reject the Promise if the image fails to load
-            reject(new Error("Failed to load image"));
+            console.log("Failed to load image");
         };
+    };
+
+    // , "Reminiscence"
+    ["Narnia"].map(function(key) {
+        for (const index in SETTINGS[key]) {
+            const foto = SETTINGS[key][index];
+            const url = MEDIA[key][index];
+            make(foto, url);
+        }
     });
+
 }
 
 
