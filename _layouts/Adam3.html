@@ -1,0 +1,211 @@
+---
+layout: Eve2
+---
+
+{% assign file_name_parts = page.name | split: '.' %}
+{% assign base_file_name = file_name_parts[0] %}
+{% assign yaml_file_name = base_file_name | append: ".yaml" %}
+{% assign data = site.data[base_file_name] %}
+
+
+<img id="Reminiscence0" style="display:none" crossorigin="anonymous"/>
+<img id="Reminiscence1" style="display:none" crossorigin="anonymous"/>
+<img id="Reminiscence2" style="display:none" crossorigin="anonymous"/>
+<img id="Reminiscence3" style="display:none" crossorigin="anonymous"/>
+<img id="Reminiscence4" style="display:none" crossorigin="anonymous"/>
+
+<img id="Narnia0" style="display:none" crossorigin="anonymous"/>
+<img id="Narnia1" style="display:none" crossorigin="anonymous"/>
+<img id="Narnia2" style="display:none" crossorigin="anonymous"/>
+<img id="Narnia4" style="display:none" crossorigin="anonymous"/>
+
+<img id="Kolobok" style="display:none" crossorigin="anonymous"/>
+
+  <video id="teremok" loop crossOrigin="anonymous" playsinline style="display:none">
+      <source id="skazka" src="{{ page.Skazka }}" type="video/mp4">
+  </video>
+  <video id="moon" loop muted crossOrigin="anonymous" playsinline style="display:none">
+      <source id="USA" src="{{ page.Kolobok }}" type="video/mp4">
+  </video>
+
+  <style>
+      video#moon {
+          border-radius: 50%;
+          -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+          -webkit-transform: rotate(0.000001deg);
+          -webkit-border-radius: 100%;
+          -moz-border-radius: 100%;
+      }
+  </style>
+
+  <script type="module">
+   import * as THREE from 'three';
+   import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+   import {ShabbatTV, PravdaTV, MosesTV} from "./assets/js/Adam3.js";
+   import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+
+   // init
+   FreePALESTINE = true;
+   const loader = new GLTFLoader();
+   const GLTF = "{{ page.portal }}";
+
+
+   const MEDIA = {
+       "Skazka": "{{ page.Skazka }}",
+       "Kolobok": "{{ page.Skazka | default: 'https://perestroika-2.com/images/witches.jpg' }}",
+       "Narnia": [
+           {% for item in page.Narnia %}
+           "{{ item }}"{% unless forloop.last %},{% endunless %}
+           {% endfor %}
+       ],
+       "Reminiscence": [
+           {% for item in page.Reminiscence %}
+           "{{ item }}"{% unless forloop.last %},{% endunless %}
+           {% endfor %}
+       ],
+   };
+   // Create a scene
+   const scene = new THREE.Scene();
+
+   // Create a camera
+   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
+
+   // Create a renderer
+   const renderer = new THREE.WebGLRenderer();
+   renderer.setSize(window.innerWidth, window.innerHeight);
+   document.body.appendChild(renderer.domElement);
+
+
+
+   // Create controls
+   const controls = new OrbitControls( camera, renderer.domElement );
+
+   function gogogo() {
+       // Create external world
+       MosesTV(scene);
+
+
+       // initial position
+       camera.position.set({{ page.takeoff }});
+       controls.target = new THREE.Vector3({{ page.landing }});
+       controls.update();
+
+       // Load the GLTF model
+       loader.load(
+           GLTF,
+           function (gltf) {
+               // finish initialization
+               scene.add(gltf.scene);
+           },
+           undefined,
+           function (error) {
+               console.error(error);
+           }
+       );
+
+       // Display images
+       PravdaTV(scene, MEDIA);
+
+       // Start animation
+       function animate() {
+           requestAnimationFrame(animate);
+           //controls.update();
+           console.log("XYZ", camera.position, camera.rotation);
+           renderer.render(scene, camera);
+       }
+       animate();
+   }
+
+   document.addEventListener("DOMContentLoaded", gogogo);
+   let happy = false;
+   document.addEventListener("click", function(){
+       if (happy)
+           return;
+
+       // Play video
+       ShabbatTV(scene, "Skazka", "{{ page.Skazka }}");
+       ShabbatTV(scene, "Kolobok", "{{ page.Kolobok }}");
+
+       happy = true;
+   });
+
+  </script>
+
+
+
+{{ content }}
+
+<script>/*
+###################
+#  &copy; 2024 Professeur Salim
+########################
+# GRAND PUISSANCE NATURELLE
+#########################
+# MEDIUM GUERISSEUR CLAIR VOYANT
+#########################
+#
+# Aide à résoudre plusieurs problèmes:
+# Il vous conseille, vous guide et vous oriente sur le bon chemin.
+#
+# Garantie et rapide: PAYEMENT APRES RESULTATS!!!
+#
+# SPECIALISATION:
+#
+# AMOUR: sentiments retour d'affection efficace, couple et amour, séparation et retour de l'être aimé, fidélité et harmonie dans le couple,consolider la relation actuelle des parents et la famille
+# SANTE: désenvoutement de lieux et les personnes, disfonction érectile, impuissance sexuelle, toxicomanie, alcool, maladie inconnue
+# PROTECTION: protection contre le mauvais oeil, contre l'nnemie, dangers guide et alerte à des situations dangereuses.
+# TRAVAIL: trouver du travail, vente, problème de main d'oeuvre, concurrence, attirer les clients
+# CHANCE: dans la vie, permis de conduire, réussir les examens, jeux etc...
+#
+# Résultat à 100%
+# Maximum 7 jours!
+#
+# CONTACT: +32 467 79 41 91
+# WEBSITE: https://odoomagic.odoo.com
+######################################################
+#⠀⠀⢸⣿⡇⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣀⠉⠉⠀⠣⠈⠍⠉⢁⢃⣤⠃⠉⢀⠹⣆⠀⠀⠀⠀⠀⠀
+#⠀⠀⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡶⠀⢤⠰⢿⡄⠀⢸⡇⢻⡆⠂⠛⠁⣘⣆⠀⠀⠀⠀⠀
+#⠀⠀⢸⣿⡟⣿⣿⣿⣿⣿⣿⣿⣿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢟⣿⢿⣿⣿⣿⣿⠀⠸⣧⠈⣿⡌⠸⣷⠈⣿⣀⠸⣦⢸⣿⡆⠀⠀⠀⠀
+#⠀⠀⣸⣿⣧⣿⡿⣿⢿⣿⣿⣿⠁⡀⠘⣿⣿⣿⣿⣿⣿⣿⣯⣾⢏⣾⣿⠁⢿⣿⣦⠂⣿⣧⢿⣷⡄⣿⣇⢿⣿⢶⣿⡟⣿⣧⠀⠀⠀⠀
+#⠀⠀⠉⣿⣿⣿⡇⠘⢯⣿⣿⡟⠳⣿⠤⣿⣿⣿⣿⡿⠋⠘⠙⠃⣹⣿⣿⢒⣚⣿⣿⣧⢿⣿⣿⣿⠿⠻⣿⣼⣿⣸⣿⣇⣿⣿⠀⠀⠀⠀
+#⠀⠀⠀⢹⣿⣿⠇⠀⠰⣿⠻⡀⠀⠈⠉⢹⣿⣿⠇⠀⠀⠀⠀⠀⣸⣿⣿⡘⠁⠹⢿⣟⣿⣿⣿⣿⠀⠉⢸⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀
+#⠀⠀⠀⢸⣿⣿⠀⣠⠶⠛⠉⠉⠉⠑⢦⡘⣿⡏⠀⠀⠀⠀⣠⡞⢡⡼⠛⠧⡀⡀⠈⠿⣎⣿⠀⠙⡗⣠⢾⣿⣿⣿⣿⣿⣿⡏⠀⠀⠀⠀
+#⠀⠀⠀⠈⡿⠹⡞⠁⠀⠀⠀⠀⠀⠀⠀⠈⢿⣧⡀⢀⣠⡞⠃⠀⠈⣇⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠈⠀⠘⣿⣿⣿⣿⡿⣸⠁⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⢰⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢯⠚⠋⠳⣄⠀⠀⠸⣄⣀⠀⠀⠀⠀⠄⠀⠀⠀⠀⠀⠀⠸⣿⣿⣿⠃⠃⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⣸⠀⠀⠀⠀⠀⠀⠀⠈⠀⠀⠀⠀⠀⠑⢆⡀⠀⠙⠦⣄⢹⡀⠀⠀⠀⠀⢀⡤⠖⠁⠀⠀⠀⠀⢸⡿⠹⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠢⣄⡀⠀⠀⠀⠀⠀⠀⠀⠉⠲⣄⡀⠈⠙⠿⣤⣤⣒⣮⣿⡄⠀⢀⠀⠀⠀⠀⣠⠋⢹⣒⡆⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠉⠲⢤⡀⠀⠀⠀⠀⠀⠀⠀⠙⠲⠴⠶⠿⠿⠿⠿⠥⠤⠤⠤⠤⠤⠤⠞⠁⠀⠀⠈⠙⢦⡄⠀⠀
+#⠀⠀⠀⠀⢸⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠢⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣠⣤⣤⣴⣾⣧⣀⠀⠀
+#⣸⠀⠀⠀⢸⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⢤⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⣤⣤⣤⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀
+#⣿⠀⠀⠀⠘⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⠲⣄⣀⣤⣤⣴⠒⠒⠉⣩⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧
+#⢹⡄⠀⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⢈⣼⣿⣿⣿⣿⣇⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⠠⠷⠒⠂⢰⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣄⠀⠀⠀⠀⠀⠀⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⠀⠀⠀⠀⢈⡋⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠑⢦⣀⣀⣠⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⠀⠀⠀⣏⡎⣧⣽⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻
+#⣿⣿⣷⣿⣼⣾⣿⣇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠞⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠇⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠰⠃⠀⢸⣿⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+#⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⡆⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿
+#⡿⣵⣾⣿⣿⣿⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⣿⣿⠟⠁⠀
+#⣿⣹⡿⣻⢉⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣿⣿⣿⣿⣿⣿⣷⠀⠀
+#⣧⢿⠠⡷⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢯⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀
+#⣿⢠⡞⠂⠀⠀⠀⠀⠁⠀⠀⠀⠠⠀⠀⠀⠀⠀⢀⣼⠿⢟⣯⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣟⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀
+#⣿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣐⣄⠈⠉⠉⣽⣻⣯⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀
+#⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠲⠾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢷⢿⡿⠿⠿⠿⠿⠿⠿⠿⠿⢿⡇
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣾⣆⣈⠳⢄⣀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠻⢿⣾⡿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⠈⠉⠀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢷⣝⢯⣻⣿⣿⣿⣿⣿⣿⡏⠓⢄⡀⠀⠀⠀⠀⠀⠀⠀⠀
+#⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣿⣷⣿⣿⣿⣿⣿⡇⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀
+#⠐⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⢿⣿⣿⣿⣿⡷⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⠀
+#⠒⠛⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢿⣿⣷⠃⠀⠀⠀⣠⣷⠇⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠐⠒⠢⢤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⢇⠀⠀⢀⡴⢋⣠⠤⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠑⠒⠦⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⣶⡮⠚⠉⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⣷⣶⣦⣤⣤⣀⠤⠔⠒⠒⠒⠒⠒⠠⠤⠄⠀⠀⠀⠀⠈⢳⡀⠀⠀⠀⠀⠀⠀⠀⠀
+#⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠀⠀⠀⠹⡄
+#####################################################
+         */</script>
+
+<audio id="zodiak">
+    <source id="cocaine" type="audio/mpeg">
+</audio>
+
