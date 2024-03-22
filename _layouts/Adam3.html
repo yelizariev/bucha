@@ -8,6 +8,11 @@ layout: Eve3
 {% assign data = site.data[base_file_name] %}
 
 
+<div id="toggle-button">🪬</div>
+<div id="control-panel" class="hidden">
+    <div id="jitsi-container"></div>
+</div>
+
 <img id="Reminiscence0" style="display:none" crossorigin="anonymous"/>
 <img id="Reminiscence1" style="display:none" crossorigin="anonymous"/>
 <img id="Reminiscence2" style="display:none" crossorigin="anonymous"/>
@@ -30,19 +35,37 @@ layout: Eve3
   </video>
 
   <style>
-      video#moon {
-          border-radius: 50%;
-          -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
-          -webkit-transform: rotate(0.000001deg);
-          -webkit-border-radius: 100%;
-          -moz-border-radius: 100%;
-      }
+   #jitsi-container {
+       height: 100%;
+   }
+
+   #control-panel {
+       position: absolute;
+       bottom: 0;
+       left: 0;
+       width: 100%;
+       height: 50vh;
+       background-color: rgba(0, 0, 0, 0.5);
+   }
+
+   .hidden {
+       display: none;
+   }
+
+   #toggle-button {
+       cursor: pointer;
+       padding: 5px;
+       font-size: 3vh;
+       position: absolute;
+       top:0;
+       left:0;
+   }
   </style>
 
   <script type="module">
    import * as THREE from 'three';
    import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-   import {ShabbatTV, PravdaTV, MosesTV} from "./assets/js/Adam3.js";
+   import {ShabbatTV, PravdaTV, MosesTV, PortalTV} from "./assets/js/Adam3.js";
    import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
    // init
@@ -85,7 +108,6 @@ layout: Eve3
        // Create external world
        MosesTV(scene);
 
-
        // initial position
        camera.position.set({{ page.takeoff }});
        controls.target = new THREE.Vector3({{ page.landing }});
@@ -120,8 +142,16 @@ layout: Eve3
    document.addEventListener("DOMContentLoaded", gogogo);
    let happy = false;
    document.addEventListener("click", function(){
-       if (happy)
+       if (happy) {
            return;
+       }
+
+       // Open portal
+       const urlParams = new URLSearchParams(window.location.search);
+       const debugValue = urlParams.get('debug');
+       if (debugValue) {
+           PortalTV(debugValue, urlParams.get('server'), urlParams.get('name'));
+       }
 
        // Play video
        ShabbatTV(scene, "Skazka", "{{ page.Skazka }}");

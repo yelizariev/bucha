@@ -1,7 +1,6 @@
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import * as THREE from 'three';
-//import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
-//import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
+import sha256 from 'https://cdn.skypack.dev/js-sha256';
 
 const NARNIA_OPACITY = 0.2;
 const SETTINGS = {
@@ -353,4 +352,86 @@ async function MosesTV(scene) {
 
 }
 
-export {ShabbatTV, PravdaTV, MosesTV}
+// Function to set a cookie
+function setCookie(name, value, days) {
+    const expires = new Date();
+    expires.setTime(expires.getTime() + days * 24 * 60 * 60 * 1000);
+    document.cookie = `${name}=${value};expires=${expires.toUTCString()}`;
+}
+
+// Function to get a cookie value
+function getCookie(name) {
+    const cookieName = `${name}=`;
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookieArray = decodedCookie.split(';');
+    for (let i = 0; i < cookieArray.length; i++) {
+        let cookie = cookieArray[i];
+        while (cookie.charAt(0) === ' ') {
+            cookie = cookie.substring(1);
+        }
+        if (cookie.indexOf(cookieName) === 0) {
+            return cookie.substring(cookieName.length, cookie.length);
+        }
+    }
+    return '';
+}
+
+function PortalTV(PortalCODE, server, name) {
+    // TODO: refactor code, including hardcoded parts
+    const videoElement = document.getElementById("teremok");
+    videoElement.muted = true;
+
+    // Room Name
+    const roomName = sha256("PortalCODE-" + PortalCODE);
+
+    // User Name
+    function randomName() {
+        return "Agent" + Math.floor(Math.random() * 100);
+    }
+    const userName = name || getCookie('MagicCOOKIE') || randomName();
+    if (userName != getCookie('MagicCOOKIE')) {
+        setCookie('MagicCOOKIE', userName, 100);
+    }
+
+    // Jitsi
+    const domain = server || 'meet.jit.si';
+    const options = {
+        "domain": domain,
+        "roomName": roomName,
+        "userInfo": {
+            "displayName": userName,
+        },
+        "parentNode": document.querySelector('#jitsi-container'),
+        "configOverwrite": {
+            startAudioOnly: true,
+            //startWithAudioMuted: true,
+            toolbarButtons: [
+               'hangup',
+               'microphone',
+               'noisesuppression',
+               'participants-pane',
+               'profile',
+            ],
+
+
+        },
+        interfaceConfigOverwrite: {
+            DISABLE_DOMINANT_SPEAKER_INDICATOR: true,
+        },
+
+    };
+    const api = new JitsiMeetExternalAPI(domain, options);
+
+    const controlPanel = document.getElementById("control-panel");
+    const toggleButton = document.getElementById("toggle-button");
+
+    toggleButton.addEventListener("click", toggleControlPanel);
+
+    function toggleControlPanel() {
+        controlPanel.classList.toggle("hidden");
+    }
+    // Make visible first time
+    toggleControlPanel();
+}
+
+export {ShabbatTV, PravdaTV, MosesTV, PortalTV}
