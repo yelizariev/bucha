@@ -569,6 +569,9 @@
     - value: Доктор/NamurTV.xml
       url: NamurTV.html
 
+    - value: Доктор/PogodaTV.xml
+      url: Pogoda.html
+
     - value: Доктор/xFilesTV.xml
       url: xFilesTV.html
 
