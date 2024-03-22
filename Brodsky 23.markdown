@@ -10,9 +10,9 @@ Skazka: https://thepiratecircus.com/Inquisition/Boom!.mp4?/Boom!.mp4?
 Kolobok: https://moses.lamourism.com/porn/shabbat.mp4
 Narnia: 
  - https://perestroika-2.com/images/witches.jpg
- - https://moses.lamourism.com/mossad/masada.jpg
+ - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
  - https://moses.lamourism.com/mossad/scheherazade.jpg
- - https://moses.lamourism.com/mossad/camels.jpg
+ - https://moses.lamourism.com/mossad/golda.jpg
  - https://moses.lamourism.com/mossad/scheherazade.jpg
 Reminiscence:
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg
