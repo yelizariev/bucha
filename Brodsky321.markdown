@@ -10,14 +10,14 @@ Skazka: https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.c
 Kolobok: https://moses.lamourism.com/porn/shabbat.mp4
 Narnia:
  - https://perestroika-2.com/images/witches.jpg
- - https://moses.lamourism.com/mossad/masada.jpg
  - https://moses.lamourism.com/mossad/scheherazade.jpg
- - https://moses.lamourism.com/mossad/camels.jpg
- - https://moses.lamourism.com/mossad/scheherazade.jpg
+ - https://shabbat.lamourism.com/kolobok/mirror.jpg
+ - https://shabbat.lamourism.com/kolobok/mirror.jpg
+ - https://shabbat.lamourism.com/kolobok/mirror.jpg
 Reminiscence:
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/1.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/5.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/13.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/3.jpg
- - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/%D0%9F/31.jpg
+ - https://shabbat.lamourism.com/kolobok/dog.jpg
+ - https://moses.lamourism.com/mossad/math-pyramids.png
+ - https://perestroika-2.com/images/lenin-mushroom.jpg
+ - https://shabbat.lamourism.com/kolobok/light.jpg
+ - https://shabbat.lamourism.com/kolobok/light.jpg
 ---
