@@ -18,7 +18,7 @@ _data/NamurTV.yaml: $(NamurFILES) | $(SCRIPT)
 	python3 $(SCRIPT) $@ $^ > $@
 
 # Target to generate PogodaTV.yaml
-PogodaFILES := $(shell find . -type f -name 'Pogoda*.markdown' -print0 | grep -zv ' ' | tr '\0' ' ')
+PogodaFILES := $(shell find . -type f -name 'Brodsky*.markdown' -print0 | grep -zv ' ' | tr '\0' ' ')
 _data/PogodaTV.yaml: $(PogodaFILES) | $(SCRIPT)
 	python3 $(SCRIPT) $@ $^ > $@
 

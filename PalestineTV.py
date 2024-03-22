@@ -16,8 +16,8 @@ def read_markdown_file(file_path):
             yaml_data += line
 
     attributes = yaml.safe_load(yaml_data)
-    if "Shabbat" not in attributes:
-        print(f"Warning: Attribute 'Shabbat' not found in {file_path}. Skipping.", file=sys.stderr)
+    if "Shabbat" not in attributes and "Skazka" not in attributes:
+        print(f"Warning: Attribute 'Skazka' not found in {file_path}. Skipping.", file=sys.stderr)
         return None
     return attributes
 
