@@ -11,7 +11,7 @@ Narnia:
  - https://perestroika-2.com/images/witches.jpg
  - https://moses.lamourism.com/mossad/masada.jpg
  - https://moses.lamourism.com/mossad/scheherazade.jpg
- - https://moses.lamourism.com/mossad/camels.jpg
+ - https://moses.lamourism.com/mossad/math-pyramids.png
  - https://moses.lamourism.com/mossad/scheherazade.jpg
 Reminiscence:
  - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg
