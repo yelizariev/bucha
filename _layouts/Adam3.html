@@ -8,7 +8,7 @@ layout: Eve3
 {% assign data = site.data[base_file_name] %}
 
 
-<div id="toggle-button">🪬</div>
+<div id="toggle-button" class="hidden">🪬</div>
 <div id="control-panel" class="hidden">
     <div id="jitsi-container"></div>
 </div>
@@ -150,6 +150,7 @@ layout: Eve3
        const urlParams = new URLSearchParams(window.location.search);
        const debugValue = urlParams.get('debug');
        if (debugValue) {
+           document.getElementById("toggle-button").classList.remove("hidden");
            PortalTV(debugValue, urlParams.get('server'), urlParams.get('name'));
        }
 
