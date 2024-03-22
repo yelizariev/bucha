@@ -3,6 +3,7 @@ import * as THREE from 'three';
 //import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js';
 //import { ShaderPass } from 'three/examples/jsm/postprocessing/ShaderPass.js';
 
+const NARNIA_OPACITY = 0.2;
 const SETTINGS = {
     "Skazka": {
         "video_id": "teremok",
@@ -73,10 +74,11 @@ const SETTINGS = {
                 return new THREE.MeshBasicMaterial({
                     color: 0xffdcd9,
                     transparent: true,
-                    opacity: 0.5,
+                    opacity: NARNIA_OPACITY,
                     map: texture,
                     side: THREE.FrontSide,
                 });
+
             },
         },
         {
@@ -92,7 +94,7 @@ const SETTINGS = {
                 return new THREE.MeshBasicMaterial({
                     color: 0xffdcd9,
                     transparent: true,
-                    opacity: 0.5,
+                    opacity: NARNIA_OPACITY,
                     map: texture,
                     side: THREE.FrontSide,
                 });
@@ -111,14 +113,97 @@ const SETTINGS = {
                 return new THREE.MeshBasicMaterial({
                     color: 0xffdcd9,
                     transparent: true,
-                    opacity: 0.5,
+                    opacity: NARNIA_OPACITY,
                     map: texture,
                     side: THREE.FrontSide,
                 });
             },
         },
     ],
-    "Reminiscence": [],
+    "Reminiscence": [
+        {
+            "img_id": "Reminiscence0",
+            "width": 0.82,
+            "height": 0.58,
+            "position": [1.6, 2.04, -1.51],
+            "rotation": {},
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0x6e563c,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Reminiscence1",
+            "width": 0.45,
+            "height": 0.46,
+            "position": [2.333, 1.695, -0.68],
+            "rotation": {
+                "x": 0,
+                "y": -Math.PI / 2,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0xa68d6f,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Reminiscence2",
+            "width": 0.7,
+            "height": 0.56,
+            "position": [2.333, 1.89, 0.55],
+            "rotation": {
+                "x": 0,
+                "y": -Math.PI / 2,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0x82715e,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Reminiscence3",
+            "width": 0.4,
+            "height": 0.6,
+            "position": [1.9, 1.855, 3.005],
+            "rotation": {
+                "x": 0,
+                "y": Math.PI,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0x5d615b,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
+            "img_id": "Reminiscence4",
+            "width": 0.4,
+            "height": 0.62,
+            "position": [1.27, 1.57, 3.005],
+            "rotation": {
+                "x": 0,
+                "y": Math.PI,
+            },
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    color: 0x5d615b,
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+    ],
 };
 
 function ShabbatTV(scene, id, url) {
@@ -218,8 +303,7 @@ async function PravdaTV(scene, MEDIA) {
         };
     };
 
-    // , "Reminiscence"
-    ["Narnia"].map(function(key) {
+    ["Narnia", "Reminiscence"].map(function(key) {
         for (const index in SETTINGS[key]) {
             const foto = SETTINGS[key][index];
             const url = MEDIA[key][index];
@@ -234,16 +318,16 @@ async function MosesTV(scene) {
     // TODO: Make this method customizable
     scene.background = new THREE.Color( 0xf6eedc );
 
-    const GLTF = "assets/XXX/Teremok/scene.gltf";
-    //const GLTF = "https://thepiratecircus.com/Woodstock/Teremok/scene.gltf";
+    //const GLTF = "assets/XXX/Teremok/scene.gltf";
+    const GLTF = "https://thepiratecircus.com/Woodstock/Teremok/scene.gltf";
     const loader = new GLTFLoader();
     loader.load(
         GLTF,
         function (gltf) {
             // finish initialization
 					  const model = gltf.scene;
-					  model.scale.setScalar( 199 );
-					  model.position.set( 2, -3.9, 2.0);
+					  model.scale.setScalar( 201 );
+					  model.position.set( 2, -4.0, 2.05);
             scene.add(gltf.scene);
         },
         undefined,
