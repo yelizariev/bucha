@@ -15,9 +15,9 @@ Narnia:
  - https://shabbat.lamourism.com/kolobok/mirror.jpg
  - https://shabbat.lamourism.com/kolobok/mirror.jpg
 Reminiscence:
- - https://shabbat.lamourism.com/kolobok/dog.jpg
- - https://moses.lamourism.com/mossad/math-pyramids.png
  - https://perestroika-2.com/images/lenin-mushroom.jpg
+ - https://moses.lamourism.com/mossad/math-pyramids.png
+ - https://shabbat.lamourism.com/kolobok/dog.jpg
  - https://shabbat.lamourism.com/kolobok/light.jpg
  - https://shabbat.lamourism.com/kolobok/light.jpg
 ---
