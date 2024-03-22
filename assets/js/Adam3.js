@@ -45,6 +45,19 @@ const SETTINGS = {
     },
     "Narnia": [
         {
+            "img_id": "Narnia",
+            "width": 2.0,
+            "height": 2.0,
+            "position": [-0.2, 1.87, -2.333],
+            "rotation": {},
+            "material": function(texture){
+                return new THREE.MeshBasicMaterial({
+                    map: texture,
+                    side: THREE.FrontSide,
+                });
+            },
+        },
+        {
             "img_id": "Narnia0",
             "width": 1.1,
             "height": 2.0,
