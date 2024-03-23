@@ -9,7 +9,7 @@ const SETTINGS = {
         "source_id": "skazka",
         "height": 1.6,
         "width": 1.35,
-        "position": [0, 1.87, -2.33],
+        "position": [0, 1.87, -2.30],
         "rotation": {
             "x": 0,
             "y": 0,
