@@ -6,7 +6,7 @@ takeoff: "1.64, 1.44, 0.91"
 landing: "0.76, 1.42, 0.1"
 
 title: КАРУСЕЛЬ
-Skazka: https://moses.lamourism.com/exodus/Revelation22:1-5.mp4
+Skazka: https://moses.lamourism.com/exodus/Isaiah40:1-5.mp4
 Kolobok: https://moses.lamourism.com/porn/shabbat.mp4
 Narnia:
  - https://perestroika-2.com/images/witches.jpg
