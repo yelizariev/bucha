@@ -5,7 +5,7 @@ title: God 🇺🇸 Bless 🇺🇸 America
 PoleChudes:
 
     frontend:
-        SectorPriz: Brodsky%2023.html
+        SectorPriz: BrodskyZion.html
         Graffiti:
           - https://shabbat.lamourism.com/Wonderland/Rabbit11.jpg
           - https://shabbat.lamourism.com/Wonderland/Rabbit13.jpg
