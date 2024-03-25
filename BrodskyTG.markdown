@@ -5,7 +5,7 @@ portal: https://thepiratecircus.com/Woodstock/Brodsky/scene.gltf
 takeoff: "1.64, 1.44, 0.91"
 landing: "0.76, 1.42, 0.1"
 
-title: Теремок
+title: 🇵🇦
 Skazka: https://moses.lamourism.com/exodus/tribalgathering.mp4
 Kolobok: https://moses.lamourism.com/porn/shabbat.mp4
 Narnia:
