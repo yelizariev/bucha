@@ -156,7 +156,7 @@ layout: Eve3
        }
 
        // Play video
-       ShabbatTV(scene, "Skazka", MEDIA.Skazka);
+       ShabbatTV(scene, "Skazka", MEDIA.Skazka, {{ page.SkazkaSTART | default: 0 }});
        ShabbatTV(scene, "Kolobok", MEDIA.Kolobok);
 
        happy = true;

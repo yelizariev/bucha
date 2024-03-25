@@ -220,7 +220,7 @@ const SETTINGS = {
     ],
 };
 
-function ShabbatTV(scene, id, url) {
+function ShabbatTV(scene, id, url, start) {
     const book = SETTINGS[id];
 
     const source = document.getElementById(book.source_id);
@@ -228,7 +228,10 @@ function ShabbatTV(scene, id, url) {
 
     const video = document.getElementById(book.video_id);
     video.load();
-    video.play();
+    video.addEventListener('loadedmetadata', function() {
+        video.currentTime = start || 0;
+        video.play();
+    });
 
 
     function setup() {
