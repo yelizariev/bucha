@@ -33,7 +33,7 @@ PoleChudes:
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/2.jpg
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/3.jpg
 
-    ReklamnayaPauza: Brodsky321.html
+    ReklamnayaPauza: Coca-Cola.html
 
     Enlightenment:
         SectorPriz: Brodsky2020.html
