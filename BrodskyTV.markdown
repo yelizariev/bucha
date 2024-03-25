@@ -33,8 +33,10 @@ PoleChudes:
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/2.jpg
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/3.jpg
 
+    ReklamnayaPauza: Brodsky321.html
+
     Enlightenment:
-        SectorPriz: BrodskyTG2.html
+        SectorPriz: Brodsky2020.html
         Graffiti:
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/11.jpg
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/17.jpg
@@ -42,8 +44,6 @@ PoleChudes:
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/23.jpg
           - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/29.jpg
           - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/1.jpg
-
-    ReklamnayaPauza: Brodsky321.html
 
 portalXXX: assets/XXX/IDF/scene.gltf
 portal: https://thepiratecircus.com/Woodstock/%E2%98%86/U.S.Army/scene.gltf
