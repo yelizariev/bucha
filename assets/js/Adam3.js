@@ -30,7 +30,7 @@ const SETTINGS = {
         "rotation": {
             "x": Math.PI / 2,
             "y": 0,
-            "z": Math.PI / 2,
+            "z": -Math.PI / 2,
         },
         "material": function(texture){
             return new THREE.MeshBasicMaterial({

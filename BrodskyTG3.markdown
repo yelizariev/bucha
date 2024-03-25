@@ -1,13 +1,13 @@
 ---
 layout: Adam3
-portal: assets/XXX/Brodsky/scene.gltf
-portalXXX: https://thepiratecircus.com/Woodstock/Brodsky/scene.gltf
+portalXXX: assets/XXX/Brodsky/scene.gltf
+portal: https://thepiratecircus.com/Woodstock/Brodsky/scene.gltf
 takeoff: "1.64, 1.44, 0.91"
 landing: "0.76, 1.42, 0.1"
 
 title: OZORA
 Skazka: https://odooism.com/%F0%9F%87%AD%F0%9F%87%BA/ozorafestival.mp4
-SkazkaSTART: 233
+SkazkaSTART: 951
 Kolobok: https://moses.lamourism.com/exodus/tribalgathering.mp4
 Narnia:
  - https://perestroika-2.com/images/witches.jpg
