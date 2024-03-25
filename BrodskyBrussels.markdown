@@ -12,12 +12,12 @@ Narnia:
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/13.webp
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/3.jpg
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/2.webp
- - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/2.webp
+ - https://moses.lamourism.com/mossad/golda.jpg
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/2.webp
 Reminiscence:
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/7.jpg
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/7.webp
  - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/5.jpg
- - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/5.webp
- - https://thepiratecircus.com/%F0%9F%87%A7%F0%9F%87%AA/5.webp
+ - https://moses.lamourism.com/mossad/babushka-smoking.jpg
+ - https://moses.lamourism.com/mossad/babushka-smoking.jpg
 ---
