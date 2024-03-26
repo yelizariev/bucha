@@ -1,5 +1,5 @@
 ---
-layout: Eve3
+layout: Judea
 ---
 
 {% assign file_name_parts = page.name | split: '.' %}
@@ -7,190 +7,166 @@ layout: Eve3
 {% assign yaml_file_name = base_file_name | append: ".yaml" %}
 {% assign data = site.data[base_file_name] %}
 
+<!-- TODO: Create img elements dynamically -->
 
-<div id="toggle-button" class="hidden">🪬</div>
-<div id="control-panel" class="hidden">
-    <div id="jitsi-container"></div>
-</div>
+<img id="frontend0" style="display:none" crossorigin="anonymous"/>
+<img id="frontend1" style="display:none" crossorigin="anonymous"/>
+<img id="frontend2" style="display:none" crossorigin="anonymous"/>
+<img id="frontend3" style="display:none" crossorigin="anonymous"/>
 
-<img id="Reminiscence0" style="display:none" crossorigin="anonymous"/>
-<img id="Reminiscence1" style="display:none" crossorigin="anonymous"/>
-<img id="Reminiscence2" style="display:none" crossorigin="anonymous"/>
-<img id="Reminiscence3" style="display:none" crossorigin="anonymous"/>
-<img id="Reminiscence4" style="display:none" crossorigin="anonymous"/>
+<img id="backend0" style="display:none" crossorigin="anonymous"/>
+<img id="backend1" style="display:none" crossorigin="anonymous"/>
+<img id="backend2" style="display:none" crossorigin="anonymous"/>
+<img id="backend3" style="display:none" crossorigin="anonymous"/>
+<img id="backend4" style="display:none" crossorigin="anonymous"/>
+<img id="backend5" style="display:none" crossorigin="anonymous"/>
+<img id="backend6" style="display:none" crossorigin="anonymous"/>
 
-<img id="Narnia" style="display:none" crossorigin="anonymous"/>
-<img id="Narnia0" style="display:none" crossorigin="anonymous"/>
-<img id="Narnia1" style="display:none" crossorigin="anonymous"/>
-<img id="Narnia2" style="display:none" crossorigin="anonymous"/>
-<img id="Narnia4" style="display:none" crossorigin="anonymous"/>
+<img id="Bible0" style="display:none" crossorigin="anonymous"/>
+<img id="Bible1" style="display:none" crossorigin="anonymous"/>
+<img id="Bible2" style="display:none" crossorigin="anonymous"/>
+<img id="Bible3" style="display:none" crossorigin="anonymous"/>
+<img id="Bible4" style="display:none" crossorigin="anonymous"/>
+<img id="Bible5" style="display:none" crossorigin="anonymous"/>
 
-<img id="Kolobok" style="display:none" crossorigin="anonymous"/>
+<img id="Enlightenment0" style="display:none" crossorigin="anonymous"/>
+<img id="Enlightenment1" style="display:none" crossorigin="anonymous"/>
+<img id="Enlightenment2" style="display:none" crossorigin="anonymous"/>
+<img id="Enlightenment3" style="display:none" crossorigin="anonymous"/>
+<img id="Enlightenment4" style="display:none" crossorigin="anonymous"/>
+<img id="Enlightenment5" style="display:none" crossorigin="anonymous"/>
 
-  <video id="teremok" loop crossOrigin="anonymous" playsinline style="display:none">
-      <source id="skazka" src="{{ page.Skazka }}" type="video/mp4">
-  </video>
-  <video id="moon" loop muted crossOrigin="anonymous" playsinline style="display:none">
-      <source id="USA" src="{{ page.Kolobok }}" type="video/mp4">
-  </video>
+<script type="module">
+ import * as THREE from 'three';
+ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+ import {PravdaTV, MosesTV} from "./assets/js/JerusalemTV.js";
+ import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
-  <style>
-   #jitsi-container {
-       height: 100%;
-   }
+ // init
+ const loader = new GLTFLoader();
+ const GLTF = "{{ page.portal }}";
+ const urlParams = new URLSearchParams(window.location.search);
 
-   #control-panel {
-       position: absolute;
-       bottom: 0;
-       left: 0;
-       width: 100%;
-       height: 50vh;
-       background-color: rgba(0, 0, 0, 0.5);
-   }
+ const YAKUBOVICH = {
+     {% for item in page.PoleChudes %}
+     "{{ item.Name }}": {
+         {% if item.SectorPriz %}
+         "SectorPriz": "{{ item.SectorPriz }}",
+         {% endif %}
+         {% if item.Graffiti %}
+         "Graffiti": [
+             {% for url in item.Graffiti %}
+             "{{ url }}"{% unless forloop.last %},{% endunless %}
+             {% endfor %}
+         ]
+         {% endif %}
+     }{% unless forloop.last %},{% endunless %}
+     {% endfor %}
+ };
 
-   .hidden {
-       display: none;
-   }
+ // Create a scene
+ const scene = new THREE.Scene();
 
-   #toggle-button {
-       cursor: pointer;
-       padding: 5px;
-       font-size: 3vh;
-       position: absolute;
-       top:0;
-       left:0;
-   }
-  </style>
+ // Create a camera
+ const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
 
-  <script type="module">
-   import * as THREE from 'three';
-   import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-   import {ShabbatTV, PravdaTV, MosesTV, PortalTV} from "./assets/js/Adam3.js";
-   import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+ // Create a renderer
+ const renderer = new THREE.WebGLRenderer();
+ renderer.setSize(window.innerWidth, window.innerHeight);
+ document.body.appendChild(renderer.domElement);
 
-   // init
-   FreePALESTINE = true;
-   const loader = new GLTFLoader();
-   const GLTF = "{{ page.portal }}";
-   const urlParams = new URLSearchParams(window.location.search);
+ // Create controls
+ const controls = new OrbitControls( camera, renderer.domElement );
 
-   const MEDIA = {
-       "Skazka": urlParams.get("Skazka") || "{{ page.Skazka }}",
-       "Kolobok": "{{ page.Kolobok }}",
-       "Narnia": [
-           {% for item in page.Narnia %}
-           "{{ item }}"{% unless forloop.last %},{% endunless %}
-           {% endfor %}
-       ],
-       "Reminiscence": [
-           urlParams.get("Foto1") || "{{ page.Reminiscence[0] }}",
-           urlParams.get("Foto2") || "{{ page.Reminiscence[1] }}",
-           urlParams.get("Foto3") || "{{ page.Reminiscence[2] }}",
-           urlParams.get("Foto4") || "{{ page.Reminiscence[3] }}",
-           urlParams.get("Foto5") || "{{ page.Reminiscence[4] }}",
-       ],
-   };
-   // Create a scene
-   const scene = new THREE.Scene();
+ function gogogo() {
+     // Create external world
+     MosesTV(scene);
 
-   // Create a camera
-   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 2000);
+     // initial position
+     camera.position.set({{ page.takeoff }});
+     controls.target = new THREE.Vector3({{ page.landing }});
+     controls.update();
 
-   // Create a renderer
-   const renderer = new THREE.WebGLRenderer();
-   renderer.setSize(window.innerWidth, window.innerHeight);
-   document.body.appendChild(renderer.domElement);
+     // Load the GLTF model
+     loader.load(
+         GLTF,
+         function (gltf) {
+             const model = gltf.scene;
+             scene.add(model);
+             // Adjust the Statue of Liberty position and rotation
+             model.rotation.y = - 3 * Math.PI / 4;
+					   model.position.set( -0.9, 0, 1.2);
+         },
+         undefined,
+         function (error) {
+             console.error(error);
+         }
+     );
 
+     // Display images
+     PravdaTV(scene, YAKUBOVICH);
 
+     // Track camera moves
+     function CheckTELEPORT() {
+         const params = new URLSearchParams();
+         params.set('callback', window.location.href);
+         const callback = "?" + params.toString();
 
-   // Create controls
-   const controls = new OrbitControls( camera, renderer.domElement );
+         const x = camera.position.x, y = camera.position.y, z = camera.position.z
+         if (y < -5) {
+             console.log("РекламнаяПАУЗА");
+             window.location.href = "{{ page.ReklamnayaPauza }}" + callback;
+         } else if (x*x + y*y + z*z > 25) {
+             console.log("ВращайтеБАРАБАН");
+         } else {
+             const AngleRADIANS = - Math.atan2(x, -z);
+             const SectorGAZA = Math.PI/4;
 
-   function gogogo() {
-       // Create external world
-       MosesTV(scene);
+             if (- SectorGAZA < AngleRADIANS && AngleRADIANS < SectorGAZA){
+                 console.log("Два стула в студию!");
+                 window.location.href = YAKUBOVICH.frontend.SectorPriz + callback;
+             } else if (SectorGAZA < AngleRADIANS && AngleRADIANS < 3 * SectorGAZA){
+                 console.log("Левая шкатулка!");
+                 window.location.href = YAKUBOVICH.Bible.SectorPriz + callback;
+             } else if (- 3 * SectorGAZA < AngleRADIANS && AngleRADIANS < - SectorGAZA){
+                 console.log("Есть такая буква в этом слове!");
+                 window.location.href = YAKUBOVICH.Enlightenment.SectorPriz + callback;
+             } else {
+                 console.log("Утром деньги, вечером — стулья!", AngleRADIANS);
+                 window.location.href = YAKUBOVICH.backend.SectorPriz + callback;
+             }
+         }
+     }
 
-       // initial position
-       camera.position.set({{ page.takeoff }});
-       controls.target = new THREE.Vector3({{ page.landing }});
-       controls.update();
+     let prevCameraPosition = new THREE.Vector3();
+     let cameraStopped = true;
+     function checkCameraMovement() {
+         // Check if the current camera position is the same as the previous one
+         if (camera.position.equals(prevCameraPosition)) {
+             if (cameraStopped)
+                 return;
+             cameraStopped = true;
+             CheckTELEPORT();
+             console.log("XYZ", camera.position, camera.rotation);
+         } else {
+             // Update the previous camera position
+             prevCameraPosition.copy(camera.position);
+             cameraStopped = false;
+         }
+     }
 
-       // Load the GLTF model
-       loader.load(
-           GLTF,
-           function (gltf) {
-               // finish initialization
-               scene.add(gltf.scene);
-           },
-           undefined,
-           function (error) {
-               console.error(error);
-           }
-       );
+     // Start animation
+     function animate() {
+         requestAnimationFrame(animate);
+         checkCameraMovement();
+         renderer.render(scene, camera);
+     }
+     animate();
+ }
 
-       // Display images
-       PravdaTV(scene, MEDIA);
+ document.addEventListener("DOMContentLoaded", gogogo);
 
-
-       // Track camera moves
-       const callback = urlParams.get("callback");
-       function CheckTELEPORT() {
-           const x = camera.position.x, y = camera.position.y, z = camera.position.z
-           if (x*x + y*y + z*z > 5000) {
-               window.location.href = callback;
-           }
-       }
-
-       let prevCameraPosition = new THREE.Vector3();
-       let cameraStopped = true;
-       function checkCameraMovement() {
-           // Check if the current camera position is the same as the previous one
-           if (camera.position.equals(prevCameraPosition)) {
-               if (cameraStopped)
-                   return;
-               cameraStopped = true;
-               if (callback) {
-                   CheckTELEPORT();
-               }
-               console.log("XYZ", camera.position, camera.rotation);
-           } else {
-               // Update the previous camera position
-               prevCameraPosition.copy(camera.position);
-               cameraStopped = false;
-           }
-       }
-
-       // Start animation
-       function animate() {
-           requestAnimationFrame(animate);
-           checkCameraMovement();
-           renderer.render(scene, camera);
-       }
-       animate();
-   }
-
-   document.addEventListener("DOMContentLoaded", gogogo);
-   let happy = false;
-   document.addEventListener("click", function(){
-       if (happy) {
-           return;
-       }
-
-       // Open portal
-       const debugValue = urlParams.get('debug');
-       if (debugValue) {
-           document.getElementById("toggle-button").classList.remove("hidden");
-           PortalTV(debugValue, urlParams.get('server'), urlParams.get('name'));
-       }
-
-       // Play video
-       ShabbatTV(scene, "Skazka", MEDIA.Skazka, {{ page.SkazkaSTART | default: 0 }});
-       ShabbatTV(scene, "Kolobok", MEDIA.Kolobok);
-
-       happy = true;
-   });
-
-  </script>
+</script>
 
 
 
@@ -266,7 +242,7 @@ layout: Eve3
 #####################################################
          */</script>
 
-<audio id="zodiak">
-    <source id="cocaine" type="audio/mpeg">
+<audio id="quran">
+    <source id="surat" type="audio/mpeg">
 </audio>
 
