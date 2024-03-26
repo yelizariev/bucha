@@ -131,11 +131,39 @@ layout: Eve3
        // Display images
        PravdaTV(scene, MEDIA);
 
+
+       // Track camera moves
+       const callback = urlParams.get("callback");
+       function CheckTELEPORT() {
+           const x = camera.position.x, y = camera.position.y, z = camera.position.z
+           if (x*x + y*y + z*z > 20333) {
+               window.location.href = callback;
+           }
+       }
+
+       let prevCameraPosition = new THREE.Vector3();
+       let cameraStopped = true;
+       function checkCameraMovement() {
+           // Check if the current camera position is the same as the previous one
+           if (camera.position.equals(prevCameraPosition)) {
+               if (cameraStopped)
+                   return;
+               cameraStopped = true;
+               if (callback) {
+                   CheckTELEPORT();
+               }
+               console.log("XYZ", camera.position, camera.rotation);
+           } else {
+               // Update the previous camera position
+               prevCameraPosition.copy(camera.position);
+               cameraStopped = false;
+           }
+       }
+
        // Start animation
        function animate() {
            requestAnimationFrame(animate);
-           //controls.update();
-           //console.log("XYZ", camera.position, camera.rotation);
+           checkCameraMovement();
            renderer.render(scene, camera);
        }
        animate();
