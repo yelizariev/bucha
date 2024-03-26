@@ -44,8 +44,8 @@ PoleChudes:
 
 ReklamnayaPauza: Coca-Cola.html
 
-portal: assets/XXX/IDF/scene.gltf
-portalXXX: https://thepiratecircus.com/Woodstock/%E2%98%86/U.S.Army/scene.gltf
+portalXXX: assets/XXX/IDF/scene.gltf
+portal: https://thepiratecircus.com/Woodstock/%E2%98%86/U.S.Army/scene.gltf
 takeoff: "0, 0, -9,"
 landing: "0, -3, 0"
 ---

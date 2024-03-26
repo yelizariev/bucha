@@ -1,20 +1,34 @@
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import * as THREE from 'three';
-import sha256 from 'https://cdn.skypack.dev/js-sha256';
 
 const NARNIA_OPACITY = 0.2;
+const BARABAN_Y = 0;
+const BARABAN_HEIGHT = 10;
+
+function baraban_material(texture){
+    return new THREE.MeshBasicMaterial({
+        color: 0xa68d6f,
+        map: texture,
+        side: THREE.DoubleSide,
+    });
+}
+
 const BARABAN = {
     "frontend": [
         {
             "img_id": "frontend0",
-            "width": 2.0,
-            "height": 2.0,
-            "position": [-0.2, 1.87, -2.333],
-            "rotation": {},
-            "material": function(texture){
+            "width": 4,
+            "height": 4,
+            "position": [0, -3, 0],
+            "rotation": {
+                "x": 0,
+            },
+            //"material": baraban_material,
+            "material": function (texture){
                 return new THREE.MeshBasicMaterial({
+                    color: 0xe2e2e2,
                     map: texture,
-                    side: THREE.FrontSide,
+                    side: THREE.DoubleSide,
                 });
             },
         },
@@ -22,8 +36,7 @@ const BARABAN = {
 };
 
 
-async function PravdaTV(scene, MEDIA) {
-    return;
+async function PravdaTV(scene, YAKUBOVICH) {
     function make(foto, url) {
         const image = document.getElementById(foto.img_id);
         image.src = url;
@@ -57,17 +70,16 @@ async function PravdaTV(scene, MEDIA) {
                 console.log(error);
             }
         };
-
-        image.onerror = function() {
-            // Reject the Promise if the image fails to load
-            console.log("Failed to load image");
-        };
     };
 
-    ["Narnia", "Reminiscence"].map(function(key) {
-        for (const index in SETTINGS[key]) {
-            const foto = SETTINGS[key][index];
-            const url = MEDIA[key][index];
+    ["frontend", "backend", "Bible", "Enlightenment"].map(function(key) {
+        const graffiti = YAKUBOVICH[key]["Graffiti"];
+        for (const index in graffiti) {
+            const url = graffiti[index];
+            if (!BARABAN[key] || !BARABAN[key][index])
+                continue;
+
+            const foto = BARABAN[key][index];
             make(foto, url);
         }
     });

@@ -92,19 +92,22 @@ layout: Judea
          GLTF,
          function (gltf) {
              const model = gltf.scene;
-             scene.add(model);
              // Adjust the Statue of Liberty position and rotation
              model.rotation.y = - 3 * Math.PI / 4;
-					   model.position.set( -0.9, 0, 1.2);
+             model.position.set( -0.9, 0, 1.2);
+             scene.add(model);
+
+             // FIXME: it doesn't work without a delay
+             setTimeout(function(){
+                 // Display images
+                 PravdaTV(scene, YAKUBOVICH);
+             }, 3000);
          },
          undefined,
          function (error) {
              console.error(error);
          }
      );
-
-     // Display images
-     PravdaTV(scene, YAKUBOVICH);
 
      // Track camera moves
      function CheckTELEPORT() {
@@ -158,8 +161,8 @@ layout: Judea
      // Start animation
      function animate() {
          requestAnimationFrame(animate);
-         checkCameraMovement();
          renderer.render(scene, camera);
+         checkCameraMovement();
      }
      animate();
  }
