@@ -119,8 +119,11 @@ layout: Eve3
        loader.load(
            GLTF,
            function (gltf) {
-               // finish initialization
+               // Finish initialization
                scene.add(gltf.scene);
+
+               // Display images
+               PravdaTV(scene, MEDIA);
            },
            undefined,
            function (error) {
@@ -128,8 +131,6 @@ layout: Eve3
            }
        );
 
-       // Display images
-       PravdaTV(scene, MEDIA);
 
 
        // Track camera moves
