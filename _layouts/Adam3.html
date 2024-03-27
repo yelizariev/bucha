@@ -137,7 +137,7 @@ layout: Eve3
        const callback = urlParams.get("callback");
        function CheckTELEPORT() {
            const x = camera.position.x, y = camera.position.y, z = camera.position.z
-           if (x*x + y*y + z*z > 5000) {
+           if (x*x + y*y + z*z > 1000) {
                window.location.href = callback;
            }
        }
