@@ -12,7 +12,7 @@ PoleChudes:
         - https://shabbat.lamourism.com/Wonderland/Rabbit29.jpg
 
     - Name: backend
-      SectorPriz: BrodskyBible.html
+      SectorPriz: Brodsky2020.html
       Graffiti:
         - https://thepiratecircus.com/Inquisition/indulgentia/oobo7.jpg
         - https://thepiratecircus.com/Inquisition/indulgentia/oobo11.jpg
@@ -20,10 +20,9 @@ PoleChudes:
         - https://thepiratecircus.com/Inquisition/indulgentia/oobo17.jpg
         - https://thepiratecircus.com/Inquisition/indulgentia/oobo19.jpg
         - https://thepiratecircus.com/Inquisition/indulgentia/oobo23.jpg
-        - https://thepiratecircus.com/Inquisition/indulgentia/oobo29.jpg
 
     - Name: Bible
-      SectorPriz: BrodskyTG.html
+      SectorPriz: BrodskyQuran.html
       Graffiti:
         - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg
         - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/7.jpg
@@ -33,7 +32,7 @@ PoleChudes:
         - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/3.jpg
 
     - Name: Enlightenment
-      SectorPriz: Brodsky2020.html
+      SectorPriz: BrodskyBible.html
       Graffiti:
         - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/11.jpg
         - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/17.jpg

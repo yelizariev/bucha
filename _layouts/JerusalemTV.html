@@ -20,7 +20,6 @@ layout: Judea
 <img id="backend3" style="display:none" crossorigin="anonymous"/>
 <img id="backend4" style="display:none" crossorigin="anonymous"/>
 <img id="backend5" style="display:none" crossorigin="anonymous"/>
-<img id="backend6" style="display:none" crossorigin="anonymous"/>
 
 <img id="Bible0" style="display:none" crossorigin="anonymous"/>
 <img id="Bible1" style="display:none" crossorigin="anonymous"/>
@@ -105,16 +104,20 @@ layout: Judea
          }
      );
 
-     // Track camera moves
-     function CheckTELEPORT() {
+     function OpenPORTAL(url) {
          const params = new URLSearchParams();
          params.set('callback', window.location.href);
          const callback = "?" + params.toString();
+         window.location.href =  url + callback;
+     }
+
+     // Track camera moves
+     function CheckTELEPORT() {
 
          const x = camera.position.x, y = camera.position.y, z = camera.position.z
          if (y < -5) {
              console.log("РекламнаяПАУЗА");
-             window.location.href = "{{ page.ReklamnayaPauza }}" + callback;
+             OpenPORTAL("{{ page.ReklamnayaPauza }}")
          } else if (x*x + y*y + z*z > 25) {
              console.log("ВращайтеБАРАБАН");
          } else {
@@ -123,16 +126,16 @@ layout: Judea
 
              if (- SectorGAZA < AngleRADIANS && AngleRADIANS < SectorGAZA){
                  console.log("Два стула в студию!");
-                 window.location.href = YAKUBOVICH.frontend.SectorPriz + callback;
+                 OpenPORTAL(YAKUBOVICH.frontend.SectorPriz)
              } else if (SectorGAZA < AngleRADIANS && AngleRADIANS < 3 * SectorGAZA){
                  console.log("Левая шкатулка!");
-                 window.location.href = YAKUBOVICH.Bible.SectorPriz + callback;
+                 OpenPORTAL(YAKUBOVICH.Bible.SectorPriz)
              } else if (- 3 * SectorGAZA < AngleRADIANS && AngleRADIANS < - SectorGAZA){
                  console.log("Есть такая буква в этом слове!");
-                 window.location.href = YAKUBOVICH.Enlightenment.SectorPriz + callback;
+                 OpenPORTAL(YAKUBOVICH.Enlightenment.SectorPriz)
              } else {
                  console.log("Утром деньги, вечером — стулья!", AngleRADIANS);
-                 window.location.href = YAKUBOVICH.backend.SectorPriz + callback;
+                 OpenPORTAL(YAKUBOVICH.backend.SectorPriz)
              }
          }
      }
@@ -146,7 +149,7 @@ layout: Judea
                  return;
              cameraStopped = true;
              CheckTELEPORT();
-             console.log("XYZ", camera.position, camera.rotation);
+             //console.log("XYZ", camera.position, camera.rotation);
          } else {
              // Update the previous camera position
              prevCameraPosition.copy(camera.position);
