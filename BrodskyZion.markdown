@@ -11,9 +11,9 @@ Kolobok: https://moses.lamourism.com/porn/shabbat.mp4
 Narnia:
  - https://perestroika-2.com/images/witches.jpg
  - https://moses.lamourism.com/mossad/follow-the-white-rabbit.jpg
- - https://moses.lamourism.com/mossad/scheherazade.jpg
- - https://moses.lamourism.com/mossad/golda.jpg
- - https://moses.lamourism.com/mossad/scheherazade.jpg
+ - https://moses.lamourism.com/mossad/liberty.jpg
+ - https://moses.lamourism.com/mossad/liberty.jpg
+ - https://moses.lamourism.com/mossad/liberty.jpg
 Reminiscence:
  - https://odooism.com/%F0%9F%87%AD%F0%9F%87%BA/1.jpg
  - https://thepiratecircus.com/Woodstock/8.jpg

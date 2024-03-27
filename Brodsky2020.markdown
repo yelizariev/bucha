@@ -18,6 +18,6 @@ Reminiscence:
  - https://odooism.com/%F0%9F%87%AD%F0%9F%87%BA/1.jpg
  - https://thepiratecircus.com/Woodstock/8.jpg
  - https://odooism.com/%F0%9F%87%AD%F0%9F%87%BA/13.jpg
- - https://thepiratecircus.com/Woodstock/18.jpg
- - https://thepiratecircus.com/Woodstock/20.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/1.jpg
+ - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/1.jpg
 ---
