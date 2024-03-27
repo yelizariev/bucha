@@ -3,7 +3,7 @@ name: Update website
 on:
   push:
     branches:
-    - FreePALESTINE
+    - FreeJUDEA
 
 jobs:
   build:

@@ -7,6 +7,7 @@ landing: "0.76, 1.42, 0.1"
 
 title: СКАЗКИ
 Skazka: https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/fsb.ru/www.cia.gov/%D0%9A%D0%9E%D0%9B%D0%9E%D0%91%D0%9E%D0%9A.mp4
+SkazkaSTART: 4
 Kolobok: https://moses.lamourism.com/porn/shabbat.mp4
 Narnia:
  - https://perestroika-2.com/images/witches.jpg
