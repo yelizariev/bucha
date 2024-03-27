@@ -24,22 +24,20 @@ PoleChudes:
     - Name: Bible
       SectorPriz: BrodskyQuran.html
       Graffiti:
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/13.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/7.jpg
-        - https://thepiratecircus.com/Woodstock/8.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/1.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/2.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/3.jpg
+        - https://moses.lamourism.com/mossad/kaaba.jpg
+        - https://moses.lamourism.com/mossad/kaaba.jpg
+        - https://moses.lamourism.com/mossad/kaaba.jpg
+        - https://moses.lamourism.com/mossad/kaaba.jpg
+        - https://moses.lamourism.com/mossad/kaaba.jpg
 
     - Name: Enlightenment
       SectorPriz: BrodskyBible.html
       Graffiti:
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/11.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/17.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/19.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/23.jpg
-        - https://thepiratecircus.com/%F0%9F%87%B5%F0%9F%87%A6/29.jpg
-        - https://shabbat.lamourism.com/kolobok/Meleuzovskaya%2029-29/M/1.jpg
+        - https://moses.lamourism.com/mossad/%E2%98%AE.jpg
+        - https://moses.lamourism.com/mossad/%E2%98%AE.jpg
+        - https://moses.lamourism.com/mossad/%E2%98%AE.jpg
+        - https://moses.lamourism.com/mossad/%E2%98%AE.jpg
+        - https://moses.lamourism.com/mossad/%E2%98%AE.jpg
 
 ReklamnayaPauza: Coca-Cola.html
 
