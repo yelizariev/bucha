@@ -40,7 +40,7 @@ PoleChudes:
         - https://moses.lamourism.com/mossad/%E2%98%AE.jpg
 
 ReklamnayaPauza: Coca-Cola.html
-SuperPRIZ: /Brodsky2020.html?callback=/BrodskyTG.html?callback=/BrodskyBrussels.html?callback=/BrodskyAmsterdam.html?callback=/BrodskyParis.html?callback=/Brodsky2023.html?callback=/BrodskyBeirut.html?callback=https://moses.lamourism.com
+SuperPRIZ: /Brodsky2020.html?callback=/BrodskyTG.html?callback=/BrodskyBrussels.html?callback=/BrodskyAmsterdam.html?callback=/BrodskyParis.html?callback=/Brodsky2023.html?callback=/BrodskyJerusalem.html?callback=/Brodsky%2023.html?callback=https://moses.lamourism.com
 
 portalXXX: assets/XXX/IDF/scene.gltf
 portal: https://thepiratecircus.com/Woodstock/%E2%98%86/U.S.Army/scene.gltf
