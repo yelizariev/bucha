@@ -118,8 +118,11 @@ layout: Judea
          if (y < -5) {
              console.log("РекламнаяПАУЗА");
              OpenPORTAL("{{ page.ReklamnayaPauza }}")
+         } else if (x*x + z*z > 10333) {
+             console.log("ПереходХОДА!!!");
+             window.location.href = "{{ page.SuperPRIZ }}" || "https://jesus.lamourism.com/";
          } else if (x*x + y*y + z*z > 25) {
-             console.log("ВращайтеБАРАБАН");
+             console.log("ВращайтеБАРАБАН", x*x + z*z);
          } else {
              const AngleRADIANS = - Math.atan2(x, -z);
              const SectorGAZA = Math.PI/4;
